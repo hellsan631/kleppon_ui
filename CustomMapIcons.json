@@ -1,0 +1,64 @@
+{
+	"custommaps" : [
+		{
+			"name" : "ES_Canals",
+			"iconRef" : "IconCanals"
+		},
+		{
+			"name" : "ES_Capricious",
+			"iconRef" : "IconCapricious"
+		},
+		{
+			"name" : "ES_Dingos",
+			"iconRef" : "IconDingos"
+		},
+		{
+			"name" : "ES_Graveyards",
+			"iconRef" : "IconGraveyards"
+		},
+		{
+			"name" : "ES_Metropolis",
+			"iconRef" : "IconMetropolis"
+		},
+		{
+			"name" : "ES_Moats",
+			"iconRef" : "IconMoats"
+		},
+		{
+			"name" : "ES_Paradise_Island",
+			"iconRef" : "IconParadiseIsland"
+		},
+		{
+			"name" : "ES_Pilgrims",
+			"iconRef" : "IconPilgrims"
+		},
+		{
+			"name" : "ES_Prairie",
+			"iconRef" : "IconPrairie"
+		},
+		{
+			"name" : "ES_Seasons",
+			"iconRef" : "IconSeasons"
+		},
+		{
+			"name" : "ES_Sherwood_Forest",
+			"iconRef" : "IconSherwoodForest"
+		},
+		{
+			"name" : "ES_Sherwood_Heroes",
+			"iconRef" : "IconSherwoodHeroes"
+		},
+		{
+			"name" : "ES_Shipwreck",
+			"iconRef" : "IconShipwreck"
+		},
+		{
+			"name" : "ES_Team_Glaciers",
+			"iconRef" : "IconTeamGlaciers"
+		},
+		{
+			"name" : "ES_The_Unknown",
+			"iconRef" : "IconTheUnknown"
+		}
+	]
+}

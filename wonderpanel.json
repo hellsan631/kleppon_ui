@@ -1,0 +1,2010 @@
+{
+  "Collection": {
+    "Name": "WonderPanel",
+    "ViewPort": {
+      "xorigin": 3840,
+      "yorigin": 0,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "TopRight"
+    },
+    "ZOrder": -1000,
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "TopLeft",
+          "Anchor": {
+            "xorigin": 3840,
+            "yorigin": 0
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "Banners",
+                "Anchor": {
+                  "xorigin": 0,
+                  "yorigin": 0
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "Banner0",
+                      "Anchor": {
+                        "xorigin": -105,
+                        "yorigin": -55
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Button",
+                            "Name": "Flag",
+                            "ClickSound": "?button_ui",
+                            "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 90,
+                              "height": 457,
+                              "alignment": "TopRight"
+                            },
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateNormal": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateHover": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StatePressed": {
+                                "Material": "WonderBanner0"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "Icon1",
+                                  "ViewPort": {
+                                    "xorigin": 15,
+                                    "yorigin": 175,
+                                    "width": 60,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateDisabled": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateNormal": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateHover": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StatePressed": {
+                                      "Material": "UnitIcons34150730"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "TimeText1",
+                                  "ViewPort": {
+                                    "xorigin": -5,
+                                    "yorigin": 235,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 45,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "000"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "PlayerNumber",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 295,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 65,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "0"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Years",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 275,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 34,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": 11300
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "Banner1",
+                      "Anchor": {
+                        "xorigin": -105,
+                        "yorigin": -55
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Button",
+                            "Name": "Flag",
+                            "ClickSound": "?button_ui",
+                            "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 90,
+                              "height": 457,
+                              "alignment": "TopRight"
+                            },
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateNormal": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateHover": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StatePressed": {
+                                "Material": "WonderBanner0"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "Icon1",
+                                  "ViewPort": {
+                                    "xorigin": 15,
+                                    "yorigin": 175,
+                                    "width": 60,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateDisabled": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateNormal": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateHover": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StatePressed": {
+                                      "Material": "UnitIcons34150730"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "TimeText1",
+                                  "ViewPort": {
+                                    "xorigin": -5,
+                                    "yorigin": 235,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 45,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "000"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "PlayerNumber",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 295,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 65,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "0"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Years",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 275,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 34,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": 11300
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "Banner2",
+                      "Anchor": {
+                        "xorigin": -105,
+                        "yorigin": -55
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Button",
+                            "Name": "Flag",
+                            "ClickSound": "?button_ui",
+                            "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 90,
+                              "height": 457,
+                              "alignment": "TopRight"
+                            },
+
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateNormal": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateHover": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StatePressed": {
+                                "Material": "WonderBanner0"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "Icon1",
+                                  "ViewPort": {
+                                    "xorigin": 15,
+                                    "yorigin": 175,
+                                    "width": 60,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateDisabled": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateNormal": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateHover": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StatePressed": {
+                                      "Material": "UnitIcons34150730"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "TimeText1",
+                                  "ViewPort": {
+                                    "xorigin": -5,
+                                    "yorigin": 235,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 45,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "000"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "PlayerNumber",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 295,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 65,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "0"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Years",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 275,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 34,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": 11300
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "Banner3",
+                      "Anchor": {
+                        "xorigin": -105,
+                        "yorigin": -55
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Button",
+                            "Name": "Flag",
+                            "ClickSound": "?button_ui",
+                            "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 90,
+                              "height": 457,
+                              "alignment": "TopRight"
+                            },
+
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateNormal": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateHover": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StatePressed": {
+                                "Material": "WonderBanner0"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "Icon1",
+                                  "ViewPort": {
+                                    "xorigin": 15,
+                                    "yorigin": 175,
+                                    "width": 60,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateDisabled": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateNormal": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateHover": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StatePressed": {
+                                      "Material": "UnitIcons34150730"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "TimeText1",
+                                  "ViewPort": {
+                                    "xorigin": -5,
+                                    "yorigin": 235,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 45,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "000"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "PlayerNumber",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 295,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 65,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "0"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Years",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 275,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 34,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": 11300
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "Banner4",
+                      "Anchor": {
+                        "xorigin": -105,
+                        "yorigin": -55
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Button",
+                            "Name": "Flag",
+                            "ClickSound": "?button_ui",
+                            "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 90,
+                              "height": 457,
+                              "alignment": "TopRight"
+                            },
+
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateNormal": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateHover": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StatePressed": {
+                                "Material": "WonderBanner0"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "Icon1",
+                                  "ViewPort": {
+                                    "xorigin": 15,
+                                    "yorigin": 175,
+                                    "width": 60,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateDisabled": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateNormal": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateHover": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StatePressed": {
+                                      "Material": "UnitIcons34150730"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "TimeText1",
+                                  "ViewPort": {
+                                    "xorigin": -5,
+                                    "yorigin": 235,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 45,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "000"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "PlayerNumber",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 295,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 65,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "0"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Years",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 275,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 34,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": 11300
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "Banner5",
+                      "Anchor": {
+                        "xorigin": -105,
+                        "yorigin": -55
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Button",
+                            "Name": "Flag",
+                            "ClickSound": "?button_ui",
+                            "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 90,
+                              "height": 457,
+                              "alignment": "TopRight"
+                            },
+
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateNormal": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateHover": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StatePressed": {
+                                "Material": "WonderBanner0"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "Icon1",
+                                  "ViewPort": {
+                                    "xorigin": 15,
+                                    "yorigin": 175,
+                                    "width": 60,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateDisabled": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateNormal": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateHover": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StatePressed": {
+                                      "Material": "UnitIcons34150730"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "TimeText1",
+                                  "ViewPort": {
+                                    "xorigin": -5,
+                                    "yorigin": 235,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 45,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "000"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "PlayerNumber",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 295,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 65,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "0"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Years",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 275,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 34,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": 11300
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "Banner6",
+                      "Anchor": {
+                        "xorigin": -105,
+                        "yorigin": -55
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Button",
+                            "Name": "Flag",
+                            "ClickSound": "?button_ui",
+                            "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 90,
+                              "height": 457,
+                              "alignment": "TopRight"
+                            },
+
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateNormal": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateHover": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StatePressed": {
+                                "Material": "WonderBanner0"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "Icon1",
+                                  "ViewPort": {
+                                    "xorigin": 15,
+                                    "yorigin": 175,
+                                    "width": 60,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateDisabled": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateNormal": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateHover": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StatePressed": {
+                                      "Material": "UnitIcons34150730"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "TimeText1",
+                                  "ViewPort": {
+                                    "xorigin": -5,
+                                    "yorigin": 235,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 45,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "000"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "PlayerNumber",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 295,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 65,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "0"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Years",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 275,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 34,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": 11300
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "Banner7",
+                      "Anchor": {
+                        "xorigin": -105,
+                        "yorigin": -55
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Button",
+                            "Name": "Flag",
+                            "ClickSound": "?button_ui",
+                            "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 90,
+                              "height": 457,
+                              "alignment": "TopRight"
+                            },
+
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateNormal": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateHover": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StatePressed": {
+                                "Material": "WonderBanner0"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "Icon1",
+                                  "ViewPort": {
+                                    "xorigin": 15,
+                                    "yorigin": 175,
+                                    "width": 60,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateDisabled": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateNormal": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateHover": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StatePressed": {
+                                      "Material": "UnitIcons34150730"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "TimeText1",
+                                  "ViewPort": {
+                                    "xorigin": -5,
+                                    "yorigin": 235,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 45,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "000"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "PlayerNumber",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 295,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 65,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "0"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Years",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 275,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 34,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": 11300
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "Banner8",
+                      "Anchor": {
+                        "xorigin": -105,
+                        "yorigin": -55
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Button",
+                            "Name": "Flag",
+                            "ClickSound": "?button_ui",
+                            "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 90,
+                              "height": 457,
+                              "alignment": "TopRight"
+                            },
+
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateNormal": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateHover": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StatePressed": {
+                                "Material": "WonderBanner0"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "Icon1",
+                                  "ViewPort": {
+                                    "xorigin": 15,
+                                    "yorigin": 175,
+                                    "width": 60,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateDisabled": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateNormal": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateHover": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StatePressed": {
+                                      "Material": "UnitIcons34150730"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "TimeText1",
+                                  "ViewPort": {
+                                    "xorigin": -5,
+                                    "yorigin": 235,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 45,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "000"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "PlayerNumber",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 295,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 65,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "0"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Years",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 275,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 34,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": 11300
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "Banner9",
+                      "Anchor": {
+                        "xorigin": -105,
+                        "yorigin": -55
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Button",
+                            "Name": "Flag",
+                            "ClickSound": "?button_ui",
+                            "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 90,
+                              "height": 457,
+                              "alignment": "TopRight"
+                            },
+
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateNormal": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StateHover": {
+                                "Material": "WonderBanner0"
+                              },
+                              "StatePressed": {
+                                "Material": "WonderBanner0"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "Icon1",
+                                  "ViewPort": {
+                                    "xorigin": 15,
+                                    "yorigin": 175,
+                                    "width": 60,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateDisabled": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateNormal": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StateHover": {
+                                      "Material": "UnitIcons34150730"
+                                    },
+                                    "StatePressed": {
+                                      "Material": "UnitIcons34150730"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "TimeText1",
+                                  "ViewPort": {
+                                    "xorigin": -5,
+                                    "yorigin": 235,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 45,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "000"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "PlayerNumber",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 295,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 65,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": "0"
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Years",
+                                  "ViewPort": {
+                                    "xorigin": -7,
+                                    "yorigin": 275,
+                                    "width": 100,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 34,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        },
+                                        "TextOutlineWidth": 0.05,
+                                        "TextOutlineColor": {
+                                          "r": 0,
+                                          "g": 0,
+                                          "b": 0,
+                                          "a": 1
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "TextAnchor": "TopCentre",
+                                  "Text": 11300
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Surround",
+                "Name": "TimerPanel",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 390,
+                  "width": 360,
+                  "height": 100,
+                  "alignment": "TopRight"
+                },
+				"ZPlane": 0,
+				"Box": {
+                  "xorigin": 0,
+                  "yorigin": 390,
+                  "width": 360,
+                  "height": 100,
+				  "alignment": "TopRight",
+				  "gridstep": 32,
+				  "drawbox": true
+				},
+				"StateMaterials": {
+				  "StateTLDisabled": {
+					"Material": "BlackPanel_TL"
+				  },
+				  "StateTCDisabled": {
+					"Material": "BlackPanel_TC"
+				  },
+				  "StateTRDisabled": {
+					"Material": "BlackPanel_TR"
+				  },
+				  "StateCLDisabled": {
+					"Material": "BlackPanel_CL"
+				  },
+				  "StateCCDisabled": {
+					"Material": "BlackPanel_CC"
+				  },
+				  "StateCRDisabled": {
+					"Material": "BlackPanel_CR"
+				  },
+				  "StateBLDisabled": {
+					"Material": "BlackPanel_BL"
+				  },
+				  "StateBCDisabled": {
+					"Material": "BlackPanel_BC"
+				  },
+				  "StateBRDisabled": {
+					"Material": "BlackPanel_BR"
+				  },
+				  "StateTLNormal": {
+					"Material": "BlackPanel_TL"
+				  },
+				  "StateTCNormal": {
+					"Material": "BlackPanel_TC"
+				  },
+				  "StateTRNormal": {
+					"Material": "BlackPanel_TR"
+				  },
+				  "StateCLNormal": {
+					"Material": "BlackPanel_CL"
+				  },
+				  "StateCCNormal": {
+					"Material": "BlackPanel_CC"
+				  },
+				  "StateCRNormal": {
+					"Material": "BlackPanel_CR"
+				  },
+				  "StateBLNormal": {
+					"Material": "BlackPanel_BL"
+				  },
+				  "StateBCNormal": {
+					"Material": "BlackPanel_BC"
+				  },
+				  "StateBRNormal": {
+					"Material": "BlackPanel_BR"
+				  }
+				},
+				"ChildWidgets": [{
+				  "Widget": {
+					"Type": "Anchor",
+					"Name": "FontsHolder",
+					"Anchor": {
+					  "xorigin": 10,
+					  "yorigin": 10,
+					  "alignment": "TopRight"
+					},
+					"StateMaterials": {
+					  "UserStates": 1,
+					  "UserState0": {
+						"Font": {
+						  "FontIndex": 0,
+						  "PointSize": 40,
+						  "Style": "Normal",
+						  "TextColor": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						  },
+						  "TextOutlineWidth": 0.05,
+						  "TextOutlineColor": {
+							"r": 0,
+							"g": 0,
+							"b": 0,
+							"a": 1
+						  }
+						}
+					  }
+					}
+				  }
+				}]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

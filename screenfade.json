@@ -1,0 +1,35 @@
+{
+  "Collection": {
+    "Name": "ScreenFade",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 0,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "TopLeft"
+    },
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "TopLeft"
+          },
+          "ZPlane": 31,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "FlatColorWithAlpha"
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      }
+    ]
+  }
+}

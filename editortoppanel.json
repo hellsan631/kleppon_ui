@@ -1,0 +1,1176 @@
+{
+  "Collection": {
+    "AllowTabNavigation": false,
+    "Name": "EditorTopPanel",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 0,
+      "width": 13840,
+      "height": 160,
+      "alignment": "TopLeft"
+    },
+    "TabOrder": [
+      {
+        "Tab": "Background/ButtonMap"
+      },
+      {
+        "Tab": "Background/ButtonTerrain"
+      },
+      {
+        "Tab": "Background/ButtonPlayers"
+      },
+      {
+        "Tab": "Background/ButtonUnits"
+      },
+      {
+        "Tab": "Background/ButtonDiplomacy"
+      },
+      {
+        "Tab": "Background/ButtonGlobalVictory"
+      },
+      {
+        "Tab": "Background/ButtonOptions"
+      },
+      {
+        "Tab": "Background/ButtonMessages"
+      },
+      {
+        "Tab": "Background/ButtonCinamatics"
+      },
+      {
+        "Tab": "Background/ButtonTriggers"
+      },
+      {
+        "Tab": "Background/ButtonHolder/ButtonMenu"
+      }
+    ],
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "ViewClipArea",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 3840,
+            "height": 160,
+            "alignment": "TopLeft"
+          }
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 3840,
+            "height": 182,
+            "alignment": "TopLeft"
+          },
+          "Image": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 3840,
+            "height": 182,
+            "noclip": true,
+            "alignment": "TopLeft"
+          },
+          "Wrap": {
+            "width": 3840,
+            "height": 0
+          },
+          "ZPlane": 1,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "SEditorWoodenBarBgTop"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "ButtonHolder",
+                "Anchor": {
+                  "xorigin": 640,
+                  "yorigin": 3,
+                  "alignment": "TopLeft"
+                },
+                "ZPlane": 1,
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonMenu",
+                      "ClickSound": "?button_ui",
+                      "ViewPort": {
+                        "xorigin": 470,
+                        "yorigin": 40,
+                        "width": 340,
+                        "height": 94,
+                        "alignment": "CentreCentre"
+                      },
+                      "ZPlane": 2,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "BigButtonDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "BigButtonNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "BigButtonHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 255,
+                              "g": 255,
+                              "b": 255,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "BigButtonActive",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Help": "IDS_MENU_BTN_HELP_TEXT",
+                      "Text": "IDS_SED2_TITLE_MENU",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonSprite",
+                      "ClickSound": "?button_ui",
+                      "ViewPort": {
+                        "xorigin": 470,
+                        "yorigin": 110,
+                        "width": 1,
+                        "height": 1,
+                        "alignment": "CentreCentre"
+                      },
+                      "ZPlane": 2,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "SEditorButtonTopBarDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 38,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "SEditorButtonTopBarNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 38,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "SEditorButtonTopBarHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 38,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "SEditorButtonTopBarActive",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 38,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonMap",
+                "ClickSound": "?button_ui",
+                "ViewPort": {
+                  "xorigin": 200,
+                  "yorigin": 41,
+                  "width": 325,
+                  "height": 55,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "SEditorButtonTopBarDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "SEditorButtonTopBarNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "SEditorButtonTopBarHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "SEditorButtonTopBarActive",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateGroupActive": {
+                    "Material": "SEditorButtonTopBarClickedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Help": "IDS_SED2_RB_MAP_HELP_TEXT",
+                "Text": "IDS_SED2_TITLE_MAP_WORD",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonTerrain",
+                "ClickSound": "?button_ui",
+                "ViewPort": {
+                  "xorigin": 550,
+                  "yorigin": 41,
+                  "width": 325,
+                  "height": 55,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "SEditorButtonTopBarDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "SEditorButtonTopBarNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "SEditorButtonTopBarHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "SEditorButtonTopBarActive",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateGroupActive": {
+                    "Material": "SEditorButtonTopBarClickedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Help": "IDS_SED2_RB_TERRAIN_HELP_TEXT",
+                "Text": "IDS_SED2_TITLE_TERRAIN_WORD",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonPlayers",
+                "ClickSound": "?button_ui",
+                "ViewPort": {
+                  "xorigin": 900,
+                  "yorigin": 41,
+                  "width": 325,
+                  "height": 55,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "SEditorButtonTopBarDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "SEditorButtonTopBarNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "SEditorButtonTopBarHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "SEditorButtonTopBarActive",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateGroupActive": {
+                    "Material": "SEditorButtonTopBarClickedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Help": "IDS_SED2_RB_PLAYER_HELP_TEXT",
+                "Text": "IDS_SED2_TITLE_PLAYER_WORD",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonUnits",
+                "ClickSound": "?button_ui",
+                "ViewPort": {
+                  "xorigin": 1250,
+                  "yorigin": 41,
+                  "width": 325,
+                  "height": 55,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "SEditorButtonTopBarDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "SEditorButtonTopBarNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "SEditorButtonTopBarHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "SEditorButtonTopBarActive",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateGroupActive": {
+                    "Material": "SEditorButtonTopBarClickedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Help": "IDS_SED2_RB_UNIT_HELP_TEXT",
+                "Text": "IDS_SED2_TITLE_UNIT_WORD",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonDiplomacy",
+                "ClickSound": "?button_ui",
+                "ViewPort": {
+                  "xorigin": 1600,
+                  "yorigin": 41,
+                  "width": 325,
+                  "height": 55,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "SEditorButtonTopBarDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "SEditorButtonTopBarNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "SEditorButtonTopBarHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "SEditorButtonTopBarActive",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateGroupActive": {
+                    "Material": "SEditorButtonTopBarClickedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Help": "IDS_SED2_RB_DIPLOM_HELP_TEXT",
+                "Text": "IDS_SED2_TITLE_DIPLOM_WORD",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+
+
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonGlobalVictory",
+                "ClickSound": "?button_ui",
+                "ViewPort": {
+                  "xorigin": 200,
+                  "yorigin": 101,
+                  "width": 325,
+                  "height": 55,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "SEditorButtonTopBarDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "SEditorButtonTopBarNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "SEditorButtonTopBarHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "SEditorButtonTopBarActive",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateGroupActive": {
+                    "Material": "SEditorButtonTopBarClickedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Help": "IDS_SED2_RB_MULTVIC_HELP_TEXT",
+                "Text": "IDS_SED2_TITLE_MULTVIC_WORD",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonOptions",
+                "ClickSound": "?button_ui",
+                "ViewPort": {
+                  "xorigin": 550,
+                  "yorigin": 101,
+                  "width": 325,
+                  "height": 55,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "SEditorButtonTopBarDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "SEditorButtonTopBarNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "SEditorButtonTopBarHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "SEditorButtonTopBarActive",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateGroupActive": {
+                    "Material": "SEditorButtonTopBarClickedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Help": "IDS_SED2_RB_OPTIONS_HELP_TEXT",
+                "Text": "IDS_SED2_TITLE_OPTIONS_WORD",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonMessages",
+                "ClickSound": "?button_ui",
+                "ViewPort": {
+                  "xorigin": 900,
+                  "yorigin": 101,
+                  "width": 325,
+                  "height": 55,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "SEditorButtonTopBarDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "SEditorButtonTopBarNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "SEditorButtonTopBarHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "SEditorButtonTopBarActive",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateGroupActive": {
+                    "Material": "SEditorButtonTopBarClickedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Help": "IDS_SED2_RB_MESSAGE_HELP_TEXT",
+                "Text": "IDS_SED2_TITLE_MESSAGE_WORD",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonCinamatics",
+                "ClickSound": "?button_ui",
+                "ViewPort": {
+                  "xorigin": 1250,
+                  "yorigin": 101,
+                  "width": 325,
+                  "height": 55,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "SEditorButtonTopBarDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "SEditorButtonTopBarNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "SEditorButtonTopBarHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "SEditorButtonTopBarActive",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateGroupActive": {
+                    "Material": "SEditorButtonTopBarClickedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Help": "IDS_SED2_RB_CINEMATICS_HELP_TEXT",
+                "Text": "IDS_SED2_TITLE_CINEMATICS_WORD",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonTriggers",
+                "ClickSound": "?button_ui",
+                "ViewPort": {
+                  "xorigin": 1600,
+                  "yorigin": 101,
+                  "width": 325,
+                  "height": 55,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "SEditorButtonTopBarDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "SEditorButtonTopBarNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "SEditorButtonTopBarHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "SEditorButtonTopBarActive",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateGroupActive": {
+                    "Material": "SEditorButtonTopBarClickedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Help": "IDS_SED2_RB_TRIGGER_HELP_TEXT",
+                "Text": "IDS_SED2_TITLE_TRIGGER_WORD",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            }
+
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1122 @@
+{
+  "BackgroundMaterial": "CampaignBackgroundGenghisKhan",
+  "Widgets": [
+    {
+      "Widget": {
+        "Type": "Button",
+        "Name": "ScenarioButton1",
+        "ViewPort": {
+          "xorigin": 1200,
+          "yorigin": 160,
+          "width": 700,
+          "height": 340,
+          "alignment": "TopLeft"
+        },
+        "Image": {
+          "xorigin": 80,
+          "yorigin": 0,
+          "width": 302,
+          "height": 302,
+          "alignment": "TopLeft"
+        },
+        "StateMaterials": {
+         "StateDisabled": {
+            "Material": "CampaignIcon27CustomDisabled",
+            "Font": {
+               "FontIndex": 0,
+               "PointSize": 34,
+               "Style": "Normal",
+               "TextColor": {
+                  "r": 42,
+                  "g": 10,
+                  "b": 82,
+                  "a": 128
+               }
+            }
+         },
+          "StateNormal": {
+            "Material": "CampaignIcon27CustomNormal",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StateHover": {
+            "Material": "CampaignIcon27CustomHover",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StatePressed": {
+            "Material": "CampaignIcon27CustomPressed",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          }
+        },
+        "ChildWidgets": [
+          {
+            "Widget": {
+              "Type": "Label",
+              "Name": "ScenarioButtonLabel",
+              "ViewPort": {
+                "xorigin": 80,
+                "yorigin": 260,
+                "width": 700,
+                "height": 100,
+                "alignment": "TopLeft"
+              },
+              "StateMaterials": {
+                "StateNormal": {
+                  "Font": {
+                    "FontIndex": 0,
+                    "PointSize": 45,
+                    "Style": "Normal",
+                    "TextColor": {
+                      "r": 10,
+                      "g": 40,
+                      "b": 10,
+                      "a": 255
+                    }
+                  }
+                }
+              },
+              "_comment": "Define button text like: Text: 34991,",
+
+              "TextAnchor": "TopLeft",
+              "ChildWidgets": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Widget": {
+        "Type": "Button",
+        "Name": "ScenarioButton2",
+        "ViewPort": {
+          "xorigin": 1900,
+          "yorigin": 400,
+          "width": 700,
+          "height": 340,
+          "alignment": "TopLeft"
+        },
+        "Image": {
+          "xorigin": 80,
+          "yorigin": 0,
+          "width": 302,
+          "height": 302,
+          "alignment": "TopLeft"
+        },
+        "StateMaterials": {
+          "StateDisabled": {
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 128
+              }
+            }
+          },
+          "StateNormal": {
+            "Material": "CampaignIcon27CustomNormal",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StateHover": {
+            "Material": "CampaignIcon27CustomHover",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StatePressed": {
+            "Material": "CampaignIcon27CustomPressed",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          }
+        },
+        "ChildWidgets": [
+          {
+            "Widget": {
+              "Type": "Label",
+              "Name": "ScenarioButtonLabel",
+              "ViewPort": {
+                "xorigin": 0,
+                "yorigin": 260,
+                "width": 700,
+                "height": 100,
+                "alignment": "TopLeft"
+              },
+              "StateMaterials": {
+                "StateNormal": {
+                  "Font": {
+                    "FontIndex": 0,
+                    "PointSize": 45,
+                    "Style": "Normal",
+                    "TextColor": {
+                      "r": 10,
+                      "g": 40,
+                      "b": 10,
+                      "a": 255
+                    }
+                  }
+                }
+              },
+              "TextAnchor": "TopLeft",
+              "ChildWidgets": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Widget": {
+        "Type": "Button",
+        "Name": "ScenarioButton3",
+        "ViewPort": {
+          "xorigin": 2600,
+          "yorigin": 600,
+          "width": 700,
+          "height": 340,
+          "alignment": "TopLeft"
+        },
+        "Image": {
+          "xorigin": 80,
+          "yorigin": 0,
+          "width": 302,
+          "height": 302,
+          "alignment": "TopLeft"
+        },
+        "StateMaterials": {
+          "StateDisabled": {
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 128
+              }
+            }
+          },
+          "StateNormal": {
+            "Material": "CampaignIcon27CustomNormal",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StateHover": {
+            "Material": "CampaignIcon27CustomHover",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StatePressed": {
+            "Material": "CampaignIcon27CustomPressed",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          }
+        },
+        "ChildWidgets": [
+          {
+            "Widget": {
+              "Type": "Label",
+              "Name": "ScenarioButtonLabel",
+              "ViewPort": {
+                "xorigin": 100,
+                "yorigin": 260,
+                "width": 700,
+                "height": 100,
+                "alignment": "TopLeft"
+              },
+              "StateMaterials": {
+                "StateNormal": {
+                  "Font": {
+                    "FontIndex": 0,
+                    "PointSize": 45,
+                    "Style": "Normal",
+                    "TextColor": {
+                      "r": 10,
+                      "g": 40,
+                      "b": 10,
+                      "a": 255
+                    }
+                  }
+                }
+              },
+              "TextAnchor": "TopLeft",
+              "ChildWidgets": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Widget": {
+        "Type": "Button",
+        "Name": "ScenarioButton4",
+        "ViewPort": {
+          "xorigin": 1000,
+          "yorigin": 520,
+          "width": 700,
+          "height": 340,
+          "alignment": "TopLeft"
+        },
+        "Image": {
+          "xorigin": 80,
+          "yorigin": 0,
+          "width": 302,
+          "height": 302,
+          "alignment": "TopLeft"
+        },
+        "StateMaterials": {
+          "StateDisabled": {
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 128
+              }
+            }
+          },
+          "StateNormal": {
+            "Material": "CampaignIcon27CustomNormal",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StateHover": {
+            "Material": "CampaignIcon27CustomHover",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StatePressed": {
+            "Material": "CampaignIcon27CustomPressed",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          }
+        },
+        "ChildWidgets": [
+          {
+            "Widget": {
+              "Type": "Label",
+              "Name": "ScenarioButtonLabel",
+              "ViewPort": {
+                "xorigin": 0,
+                "yorigin": 260,
+                "width": 700,
+                "height": 100,
+                "alignment": "TopLeft"
+              },
+              "StateMaterials": {
+                "StateNormal": {
+                  "Font": {
+                    "FontIndex": 0,
+                    "PointSize": 45,
+                    "Style": "Normal",
+                    "TextColor": {
+                      "r": 10,
+                      "g": 40,
+                      "b": 10,
+                      "a": 255
+                    }
+                  }
+                }
+              },
+              "TextAnchor": "TopLeft",
+              "ChildWidgets": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Widget": {
+        "Type": "Button",
+        "Name": "ScenarioButton5",
+        "ViewPort": {
+          "xorigin": 1700,
+          "yorigin": 800,
+          "width": 700,
+          "height": 340,
+          "alignment": "TopLeft"
+        },
+        "Image": {
+          "xorigin": 80,
+          "yorigin": 0,
+          "width": 302,
+          "height": 302,
+          "alignment": "TopLeft"
+        },
+        "StateMaterials": {
+          "StateDisabled": {
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 128
+              }
+            }
+          },
+          "StateNormal": {
+            "Material": "CampaignIcon27CustomNormal",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StateHover": {
+            "Material": "CampaignIcon27CustomHover",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StatePressed": {
+            "Material": "CampaignIcon27CustomPressed",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          }
+        },
+        "ChildWidgets": [
+          {
+            "Widget": {
+              "Type": "Label",
+              "Name": "ScenarioButtonLabel",
+              "ViewPort": {
+                "xorigin": 20,
+                "yorigin": 260,
+                "width": 700,
+                "height": 100,
+                "alignment": "TopLeft"
+              },
+              "StateMaterials": {
+                "StateNormal": {
+                  "Font": {
+                    "FontIndex": 0,
+                    "PointSize": 45,
+                    "Style": "Normal",
+                    "TextColor": {
+                      "r": 10,
+                      "g": 40,
+                      "b": 10,
+                      "a": 255
+                    }
+                  }
+                }
+              },
+              "TextAnchor": "TopLeft",
+              "ChildWidgets": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Widget": {
+        "Type": "Button",
+        "Name": "ScenarioButton6",
+        "ViewPort": {
+          "xorigin": 2400,
+          "yorigin": 1000,
+          "width": 700,
+          "height": 340,
+          "alignment": "TopLeft"
+        },
+        "Image": {
+          "xorigin": 80,
+          "yorigin": 0,
+          "width": 302,
+          "height": 302,
+          "alignment": "TopLeft"
+        },
+        "StateMaterials": {
+          "StateDisabled": {
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 128
+              }
+            }
+          },
+          "StateNormal": {
+            "Material": "CampaignIcon27CustomNormal",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StateHover": {
+            "Material": "CampaignIcon27CustomHover",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StatePressed": {
+            "Material": "CampaignIcon27CustomPressed",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          }
+        },
+        "ChildWidgets": [
+          {
+            "Widget": {
+              "Type": "Label",
+              "Name": "ScenarioButtonLabel",
+              "ViewPort": {
+                "xorigin": 0,
+                "yorigin": 260,
+                "width": 700,
+                "height": 100,
+                "alignment": "TopLeft"
+              },
+              "StateMaterials": {
+                "StateNormal": {
+                  "Font": {
+                    "FontIndex": 0,
+                    "PointSize": 45,
+                    "Style": "Normal",
+                    "TextColor": {
+                      "r": 10,
+                      "g": 40,
+                      "b": 10,
+                      "a": 255
+                    }
+                  }
+                }
+              },
+              "TextAnchor": "TopLeft",
+              "ChildWidgets": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Widget": {
+        "Type": "Button",
+        "Name": "ScenarioButton7",
+        "ViewPort": {
+          "xorigin": 780,
+          "yorigin": 920,
+          "width": 700,
+          "height": 340,
+          "alignment": "TopLeft"
+        },
+        "Image": {
+          "xorigin": 80,
+          "yorigin": 0,
+          "width": 302,
+          "height": 302,
+          "alignment": "TopLeft"
+        },
+        "StateMaterials": {
+          "StateDisabled": {
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 128
+              }
+            }
+          },
+          "StateNormal": {
+            "Material": "CampaignIcon27CustomNormal",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StateHover": {
+            "Material": "CampaignIcon27CustomHover",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StatePressed": {
+            "Material": "CampaignIcon27CustomPressed",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          }
+        },
+        "ChildWidgets": [
+          {
+            "Widget": {
+              "Type": "Label",
+              "Name": "ScenarioButtonLabel",
+              "ViewPort": {
+                "xorigin": 0,
+                "yorigin": 260,
+                "width": 700,
+                "height": 100,
+                "alignment": "TopLeft"
+              },
+              "StateMaterials": {
+                "StateNormal": {
+                  "Font": {
+                    "FontIndex": 0,
+                    "PointSize": 45,
+                    "Style": "Normal",
+                    "TextColor": {
+                      "r": 10,
+                      "g": 40,
+                      "b": 10,
+                      "a": 255
+                    }
+                  }
+                }
+              },
+              "TextAnchor": "TopLeft",
+              "ChildWidgets": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Widget": {
+        "Type": "Button",
+        "Name": "ScenarioButton8",
+        "ViewPort": {
+          "xorigin": 1500,
+          "yorigin": 1200,
+          "width": 700,
+          "height": 340,
+          "alignment": "TopLeft"
+        },
+        "Image": {
+          "xorigin": 80,
+          "yorigin": 0,
+          "width": 302,
+          "height": 302,
+          "alignment": "TopLeft"
+        },
+        "StateMaterials": {
+          "StateDisabled": {
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 128
+              }
+            }
+          },
+          "StateNormal": {
+            "Material": "CampaignIcon27CustomNormal",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StateHover": {
+            "Material": "CampaignIcon27CustomHover",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StatePressed": {
+            "Material": "CampaignIcon27CustomHover",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          }
+        },
+        "ChildWidgets": [
+          {
+            "Widget": {
+              "Type": "Label",
+              "Name": "ScenarioButtonLabel",
+              "ViewPort": {
+                "xorigin": 0,
+                "yorigin": 260,
+                "width": 700,
+                "height": 100,
+                "alignment": "TopLeft"
+              },
+              "StateMaterials": {
+                "StateNormal": {
+                  "Font": {
+                    "FontIndex": 0,
+                    "PointSize": 45,
+                    "Style": "Normal",
+                    "TextColor": {
+                      "r": 10,
+                      "g": 40,
+                      "b": 10,
+                      "a": 255
+                    }
+                  }
+                }
+              },
+              "TextAnchor": "TopLeft",
+              "ChildWidgets": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Widget": {
+        "Type": "Button",
+        "Name": "ScenarioButton9",
+        "ViewPort": {
+          "xorigin": 2250,
+          "yorigin": 1400,
+          "width": 700,
+          "height": 340,
+          "alignment": "TopLeft"
+        },
+        "Image": {
+          "xorigin": 80,
+          "yorigin": 0,
+          "width": 302,
+          "height": 302,
+          "alignment": "TopLeft"
+        },
+        "StateMaterials": {
+          "StateDisabled": {
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 128
+              }
+            }
+          },
+          "StateNormal": {
+            "Material": "CampaignIcon27CustomNormal",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StateHover": {
+            "Material": "CampaignIcon27CustomHover",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          },
+          "StatePressed": {
+            "Material": "CampaignIcon27CustomPressed",
+            "Font": {
+              "FontIndex": 0,
+              "PointSize": 34,
+              "Style": "Normal",
+              "TextColor": {
+                "r": 42,
+                "g": 10,
+                "b": 82,
+                "a": 255
+              }
+            }
+          }
+        },
+        "ChildWidgets": [
+          {
+            "Widget": {
+              "Type": "Label",
+              "Name": "ScenarioButtonLabel",
+              "ViewPort": {
+                "xorigin": 0,
+                "yorigin": 260,
+                "width": 700,
+                "height": 100,
+                "alignment": "TopLeft"
+              },
+              "StateMaterials": {
+                "StateNormal": {
+                  "Font": {
+                    "FontIndex": 0,
+                    "PointSize": 45,
+                    "Style": "Normal",
+                    "TextColor": {
+                      "r": 10,
+                      "g": 40,
+                      "b": 10,
+                      "a": 255
+                    }
+                  }
+                }
+              },
+              "TextAnchor": "TopLeft",
+              "ChildWidgets": []
+            }
+          }
+        ]
+      }
+    },
+    {
+
+      "Widget": {
+        "Type": "Base",
+        "Name": "NextIndicator1",
+        "ViewPort": {
+          "xorigin": 2412,
+          "yorigin": 626,
+          "width": 277,
+          "height": 182,
+          "alignment": "TopLeft"
+        },
+        "Wrap": {
+          "width": 0,
+          "height": 0
+        },
+        "StateMaterials": {
+          "StateNormal": {
+            "Material": "GenghisKhanIndicator1"
+          }
+        }
+      }
+    },
+    {
+      "Widget": {
+        "Type": "Base",
+        "Name": "NextIndicator2",
+        "ViewPort": {
+          "xorigin": 2342,
+          "yorigin": 945,
+          "width": 245,
+          "height": 330,
+          "alignment": "TopLeft"
+        },
+        "Wrap": {
+          "width": 0,
+          "height": 0
+        },
+        "StateMaterials": {
+          "StateNormal": {
+            "Material": "GenghisKhanIndicator2"
+          }
+        }
+      }
+    },
+    {
+      "Widget": {
+        "Type": "Base",
+        "Name": "NextIndicator3",
+        "ViewPort": {
+          "xorigin": 2010,
+          "yorigin": 1095,
+          "width": 416,
+          "height": 314,
+          "alignment": "TopLeft"
+        },
+        "Wrap": {
+          "width": 0,
+          "height": 0
+        },
+        "StateMaterials": {
+          "StateNormal": {
+            "Material": "GenghisKhanIndicator3"
+          }
+        }
+      }
+    },
+    {
+      "Widget": {
+        "Type": "Base",
+        "Name": "NextIndicator4",
+        "ViewPort": {
+          "xorigin": 1752,
+          "yorigin": 606,
+          "width": 317,
+          "height": 362,
+          "alignment": "TopLeft"
+        },
+        "Wrap": {
+          "width": 0,
+          "height": 0
+        },
+        "StateMaterials": {
+          "StateNormal": {
+            "Material": "GenghisKhanIndicator4"
+          }
+        }
+      }
+    },
+    {
+      "Widget": {
+        "Type": "Base",
+        "Name": "NextIndicator5",
+        "ViewPort": {
+          "xorigin": 1258,
+          "yorigin": 608,
+          "width": 302,
+          "height": 242,
+          "alignment": "TopLeft"
+        },
+        "Wrap": {
+          "width": 0,
+          "height": 0
+        },
+        "StateMaterials": {
+          "StateNormal": {
+            "Material": "GenghisKhanIndicator5"
+          }
+        }
+      }
+    },
+    {
+      "Widget": {
+        "Type": "Base",
+        "Name": "NextIndicator6",
+        "ViewPort": {
+          "xorigin": 1258,
+          "yorigin": 1608,
+          "width": 302,
+          "height": 242,
+          "alignment": "TopLeft"
+        },
+        "Wrap": {
+          "width": 0,
+          "height": 0
+        },
+        "StateMaterials": {
+          "StateNormal": {
+            "Material": "GenghisKhanIndicator5"
+          }
+        }
+      }
+    }
+  ]
+}

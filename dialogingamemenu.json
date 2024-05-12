@@ -1,0 +1,171 @@
+{
+  "Collection": {
+    "Name": "DialogIngameMenu",
+    "ViewPort": {
+      "xorigin": 1920,
+      "yorigin": 1080,
+      "width": 950,
+      "height": 2000,
+      "alignment": "CentreCentre"
+    },
+    "ZOrder": 400,
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 950,
+            "height": 720,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "PoppupBackground_3"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "TitleAnchor",
+                "Anchor": {
+                  "xorigin": 475,
+                  "yorigin": 90
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Title",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 10,
+                        "width": 400,
+                        "height": 64,
+                        "alignment": "CentreCentre"
+                      },
+
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_MAINMENU_TITLE",
+                      "TextAnchor": "TopCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "TitleDecoration",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 800,
+                        "height": 107,
+                        "alignment": "CentreCentre"
+                      },
+
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Material": "BackgroundDecorationTitle"
+                        },
+                        "StateDisabled": {
+                          "Material": "BackgroundDecorationTitle"
+                        }
+                      },
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonClose",
+                "ViewPort": {
+                  "xorigin": 810,
+                  "yorigin": 60,
+                  "width": 56,
+                  "height": 56,
+                  "alignment": "TopLeft"
+                },
+                "HotKey": {
+                  "Key": 27,
+                  "Ctrl": false,
+                  "Alt": false,
+                  "Shift": false
+                },
+
+                "Help": 300156,
+
+                "AccessibilityTextOverride": "IDS_EXIT_GAME",
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ButtonCloseNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "ButtonCloseHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonCloseClicked",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

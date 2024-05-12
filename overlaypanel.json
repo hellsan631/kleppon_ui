@@ -1,0 +1,49 @@
+{
+  "Collection": {
+    "Name": "OverlayPanel",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 0,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "TopLeft"
+    },
+    "Widgets": [
+
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "TopLeft"
+          },
+          "Image": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "TopLeft"
+          },
+          "test": 0,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "FlatColorAlpha",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.8
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      }
+    ]
+  }
+}

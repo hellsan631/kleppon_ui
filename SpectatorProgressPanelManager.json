@@ -1,0 +1,33 @@
+{
+  "Collection": {
+    "Name": "SpectatorProgressPanelManager",
+    "ViewPort": {
+      "xorigin": 3840,
+      "yorigin": 0,
+      "width": 671,
+      "height": 1904,
+      "alignment": "TopRight"
+    },
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 500,
+            "width": 671,
+            "height": 1304,
+            "alignment": "TopLeft"
+          },
+          "ZPlane": 0,
+          "ChildWidgets": [
+            {
+
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

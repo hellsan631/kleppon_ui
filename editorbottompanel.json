@@ -1,0 +1,115 @@
+{
+  "Collection": {
+    "AllowTabNavigation": false,
+    "Name": "EditorBottomPanel",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 2160,
+      "width": 13840,
+      "height": 411,
+      "alignment": "BottomLeft"
+    },
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 3840,
+            "height": 411,
+            "alignment": "TopLeft"
+          },
+          "Image": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 3840,
+            "height": 411,
+            "noclip": true,
+            "alignment": "TopLeft"
+          },
+          "Wrap": {
+            "width": 3840,
+            "height": 0
+          },
+          "ZPlane": 1,
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Material": "SEditorWoodenBarBgBottom"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "MapHolder",
+                "Anchor": {
+                  "xorigin": 790,
+                  "yorigin": 3,
+                  "alignment": "TopLeft"
+                },
+                "ZPlane": 1,
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "MapFrame",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 787,
+                        "height": 408,
+                        "alignment": "TopLeft"
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 787,
+                        "height": 408,
+                        "noclip": true,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "UserStates": 1,
+                        "UserState0": {
+                          "Material": "SEditorMapFrame"
+                        }
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "MapView",
+                            "Name": "MapView",
+                            "ViewPort": {
+                              "xorigin": 27,
+                              "yorigin": 0,
+                              "width": 787,
+                              "height": 408,
+                              "alignment": "TopLeft"
+                            },
+                            "Image": {
+                              "xorigin": 33,
+                              "yorigin": 35,
+                              "width": 668,
+                              "height": 360,
+                              "noclip": true,
+                              "alignment": "TopLeft"
+                            },
+                            "ZPlane": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

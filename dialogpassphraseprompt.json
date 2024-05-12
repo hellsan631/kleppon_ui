@@ -1,0 +1,351 @@
+{
+  "Collection": {
+    "Name": "DialogPassphrasePrompt",
+    "ViewPort": {
+      "xorigin": 1920,
+      "yorigin": 1080,
+      "width": 1280,
+      "height": 720,
+      "alignment": "CentreCentre"
+    },
+    "TabOrder": [
+      {
+        "Tab": "Background/PasswordInputBox"
+      },
+      {
+        "Tab": "Background/ButtonConnect"
+      },
+      {
+        "Tab": "Background/ButtonCancel"
+      }
+    ],
+    "ZOrder" :  100,
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 1280,
+            "height": 720,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "PoppupBackground_1"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonConnect",
+                "ViewPort": {
+                  "xorigin": 170,
+                  "yorigin": 500,
+                  "width": 442,
+                  "height": 70,
+                  "alignment": "TopLeft"
+                },
+                "HotKey": {
+                  "Key": 13,
+                  "Ctrl": false,
+                  "Alt": false,
+                  "Shift": false
+                },
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "ButtonRedDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+"a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "ButtonRedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "ButtonRedHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonRedClicked",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "Connect",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonCancel",
+                "ViewPort": {
+                  "xorigin": 660,
+                  "yorigin": 500,
+                  "width": 442,
+                  "height": 70,
+                  "alignment": "TopLeft"
+                },
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "ButtonRedDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+"a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "ButtonRedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "ButtonRedHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonRedClicked",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "Cancel",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "MessagePrompt",
+                "Anchor": {
+                  "xorigin": 20,
+                  "yorigin": 250
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "MessageLabel",
+                      "ViewPort": {
+                        "xorigin": 640,
+                        "yorigin": 0,
+                        "width": 1180,
+                        "height": 54,
+                        "alignment": "CentreCentre"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_MPS_PASSWORD_PROMPT",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "TextBoxInput",
+                "Name": "PasswordInputBox",
+                "ViewPort": {
+                  "xorigin": 365,
+                  "yorigin": 320,
+                  "width": 550,
+                  "height": 60,
+                  "alignment": "TopLeft"
+                },
+                "ZPlaneLocalOffset": 3,
+                "TextBox": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 550,
+                  "height": 60,
+                  "edgespacer": 4,
+                  "linespacer": 1,
+                  "linesize": 50,
+                  "drawbox": true
+                },
+                "StateMaterials": {
+
+                  "StateTextNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 50,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "TextAnchor": "CentreLeft",
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "SearchBoxCentre",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 550,
+                        "height": 65,
+                        "alignment": "TopLeft"
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 600,
+                        "height": 65,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlaneLocalOffset": -1,
+                      "Wrap": {
+                        "width": 22,
+                        "height": 0
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Material": "SearchBarCentre"
+                        },
+                        "StateDisabled": {
+                          "Material": "SearchBarCentre"
+                        }
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "SearchBoxRight",
+                            "ViewPort": {
+                              "xorigin": 600,
+                              "yorigin": 0,
+                              "width": 24,
+                              "height": 65,
+                              "alignment": "TopLeft"
+                            },
+                            "Image": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 24,
+                              "height": 65,
+                              "alignment": "TopLeft"
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "SearchBarRight"
+                              },
+                              "StateDisabled": {
+                                "Material": "SearchBarRight"
+                              }
+                            },
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

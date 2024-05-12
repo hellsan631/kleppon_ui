@@ -1,0 +1,184 @@
+{
+  "Collection": {
+    "Name": "ScreenCredits",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 0,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "TopLeft"
+    },
+    "TabOrder": [
+      {
+        "Tab": "Background/ButtonReturn"
+      }
+    ],
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 1920,
+            "yorigin": 1080,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "CentreCentre"
+          },
+          "Image": {
+            "xorigin": 1920,
+            "yorigin": 1080,
+            "width": 5120,
+            "height": 2160,
+            "noclip": true,
+            "alignment": "CentreCentre"
+          },
+          "ZPlane": 0,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "DefaultBackground",
+              "Color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0
+              }
+            }
+          },
+          "ChildWidgets": [
+
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonReturn",
+                "ViewPort": {
+                  "xorigin": 555,
+                  "yorigin": 1820,
+                  "width": 500,
+                  "height": 70,
+                  "alignment": "TopLeft"
+                },
+                "HotKey": {
+                  "Key": 27,
+                  "Ctrl": false,
+                  "Alt": false,
+                  "Shift": false
+                },
+                "ZPlane": 1,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "ButtonRedDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 45,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+"a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "ButtonRedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 45,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "ButtonRedHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 45,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonRedClicked",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 45,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "IDS_MAINMENU_RETURN",
+                "TextAnchor": "CentreCentre",
+                "Help": 170300,
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "FalloffLabel",
+                "Name": "CreditsLabel",
+                "ViewPort": {
+                  "xorigin": 1920,
+                  "yorigin": 1080,
+                  "width": 3840,
+                  "height": 2160,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlane": 1,
+                "FalloffArea": {
+                  "Inner": {
+                    "xorigin": 0,
+                    "yorigin": 0,
+                    "width": 1000,
+                    "height": 1800
+                  },
+                  "Outer": {
+                    "xorigin": 0,
+                    "yorigin": 0,
+                    "width": 1001,
+                    "height": 2000
+                  }
+                },
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 50,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            }
+
+          ]
+        }
+      }
+    ]
+  }
+}

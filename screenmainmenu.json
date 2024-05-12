@@ -1,0 +1,101 @@
+{
+  "Collection": {
+    "Name": "ScreenMainMenu",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 0,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "TopLeft"
+    },
+    "TabOrder": [
+      {
+        "Tab": "Background/ButtonSingleplayer"
+      },
+      {
+        "Tab": "Background/ButtonMultiplayer"
+      },
+      {
+        "Tab": "Background/ButtonCampaigns"
+      },
+      {
+        "Tab": "Background/ButtonHistoricalBattles"
+      },
+      {
+        "Tab": "Background/LearnToPlay"
+      },
+      {
+        "Tab": "Background/ButtonSaveGame"
+      },
+      {
+        "Tab": "Background/ButtonSignInOut"
+      },
+      {
+        "Tab": "Background/ButtonEditors"
+      },
+      {
+        "Tab": "Background/ButtonOptions"
+      },
+      {
+        "Tab": "Background/ButtonHistory"
+      },
+      {
+        "Tab": "Background/ButtonNews"
+      },
+      {
+        "Tab": "Background/ButtonModManager"
+      },
+      {
+        "Tab": "Background/ButtonMixer"
+      },
+      {
+        "Tab": "Background/ButtonExit"
+      },
+      {
+        "Tab": "Background/ButtonCredits"
+      },
+      {
+        "Tab": "Background/News/Background/Table/NewsListBox"
+      },
+      {
+        "Tab": "Background/News/Background/Table/ButtonClose"
+      },
+      {
+        "Tab": "Background/News/Background/ItemBody/ButtonBack"
+      }
+
+
+    ],
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 1920,
+            "yorigin": 1080,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "CentreCentre"
+          },
+          "Image": {
+            "xorigin": 1920,
+            "yorigin": 1080,
+            "width": 5120,
+            "height": 2160,
+            "noclip": true,
+            "alignment": "CentreCentre"
+          },
+          "test": 0,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "BackgroundMainMenu"
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      }
+    ]
+  }
+}

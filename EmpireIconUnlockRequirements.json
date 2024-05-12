@@ -1,0 +1,224 @@
+{
+  "OrderedIds": [
+    "CR-001",
+    "CR-002",
+    "CR-003",
+    "CR-004",
+    "CR-005",
+    "CR-006",
+    "CR-007",
+    "CR-008",
+    "CR-009",
+    "CR-010",
+    "CR-011",
+    "CR-012",
+    "CR-013",
+    "CR-014",
+    "CR-015",
+    "CR-016",
+    "CR-017",
+    "CR-018",
+    "CR-019",
+    "CR-020",
+    "CR-021",
+    "CR-022",
+    "CR-023",
+    "CR-024",
+    "CR-025",
+    "CR-026",
+    "CR-027",
+    "CR-028",
+    "CR-029",
+    "CR-030",
+    "CR-031",
+    "CR-032",
+    "CR-033",
+    "CR-034",
+    "CR-035",
+    "CR-036"
+  ],
+  "UnlockRequirements": {
+    "MemberIcons": [
+      {
+        "ID": "CR-001",
+        "MembersRequired": 0,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-002",
+        "MembersRequired": 5,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-003",
+        "MembersRequired": 10,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-004",
+        "MembersRequired": 15,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-005",
+        "MembersRequired": 20,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-006",
+        "MembersRequired": 25,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-007",
+        "MembersRequired": 30,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-008",
+        "MembersRequired": 35,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-009",
+        "MembersRequired": 40,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-010",
+        "MembersRequired": 45,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-011",
+        "MembersRequired": 50,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-012",
+        "MembersRequired": 55,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-013",
+        "MembersRequired": 60,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-014",
+        "MembersRequired": 65,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-015",
+        "MembersRequired": 70,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-016",
+        "MembersRequired": 75,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-017",
+        "MembersRequired": 80,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-018",
+        "MembersRequired": 85,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-019",
+        "MembersRequired": 90,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-020",
+        "MembersRequired": 95,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-021",
+        "MembersRequired": 100,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-022",
+        "MembersRequired": 105,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-023",
+        "MembersRequired": 110,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-024",
+        "MembersRequired": 115,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-025",
+        "MembersRequired": 120,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-026",
+        "MembersRequired": 125,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-027",
+        "MembersRequired": 130,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-028",
+        "MembersRequired": 135,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-029",
+        "MembersRequired": 140,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-030",
+        "MembersRequired": 145,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-031",
+        "MembersRequired": 150,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-032",
+        "MembersRequired": 160,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-033",
+        "MembersRequired": 170,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-034",
+        "MembersRequired": 180,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-035",
+        "MembersRequired": 190,
+        "Name": "None"
+      },
+      {
+        "ID": "CR-036",
+        "MembersRequired": 20,
+        "Name": "None"
+      }
+    ]
+  }
+}

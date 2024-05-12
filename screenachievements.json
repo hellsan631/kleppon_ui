@@ -1,0 +1,3447 @@
+{
+  "Collection": {
+    "Name": "ScreenAchievements",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 0,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "TopLeft"
+    },
+    "PageOrder": [
+      {
+        "Page": "Background/TabsAnchor/ButtonMilitaryTab"
+      },
+      {
+        "Page": "Background/TabsAnchor/ButtonEconomyTab"
+      },
+      {
+        "Page": "Background/TabsAnchor/ButtonTechnologyTab"
+      },
+      {
+        "Page": "Background/TabsAnchor/ButtonSocietyTab"
+      },
+      {
+        "Page": "Background/TabsAnchor/ButtonTimelineTab"
+      },
+      {
+        "Page": "Background/TabsAnchor/ButtonScoreTab"
+      }
+    ],
+    "TabOrder": [
+      {
+        "Tab": "Background/ScoreAnchor/AchievementTableBackground/SummaryListBox"
+      },
+      {
+        "Tab": "Background/BottomButtonAnchor/ButtonMainMenu"
+      },
+      {
+        "Tab": "Background/ChatAnchor/ChatBox/TextBoxScrollBar"
+      },
+      {
+        "Tab": "Background/ChatAnchor/ChatInputBox"
+      },
+      {
+        "Tab": "Background/BottomButtonAnchor/ButtonPlayAgain"
+      },
+      {
+        "Tab": "Background/BottomButtonAnchor/ButtonNextLevel"
+      },
+      {
+        "Tab": "Background/BottomButtonAnchor/ButtonSpectateCA"
+      },
+      {
+        "Tab": "Background/BottomButtonAnchor/ButtonToMap"
+      },
+      {
+        "Tab": "Background/BottomButtonAnchor/ButtonRematch"
+      },
+      {
+        "Tab": "Background/TabsAnchor/ButtonScoreTab"
+      },
+      {
+        "Tab": "Background/TabsAnchor/ButtonMilitaryTab"
+      },
+      {
+        "Tab": "Background/TabsAnchor/ButtonEconomyTab"
+      },
+      {
+        "Tab": "Background/TabsAnchor/ButtonTechnologyTab"
+      },
+      {
+        "Tab": "Background/TabsAnchor/ButtonSocietyTab"
+      },
+      {
+        "Tab": "Background/TabsAnchor/ButtonTimelineTab"
+      }
+    ],
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 1920,
+            "yorigin": 1080,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "CentreCentre"
+          },
+          "Image": {
+            "xorigin": 1920,
+            "yorigin": 1080,
+            "width": 5120,
+            "height": 2160,
+            "noclip": true,
+            "alignment": "CentreCentre"
+          },
+          "ZPlane": 0,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "DefaultBackground",
+              "Color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0
+              }
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "TileDecorationAnchor",
+                "Anchor": {
+                  "xorigin": 0,
+                  "yorigin": 100
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "TitleDecoration",
+                      "ViewPort": {
+                        "xorigin": 1920,
+                        "yorigin": 150,
+                        "width": 1500,
+                        "height": 200,
+                        "alignment": "CentreCentre"
+                      },
+                      "ZPlane": 2,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Material": "BackgroundDecorationTitle"
+                        },
+                        "StateDisabled": {
+                          "Material": "BackgroundDecorationTitle"
+                        }
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Title",
+                      "ViewPort": {
+                        "xorigin": 1920,
+                        "yorigin": 157,
+                        "width": 800,
+                        "height": 64,
+                        "alignment": "CentreCentre"
+                      },
+                      "ZPlane": 2,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 60,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_ACHIEVEMENTS",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "TabsAnchor",
+                "Anchor": {
+                  "xorigin": 0,
+                  "yorigin": 0
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonScoreTab",
+                      "ClickSound": "?button_tab",
+                      "ViewPort": {
+                        "xorigin": 525,
+                        "yorigin": 0,
+                        "width": 500,
+                        "height": 180,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "Tab1Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "Tab1Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "Tab1Hover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "Tab1Active",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_ACHIEVEMENTS_SCORE",
+                      "Help": "IDS_ACHIEVEMENTS_SCORE_HELP_TEXT",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonMilitaryTab",
+                      "ClickSound": "?button_tab",
+                      "ViewPort": {
+                        "xorigin": 975,
+                        "yorigin": 0,
+                        "width": 500,
+                        "height": 180,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "Tab2Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "Tab2Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "Tab2Hover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "Tab2Active",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_ACHIEVEMENTS_MILITARY",
+                      "Help": "IDS_ACHIEVEMENTS_MILITARY_HELP_TEXT",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonEconomyTab",
+                      "ClickSound": "?button_tab",
+                      "ViewPort": {
+                        "xorigin": 1425,
+                        "yorigin": 0,
+                        "width": 500,
+                        "height": 180,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "Tab3Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "Tab3Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "Tab3Hover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "Tab3Active",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_ACHIEVEMENTS_ECONOMY",
+                      "Help": "IDS_ACHIEVEMENTS_ECONOMY_HELP_TEXT",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonTechnologyTab",
+                      "ClickSound": "?button_tab",
+                      "ViewPort": {
+                        "xorigin": 1875,
+                        "yorigin": 0,
+                        "width": 500,
+                        "height": 180,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "Tab4Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "Tab4Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "Tab4Hover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "Tab4Active",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_ACHIEVEMENTS_TECHNOLOGY",
+                      "Help": "IDS_ACHIEVEMENTS_TECHNOLOGY_HELP_TEXT",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonSocietyTab",
+                      "ClickSound": "?button_tab",
+                      "ViewPort": {
+                        "xorigin": 2325,
+                        "yorigin": 0,
+                        "width": 500,
+                        "height": 180,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "Tab5Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "Tab5Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "Tab5Hover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "Tab5Active",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_ACHIEVEMENTS_SOCIETY",
+                      "Help": "IDS_ACHIEVEMENTS_SOCIETY_HELP_TEXT",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonTimelineTab",
+                      "ClickSound": "?button_tab",
+                      "ViewPort": {
+                        "xorigin": 2775,
+                        "yorigin": 0,
+                        "width": 500,
+                        "height": 180,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "Tab6Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "Tab6Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "Tab6Hover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "Tab6Active",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_ACHIEVEMENTS_TIMELINE",
+                      "Help": "IDS_ACHIEVEMENTS_TIMELINE_HELP_TEXT",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "RatingAnchor",
+                "Anchor": {
+                  "xorigin": 620,
+                  "yorigin": 224
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "RankedType",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 50,
+                        "width": 450,
+                        "height": 74,
+                        "alignment": "TopLeft"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "Gamemode Error:",
+                      "TextAnchor": "TopCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "CurrentRating",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 100,
+                        "width": 450,
+                        "height": 74,
+                        "alignment": "TopCentre"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "1337",
+                      "TextAnchor": "TopCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "RatingChanges",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 100,
+                        "width": 450,
+                        "height": 74,
+                        "alignment": "TopCentre"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "(+123)",
+                      "TextAnchor": "TopCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Surround",
+                      "Name": "Background",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 450,
+                        "height": 205,
+                        "alignment": "TopLeft"
+                      },
+                      "Box": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 450,
+                        "height": 205,
+                        "alignment": "TopLeft",
+                        "gridstep": 55,
+                        "drawbox": true
+                      },
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "StateTLDisabled": {
+                          "Material": "BackgroundDecorationBoxTopLeft_3"
+                        },
+                        "StateTCDisabled": {
+                          "Material": "BackgroundDecorationBoxTop_3"
+                        },
+                        "StateTRDisabled": {
+                          "Material": "BackgroundDecorationBoxTopRight_3"
+                        },
+                        "StateCLDisabled": {
+                          "Material": "BackgroundDecorationBoxLeft_3"
+                        },
+                        "StateCCDisabled": {
+                          "Material": "BackgroundDecorationBoxInlay_3"
+                        },
+                        "StateCRDisabled": {
+                          "Material": "BackgroundDecorationBoxRight_3"
+                        },
+                        "StateBLDisabled": {
+                          "Material": "BackgroundDecorationBoxBottomLeft_3"
+                        },
+                        "StateBCDisabled": {
+                          "Material": "BackgroundDecorationBoxBottom_3"
+                        },
+                        "StateBRDisabled": {
+                          "Material": "BackgroundDecorationBoxBottomRight_3"
+                        },
+                        "StateTLNormal": {
+                          "Material": "BackgroundDecorationBoxTopLeft_3"
+                        },
+                        "StateTCNormal": {
+                          "Material": "BackgroundDecorationBoxTop_3"
+                        },
+                        "StateTRNormal": {
+                          "Material": "BackgroundDecorationBoxTopRight_3"
+                        },
+                        "StateCLNormal": {
+                          "Material": "BackgroundDecorationBoxLeft_3"
+                        },
+                        "StateCCNormal": {
+                          "Material": "BackgroundDecorationBoxInlay_3"
+                        },
+                        "StateCRNormal": {
+                          "Material": "BackgroundDecorationBoxRight_3"
+                        },
+                        "StateBLNormal": {
+                          "Material": "BackgroundDecorationBoxBottomLeft_3"
+                        },
+                        "StateBCNormal": {
+                          "Material": "BackgroundDecorationBoxBottom_3"
+                        },
+                        "StateBRNormal": {
+                          "Material": "BackgroundDecorationBoxBottomRight_3"
+                        }
+                      },
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "ScoreAnchor",
+                "Anchor": {
+                  "xorigin": -20,
+                  "yorigin": -125
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "TimeDisplayLabel",
+                      "ViewPort": {
+                        "xorigin": 3250,
+                        "yorigin": 585,
+                        "width": 500,
+                        "height": 74,
+                        "alignment": "BottomRight"
+                      },
+                      "ZPlane": 3,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 56,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "00:00:00",
+                      "TextAnchor": "TopCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "HeadingPlayerName",
+                      "ViewPort": {
+                        "xorigin": 700,
+                        "yorigin": 650,
+                        "width": 710,
+                        "height": 100,
+                        "alignment": "CentreLeft"
+                      },
+                      "ZPlane": 6,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_MODMGR_BUTTON_PRIORITY",
+                      "Help": "IDS_MODMGR_PRIORITY_ROLLOVER",
+                      "TextAnchor": "CentreLeft",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "HeadingStatistic1",
+                      "ViewPort": {
+                        "xorigin": 1550,
+                        "yorigin": 650,
+                        "width": 230,
+                        "height": 100,
+                        "alignment": "CentreLeft"
+                      },
+                      "ZPlane": 6,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_MODMGR_BUTTON_PRIORITY",
+                      "Help": "IDS_MODMGR_PRIORITY_ROLLOVER",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "HeadingStatistic2",
+                      "ViewPort": {
+                        "xorigin": 1780,
+                        "yorigin": 650,
+                        "width": 230,
+                        "height": 100,
+                        "alignment": "CentreLeft"
+                      },
+                      "ZPlane": 6,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_MODMGR_BUTTON_PRIORITY",
+                      "Help": "IDS_MODMGR_PRIORITY_ROLLOVER",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "HeadingStatistic3",
+                      "ViewPort": {
+                        "xorigin": 2020,
+                        "yorigin": 650,
+                        "width": 250,
+                        "height": 100,
+                        "alignment": "CentreLeft"
+                      },
+                      "ZPlane": 6,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_MODMGR_BUTTON_PRIORITY",
+                      "Help": "IDS_MODMGR_PRIORITY_ROLLOVER",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "HeadingStatistic4",
+                      "ViewPort": {
+                        "xorigin": 2265,
+                        "yorigin": 650,
+                        "width": 230,
+                        "height": 100,
+                        "alignment": "CentreLeft"
+                      },
+                      "ZPlane": 6,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_MODMGR_BUTTON_PRIORITY",
+                      "Help": "IDS_MODMGR_PRIORITY_ROLLOVER",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "HeadingStatistic5",
+                      "ViewPort": {
+                        "xorigin": 2545,
+                        "yorigin": 650,
+                        "width": 300,
+                        "height": 100,
+                        "alignment": "CentreLeft"
+                      },
+                      "ZPlane": 6,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_MODMGR_BUTTON_PRIORITY",
+                      "Help": "IDS_MODMGR_PRIORITY_ROLLOVER",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "HeadingStatistic6",
+                      "ViewPort": {
+                        "xorigin": 2725,
+                        "yorigin": 650,
+                        "width": 200,
+                        "height": 100,
+                        "alignment": "CentreLeft"
+                      },
+                      "ZPlane": 6,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_MODMGR_BUTTON_PRIORITY",
+                      "Help": "IDS_MODMGR_PRIORITY_ROLLOVER",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "HeadingStatistic7",
+                      "ViewPort": {
+                        "xorigin": 3130,
+                        "yorigin": 650,
+                        "width": 200,
+                        "height": 100,
+                        "alignment": "CentreLeft"
+                      },
+                      "ZPlane": 6,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 58,
+                              "g": 27,
+                              "b": 28,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_MODMGR_BUTTON_PRIORITY",
+                      "Help": "IDS_MODMGR_PRIORITY_ROLLOVER",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Surround",
+                      "Name": "AchievementTableBackground",
+                      "ViewPort": {
+                        "xorigin": 1920,
+                        "yorigin": 500,
+                        "width": 2700,
+                        "height": 1200,
+                        "alignment": "TopCentre"
+                      },
+                      "Box": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 2640,
+                        "height": 1200,
+                        "alignment": "TopLeft",
+                        "gridstep": 200,
+                        "drawbox": true
+                      },
+                      "StateMaterials": {
+                        "StateTLNormal": {
+                          "Material": "Table_TopLeft_1"
+                        },
+                        "StateTCNormal": {
+                          "Material": "Table_Top_1",
+                          "Wrap": {
+                            "width": 200,
+                            "height": 0
+                          }
+                        },
+                        "StateTRNormal": {
+                          "Material": "Table_TopRight_1"
+                        },
+                        "StateCLNormal": {
+                          "Material": "Table_Left_1",
+                          "Wrap": {
+                            "width": 0,
+                            "height": 200
+                          }
+                        },
+                        "StateCCNormal": {
+                          "Material": "Table_Inlay_1",
+                          "Wrap": {
+                            "width": 200,
+                            "height": 200
+                          }
+                        },
+                        "StateCRNormal": {
+                          "Material": "Table_Right_1",
+                          "Wrap": {
+                            "width": 0,
+                            "height": 200
+                          }
+                        },
+                        "StateBLNormal": {
+                          "Material": "Table_BottomLeft_1"
+                        },
+                        "StateBCNormal": {
+                          "Material": "Table_Bottom_1",
+                          "Wrap": {
+                            "width": 200,
+                            "height": 0
+                          }
+                        },
+                        "StateBRNormal": {
+                          "Material": "Table_BottomRight_1"
+                        },
+                        "StateTLDisabled": {
+                          "Material": "Table_TopLeft_1"
+                        },
+                        "StateTCDisabled": {
+                          "Material": "Table_Top_1",
+                          "Wrap": {
+                            "width": 200,
+                            "height": 0
+                          }
+                        },
+                        "StateTRDisabled": {
+                          "Material": "Table_TopRight_1"
+                        },
+                        "StateCLDisabled": {
+                          "Material": "Table_Left_1",
+                          "Wrap": {
+                            "width": 0,
+                            "height": 200
+                          }
+                        },
+                        "StateCCDisabled": {
+                          "Material": "Table_Inlay_1",
+                          "Wrap": {
+                            "width": 200,
+                            "height": 200
+                          }
+                        },
+                        "StateCRDisabled": {
+                          "Material": "Table_Right_1",
+                          "Wrap": {
+                            "width": 0,
+                            "height": 200
+                          }
+                        },
+                        "StateBLDisabled": {
+                          "Material": "Table_BottomLeft_1"
+                        },
+                        "StateBCDisabled": {
+                          "Material": "Table_Bottom_1",
+                          "Wrap": {
+                            "width": 200,
+                            "height": 0
+                          }
+                        },
+                        "StateBRDisabled": {
+                          "Material": "Table_BottomRight_1"
+                        }
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "ListBox",
+                            "Name": "SummaryListBox",
+                            "FIXME-IDS": 0,
+                            "ViewPort": {
+                              "xorigin": 110,
+                              "yorigin": 190,
+                              "width": 2430,
+                              "height": 1005,
+                              "alignment": "TopLeft"
+                            },
+                            "KeyFocusBoundsOffset": {
+                              "xorigin": -110,
+                              "yorigin": 4,
+                              "width": 0,
+                              "height": 0
+                            },
+                            "ZPlane": 4,
+                            "ListBox": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 2990,
+                              "height": 932,
+                              "gridstep": 22,
+                              "edgespacer": 8,
+                              "linespacer": 0,
+                              "linesize": 100,
+                              "listenForKeyInput": true,
+                              "columnwidths": [
+                                {
+                                  "width": 710
+                                },
+                                {
+                                  "width": 165
+                                },
+                                {
+                                  "width": 125
+                                },
+                                {
+                                  "width": 75
+                                },
+                                {
+                                  "width": 75
+                                },
+                                {
+                                  "width": 75
+                                },
+                                {
+                                  "width": 215
+                                },
+                                {
+                                  "width": 215
+                                },
+                                {
+                                  "width": 215
+                                },
+                                {
+                                  "width": 215
+                                },
+                                {
+                                  "width": 215
+                                },
+                                {
+                                  "width": 215
+                                },
+                                {
+                                  "width": 215
+                                }
+                              ]
+                            },
+                            "StateMaterials": {
+                              "StateTextNormal": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 50,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 57,
+                                    "g": 28,
+                                    "b": 27,
+                                    "a": 255
+                                  }
+                                }
+                              },
+                              "StateTextSelected": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 50,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 57,
+                                    "g": 28,
+                                    "b": 27,
+                                    "a": 255
+                                  }
+                                }
+                              },
+                              "StateTextHilighted": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 50,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 57,
+                                    "g": 28,
+                                    "b": 27,
+                                    "a": 255
+                                  }
+                                }
+                              },
+                              "StateTextPressed": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 50,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 57,
+                                    "g": 28,
+                                    "b": 27,
+                                    "a": 255
+                                  }
+                                }
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "MVPIcon",
+                                  "ViewPort": {
+                                    "xorigin": 750,
+                                    "yorigin": 924,
+                                    "width": 64,
+                                    "height": 64,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "StateMaterials": {
+                                    "StateDisabled": {
+                                      "Material": "MVPIcon",
+                                      "Color": {
+                                        "r": 0.25,
+                                        "g": 0.25,
+                                        "b": 0.25,
+                                        "a": 1
+                                      }
+                                    },
+                                    "StateNormal": {
+                                      "Material": "MVPIcon",
+                                      "Color": {
+                                        "r": 1,
+                                        "g": 1,
+                                        "b": 1,
+                                        "a": 1
+                                      }
+                                    }
+                                  },
+                                  "ChildWidgets": [
+                                    {
+                                      "Widget": {
+                                        "Type": "Label",
+                                        "Name": "Label",
+                                        "ViewPort": {
+                                          "xorigin": 70,
+                                          "yorigin": 8,
+                                          "width": 600,
+                                          "height": 200,
+                                          "alignment": "TopLeft"
+                                        },
+                                        "ClippingOverride": "Background/TimeAnchor",
+                                        "StateMaterials": {
+                                          "StateNormal": {
+                                            "Font": {
+                                              "FontIndex": 0,
+                                              "PointSize": 50,
+                                              "Style": "Normal",
+                                              "TextColor": {
+                                                "r": 57,
+                                                "g": 28,
+                                                "b": 27,
+                                                "a": 255
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "Text": "IDS_RESULTS_MVP",
+                                        "TextAnchor": "TopLeft",
+                                        "ChildWidgets": []
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "WinnerIcon",
+                                  "ViewPort": {
+                                    "xorigin": 400,
+                                    "yorigin": 930,
+                                    "width": 64,
+                                    "height": 64,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "StateMaterials": {
+                                    "StateDisabled": {
+                                      "Material": "WinnerIcon",
+                                      "Color": {
+                                        "r": 0.25,
+                                        "g": 0.25,
+                                        "b": 0.25,
+                                        "a": 1
+                                      }
+                                    },
+                                    "StateNormal": {
+                                      "Material": "WinnerIcon",
+                                      "Color": {
+                                        "r": 1,
+                                        "g": 1,
+                                        "b": 1,
+                                        "a": 1
+                                      }
+                                    }
+                                  },
+                                  "ChildWidgets": [
+                                    {
+                                      "Widget": {
+                                        "Type": "Label",
+                                        "Name": "Label",
+                                        "ViewPort": {
+                                          "xorigin": 70,
+                                          "yorigin": 0,
+                                          "width": 600,
+                                          "height": 200,
+                                          "alignment": "TopLeft"
+                                        },
+                                        "ClippingOverride": "Background/TimeAnchor",
+                                        "StateMaterials": {
+                                          "StateNormal": {
+                                            "Font": {
+                                              "FontIndex": 0,
+                                              "PointSize": 50,
+                                              "Style": "Normal",
+                                              "TextColor": {
+                                                "r": 57,
+                                                "g": 28,
+                                                "b": 27,
+                                                "a": 255
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "Text": "IDS_RESULTS_WINNER",
+                                        "TextAnchor": "TopLeft",
+                                        "ChildWidgets": []
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "StarIcon",
+                                  "ViewPort": {
+                                    "xorigin": 0,
+                                    "yorigin": 930,
+                                    "width": 44,
+                                    "height": 44,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "StateMaterials": {
+                                    "StateDisabled": {
+                                      "Material": "StarIcon",
+                                      "Color": {
+                                        "r": 0.25,
+                                        "g": 0.25,
+                                        "b": 0.25,
+                                        "a": 1
+                                      }
+                                    },
+                                    "StateNormal": {
+                                      "Material": "StarIcon",
+                                      "Color": {
+                                        "r": 1,
+                                        "g": 1,
+                                        "b": 1,
+                                        "a": 1
+                                      }
+                                    }
+                                  },
+                                  "ChildWidgets": [
+                                    {
+                                      "Widget": {
+                                        "Type": "Label",
+                                        "Name": "Label",
+                                        "ViewPort": {
+                                          "xorigin": 50,
+                                          "yorigin": 0,
+                                          "width": 600,
+                                          "height": 200,
+                                          "alignment": "TopLeft"
+                                        },
+                                        "ClippingOverride": "Background/TimeAnchor",
+                                        "StateMaterials": {
+                                          "StateNormal": {
+                                            "Font": {
+                                              "FontIndex": 0,
+                                              "PointSize": 50,
+                                              "Style": "Normal",
+                                              "TextColor": {
+                                                "r": 57,
+                                                "g": 28,
+                                                "b": 27,
+                                                "a": 255
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "Text": "IDS_RESULTS_STAR",
+                                        "TextAnchor": "TopLeft",
+                                        "ChildWidgets": []
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "TimeAnchor",
+                "Anchor": {
+                  "xorigin": 0,
+                  "yorigin": -100
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "TimeDisplayLabel",
+                      "ViewPort": {
+                        "xorigin": 2750,
+                        "yorigin": 470,
+                        "width": 500,
+                        "height": 74,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 3,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 56,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "00:00:00",
+                      "TextAnchor": "TopCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Surround",
+                      "Name": "Background",
+                      "ViewPort": {
+                        "xorigin": 567,
+                        "yorigin": 450,
+                        "width": 2700,
+                        "height": 1475,
+                        "alignment": "TopLeft"
+                      },
+                      "Box": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 2700,
+                        "height": 1465,
+                        "alignment": "TopLeft",
+                        "gridstep": 50,
+                        "drawbox": true
+                      },
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "StateTLDisabled": {
+                          "Material": "BackgroundDecorationBoxTopLeft_3"
+                        },
+                        "StateTCDisabled": {
+                          "Material": "BackgroundDecorationBoxTop_3"
+                        },
+                        "StateTRDisabled": {
+                          "Material": "BackgroundDecorationBoxTopRight_3"
+                        },
+                        "StateCLDisabled": {
+                          "Material": "BackgroundDecorationBoxLeft_3"
+                        },
+                        "StateCCDisabled": {
+                          "Material": "BackgroundDecorationBoxInlay_3"
+                        },
+                        "StateCRDisabled": {
+                          "Material": "BackgroundDecorationBoxRight_3"
+                        },
+                        "StateBLDisabled": {
+                          "Material": "BackgroundDecorationBoxBottomLeft_3"
+                        },
+                        "StateBCDisabled": {
+                          "Material": "BackgroundDecorationBoxBottom_3"
+                        },
+                        "StateBRDisabled": {
+                          "Material": "BackgroundDecorationBoxBottomRight_3"
+                        },
+                        "StateTLNormal": {
+                          "Material": "BackgroundDecorationBoxTopLeft_3"
+                        },
+                        "StateTCNormal": {
+                          "Material": "BackgroundDecorationBoxTop_3"
+                        },
+                        "StateTRNormal": {
+                          "Material": "BackgroundDecorationBoxTopRight_3"
+                        },
+                        "StateCLNormal": {
+                          "Material": "BackgroundDecorationBoxLeft_3"
+                        },
+                        "StateCCNormal": {
+                          "Material": "BackgroundDecorationBoxInlay_3"
+                        },
+                        "StateCRNormal": {
+                          "Material": "BackgroundDecorationBoxRight_3"
+                        },
+                        "StateBLNormal": {
+                          "Material": "BackgroundDecorationBoxBottomLeft_3"
+                        },
+                        "StateBCNormal": {
+                          "Material": "BackgroundDecorationBoxBottom_3"
+                        },
+                        "StateBRNormal": {
+                          "Material": "BackgroundDecorationBoxBottomRight_3"
+                        }
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "PlayerPopulationLabel",
+                      "ViewPort": {
+                        "xorigin": 642,
+                        "yorigin": 470,
+                        "width": 850,
+                        "height": 200,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 4,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 56,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_ACHIEVEMENTS_PLAYER_POP_PERCENTAGE",
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "WorldPopulationLabel",
+                      "ViewPort": {
+                        "xorigin": 1250,
+                        "yorigin": 1655,
+                        "width": 0,
+                        "height": 100,
+                        "alignment": "TopRight",
+                        "debug": "off"
+                      },
+                      "AutoSize": true,
+                      "ZPlane": 4,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_ACHIEVEMENTS_WORLD_POP_AND_TIME",
+                      "TextAnchor": "TopCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "KeyAnchor",
+                      "Anchor": {
+                        "xorigin": 120,
+                        "yorigin": 100
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "DestructionIcon",
+                            "ViewPort": {
+                              "xorigin": 2600,
+                              "yorigin": 1685,
+                              "width": 320,
+                              "height": 100,
+                              "alignment": "TopLeft",
+                              "debug": "off"
+                            },
+                            "Image": {
+                              "yorigin": 10,
+                              "width": 54,
+                              "height": 60
+                            },
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "WonderDestruction",
+                                "Color": {
+                                  "r": 0.25,
+                                  "g": 0.25,
+                                  "b": 0.25,
+                                  "a": 1
+                                }
+                              },
+                              "StateNormal": {
+                                "Material": "WonderDestruction",
+                                "Color": {
+                                  "r": 1,
+                                  "g": 1,
+                                  "b": 1,
+                                  "a": 1
+                                }
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Label",
+                                  "ViewPort": {
+                                    "xorigin": 70,
+                                    "yorigin": 0,
+                                    "width": 300,
+                                    "height": 200,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "Background/TimeAnchor",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 50,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 57,
+                                          "g": 28,
+                                          "b": 27,
+                                          "a": 255
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "Text": "IDS_RESULTS_WONDER_DESTRUCTION",
+                                  "TextAnchor": "TopLeft",
+                                  "ChildWidgets": []
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "CreationIcon",
+                            "ViewPort": {
+                              "xorigin": 2220,
+                              "yorigin": 1685,
+                              "width": 320,
+                              "height": 100,
+                              "alignment": "TopLeft",
+                              "debug": "off"
+                            },
+                            "Image": {
+                              "yorigin": 10,
+                              "width": 52.8,
+                              "height": 67.2
+                            },
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "WonderConstruction",
+                                "Color": {
+                                  "r": 0.25,
+                                  "g": 0.25,
+                                  "b": 0.25,
+                                  "a": 1
+                                }
+                              },
+                              "StateNormal": {
+                                "Material": "WonderConstruction",
+                                "Color": {
+                                  "r": 1,
+                                  "g": 1,
+                                  "b": 1,
+                                  "a": 1
+                                }
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Label",
+                                  "ViewPort": {
+                                    "xorigin": 70,
+                                    "yorigin": 0,
+                                    "width": 300,
+                                    "height": 200,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "Background/TimeAnchor",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 50,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 57,
+                                          "g": 28,
+                                          "b": 27,
+                                          "a": 255
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "Text": "IDS_RESULTS_WONDER_CONSTRUCTION",
+                                  "TextAnchor": "TopLeft",
+                                  "ChildWidgets": []
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "BattleIcon",
+                            "ViewPort": {
+                              "xorigin": 1800,
+                              "yorigin": 1685,
+                              "width": 240,
+                              "height": 100,
+                              "alignment": "TopLeft",
+                              "debug": "off"
+                            },
+                            "Image": {
+                              "yorigin": 10,
+                              "width": 53,
+                              "height": 53
+                            },
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "BattleEvent",
+                                "Color": {
+                                  "r": 0.25,
+                                  "g": 0.25,
+                                  "b": 0.25,
+                                  "a": 1
+                                }
+                              },
+                              "StateNormal": {
+                                "Material": "BattleEvent",
+                                "Color": {
+                                  "r": 1,
+                                  "g": 1,
+                                  "b": 1,
+                                  "a": 1
+                                }
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Battle Event",
+                                  "ViewPort": {
+                                    "xorigin": 70,
+                                    "yorigin": 0,
+                                    "width": 300,
+                                    "height": 200,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "Background/TimeAnchor",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 50,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 57,
+                                          "g": 28,
+                                          "b": 27,
+                                          "a": 255
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "Text": "IDS_RESULTS_BATTLE",
+                                  "TextAnchor": "TopLeft",
+                                  "ChildWidgets": []
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "ImperialIcon",
+                            "ViewPort": {
+                              "xorigin": 1400,
+                              "yorigin": 1685,
+                              "width": 280,
+                              "height": 100,
+                              "alignment": "TopLeft",
+                              "debug": "off"
+                            },
+                            "Image": {
+                              "yorigin": 10,
+                              "width": 60,
+                              "height": 60
+                            },
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "Age4Event",
+                                "Color": {
+                                  "r": 0.25,
+                                  "g": 0.25,
+                                  "b": 0.25,
+                                  "a": 1
+                                }
+                              },
+                              "StateNormal": {
+                                "Material": "Age4Event",
+                                "Color": {
+                                  "r": 1,
+                                  "g": 1,
+                                  "b": 1,
+                                  "a": 1
+                                }
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Label",
+                                  "ViewPort": {
+                                    "xorigin": 70,
+                                    "yorigin": 0,
+                                    "width": 300,
+                                    "height": 200,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "Background/TimeAnchor",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 50,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 57,
+                                          "g": 28,
+                                          "b": 27,
+                                          "a": 255
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "Text": "IDS_RESULTS_IMPERIAL_AGE",
+                                  "TextAnchor": "TopLeft",
+                                  "ChildWidgets": []
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "CastleIcon",
+                            "ViewPort": {
+                              "xorigin": 1000,
+                              "yorigin": 1685,
+                              "width": 260,
+                              "height": 100,
+                              "debug": "off",
+                              "alignment": "TopLeft"
+                            },
+                            "Image": {
+                              "yorigin": 10,
+                              "width": 60,
+                              "height": 60
+                            },
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "Age3Event",
+                                "Color": {
+                                  "r": 0.25,
+                                  "g": 0.25,
+                                  "b": 0.25,
+                                  "a": 1
+                                }
+                              },
+                              "StateNormal": {
+                                "Material": "Age3Event",
+                                "Color": {
+                                  "r": 1,
+                                  "g": 1,
+                                  "b": 1,
+                                  "a": 1
+                                }
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Label",
+                                  "ViewPort": {
+                                    "xorigin": 70,
+                                    "yorigin": 0,
+                                    "width": 300,
+                                    "height": 200,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "Background/TimeAnchor",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 50,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 57,
+                                          "g": 28,
+                                          "b": 27,
+                                          "a": 255
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "Text": "IDS_RESULTS_CASTLE_AGE",
+                                  "TextAnchor": "TopLeft",
+                                  "ChildWidgets": []
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "FeudalAge",
+                            "ViewPort": {
+                              "xorigin": 600,
+                              "yorigin": 1685,
+                              "width": 260,
+                              "height": 100,
+                              "alignment": "TopLeft",
+                              "debug": "off"
+                            },
+                            "Image": {
+                              "xorigin": 0,
+                              "yorigin": 10,
+                              "width": 60,
+                              "height": 60
+                            },
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Material": "Age2Event",
+                                "Color": {
+                                  "r": 0.25,
+                                  "g": 0.25,
+                                  "b": 0.25,
+                                  "a": 1
+                                }
+                              },
+                              "StateNormal": {
+                                "Material": "Age2Event",
+                                "Color": {
+                                  "r": 1,
+                                  "g": 1,
+                                  "b": 1,
+                                  "a": 1
+                                }
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Label",
+                                  "ViewPort": {
+                                    "xorigin": 70,
+                                    "yorigin": 0,
+                                    "width": 300,
+                                    "height": 200,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "Background/TimeAnchor",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 50,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 57,
+                                          "g": 28,
+                                          "b": 27,
+                                          "a": 255
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "Text": "IDS_RESULTS_FEUDAL_AGE",
+                                  "TextAnchor": "TopLeft",
+                                  "ChildWidgets": []
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "TimeLine",
+                      "Name": "Timeline",
+                      "Help": "IDS_ACHIEVEMENTS_WORLD_POP_AND_TIME_HELP_TEXT",
+                      "ViewPort": {
+                        "xorigin": 625,
+                        "yorigin": 562,
+                        "width": 2600,
+                        "height": 1250,
+                        "debug": "off",
+                        "alignment": "TopLeft"
+                      },
+                      "Image": {
+                        "xorigin": 680,
+                        "yorigin": 0,
+                        "width": 1884,
+                        "height": 1096,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "ChatAnchor",
+                "Anchor": {
+                  "xorigin": 1080,
+                  "yorigin": 1570
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Surround",
+                      "Name": "ChatBackground",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 25,
+                        "width": 1645,
+                        "height": 240,
+                        "alignment": "TopLeft"
+                      },
+                      "Box": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 1645,
+                        "height": 240,
+                        "alignment": "TopLeft",
+                        "gridstep": 32,
+                        "drawbox": true
+                      },
+                      "StateMaterials": {
+                        "StateTLDisabled": {
+                          "Material": "BackgroundDecorationBoxTopLeft_2"
+                        },
+                        "StateTCDisabled": {
+                          "Material": "BackgroundDecorationBoxTop_2"
+                        },
+                        "StateTRDisabled": {
+                          "Material": "BackgroundDecorationBoxTopRight_2"
+                        },
+                        "StateCLDisabled": {
+                          "Material": "BackgroundDecorationBoxLeft_2"
+                        },
+                        "StateCCDisabled": {
+                          "Material": "BackgroundDecorationBoxInlay_2"
+                        },
+                        "StateCRDisabled": {
+                          "Material": "BackgroundDecorationBoxRight_2"
+                        },
+                        "StateBLDisabled": {
+                          "Material": "BackgroundDecorationBoxBottomLeft_2"
+                        },
+                        "StateBCDisabled": {
+                          "Material": "BackgroundDecorationBoxBottom_2"
+                        },
+                        "StateBRDisabled": {
+                          "Material": "BackgroundDecorationBoxBottomRight_2"
+                        },
+                        "StateTLNormal": {
+                          "Material": "BackgroundDecorationBoxTopLeft_2"
+                        },
+                        "StateTCNormal": {
+                          "Material": "BackgroundDecorationBoxTop_2"
+                        },
+                        "StateTRNormal": {
+                          "Material": "BackgroundDecorationBoxTopRight_2"
+                        },
+                        "StateCLNormal": {
+                          "Material": "BackgroundDecorationBoxLeft_2"
+                        },
+                        "StateCCNormal": {
+                          "Material": "BackgroundDecorationBoxInlay_2"
+                        },
+                        "StateCRNormal": {
+                          "Material": "BackgroundDecorationBoxRight_2"
+                        },
+                        "StateBLNormal": {
+                          "Material": "BackgroundDecorationBoxBottomLeft_2"
+                        },
+                        "StateBCNormal": {
+                          "Material": "BackgroundDecorationBoxBottom_2"
+                        },
+                        "StateBRNormal": {
+                          "Material": "BackgroundDecorationBoxBottomRight_2"
+                        }
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "MultiColorTextBox",
+                      "Name": "ChatBox",
+                      "ViewPort": {
+                        "xorigin": 32,
+                        "yorigin": 35,
+                        "width": 1625,
+                        "height": 220,
+                        "alignment": "TopLeft"
+                      },
+                      "TextBox": {
+                        "xorigin": 2,
+                        "yorigin": 2,
+                        "width": 1536,
+                        "height": 220,
+                        "edgespacer": 1,
+                        "linespacer": 1,
+                        "linesize": 40,
+                        "drawbox": true
+                      },
+                      "StateMaterials": {
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "dsa hdsadsadhsjkdaskdhsadksajdhka adkdhkd kd hakhdkhakhkhhsakdhs sad hadh sa dsadkhsa sadsa hsakhsadk sakjhd sakshdjksa khdask ask jdhsa kjsahdksakfdsklhkkjf hskdf kfhsa kjksd hksahf ksd hf sakjhf ksafkahf sjkhs fsfkj fksajfh kjdsh fksjdhf sakfhdsds khsdfk skfdsh ksafjksa hfdkjfh dskfjhds kjdshf skdjfhsakdhsdfjksdhf kfsdhf kfhsa fdkjdshf sgsgadshjfkkdslf flks ds ksdf sfsf fsh kdsh fslfksjhgagkljdshfasklfjhsf slkfhs fksajfh lkdsahfalkdsf dslkfh lskfjh slkfhslkhflskf hkdshf lkahsd lfkjhdkljsdf klsdhfskdjhfsakj fkf akf hk  kjhf skdjfh sjkfdh ksjlhfslfkdshf lfkjsh lkf hslksjfh sldkfj salkfdsfkl lkhf klfh alkh ",
+                      "TextAnchor": "CentreLeft",
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "ScrollBarVertical",
+                            "Name": "TextBoxScrollBar",
+                            "ViewPort": {
+                              "xorigin": 1570,
+                              "yorigin": 0,
+                              "width": 32,
+                              "height": 240,
+                              "alignment": "TopLeft"
+                            },
+                            "ZPlane": 2,
+                            "Bar": {
+                              "xorigin": 0,
+                              "yorigin": 32,
+                              "width": 32,
+                              "height": 176
+                            },
+                            "MinButton": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 32,
+                              "height": 32
+                            },
+                            "MaxButton": {
+                              "xorigin": 0,
+                              "yorigin": 208,
+                              "width": 32,
+                              "height": 32
+                            },
+                            "TabSize": {
+                              "width": 32,
+                              "height": 32
+                            },
+                            "StateMaterials": {
+                              "StateBarBackground": {
+                                "Material": "ScrollBarBackground"
+                              },
+                              "StateBarForeground": {
+                                "Material": "ScrollBarBackground"
+                              },
+                              "StateMinDisabled": {
+                                "Material": "ScrollBarUpArrowNormal"
+                              },
+                              "StateMinNormal": {
+                                "Material": "ScrollBarUpArrowNormal"
+                              },
+                              "StateMinHover": {
+                                "Material": "ScrollBarUpArrowHover"
+                              },
+                              "StateMinPressed": {
+                                "Material": "ScrollBarUpArrowPressed"
+                              },
+                              "StateMaxDisabled": {
+                                "Material": "ScrollBarDownArrowNormal"
+                              },
+                              "StateMaxNormal": {
+                                "Material": "ScrollBarDownArrowNormal"
+                              },
+                              "StateMaxHover": {
+                                "Material": "ScrollBarDownArrowHover"
+                              },
+                              "StateMaxPressed": {
+                                "Material": "ScrollBarDownArrowPressed"
+                              },
+                              "StateTabDisabled": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabNormal": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabHover": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabPressed": {
+                                "Material": "ScrollBarHandleNormal"
+                              }
+                            },
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "ChatBox",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 280,
+                        "width": 1645,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Wrap": {
+                        "width": 50,
+                        "height": 0
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Material": "BackgroundDecorationBoxInlay_2"
+                        },
+                        "StateDisabled": {
+                          "Material": "BackgroundDecorationBoxInlay_2"
+                        }
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "TextBoxInput",
+                      "Name": "ChatInputBox",
+                      "Help": "IDS_CHAT_INPUT_HELP_TEXT",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 280,
+                        "width": 1645,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 2,
+                      "TextBox": {
+                        "xorigin": 2,
+                        "yorigin": 0,
+                        "width": 1645,
+                        "height": 40,
+                        "edgespacer": 1,
+                        "linespacer": 0,
+                        "linesize": 40,
+                        "drawbox": false,
+                        "CursorColor": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1,
+                          "a": 1
+                        }
+                      },
+                      "StateMaterials": {
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 1
+                            }
+                          }
+                        }
+                      },
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "BottomButtonAnchor",
+                "Anchor": {
+                  "xorigin": -20,
+                  "yorigin": 120
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonMainMenu",
+                      "ViewPort": {
+                        "xorigin": 575,
+                        "yorigin": 1700,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "HotKey": {
+                        "Key": 27,
+                        "Ctrl": false,
+                        "Alt": false,
+                        "Shift": false
+                      },
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Help": "IDS_MAINMENU_RETURN_HELP",
+                      "Text": "IDS_MAINMENU_RETURN",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonPlayAgain",
+                      "ViewPort": {
+                        "xorigin": 1125,
+                        "yorigin": 1700,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_ACHIEVEMENTS_PLAYAGAIN_HELP_TEXT",
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_ACHIEVEMENTS_PLAYAGAIN",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonNextLevel",
+                      "ViewPort": {
+                        "xorigin": 1675,
+                        "yorigin": 1700,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_ACHIEVEMENT_NEXT_LEVEL_HELP",
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_ACHIEVEMENT_NEXT_LEVEL",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonSpectateCA",
+                      "ViewPort": {
+                        "xorigin": 2225,
+                        "yorigin": 1700,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "",
+                      "Help": 19353,
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Label",
+                            "Name": "Title",
+                            "ViewPort": {
+                              "xorigin": 240,
+                              "yorigin": 35,
+                              "width": 400,
+                              "height": 60,
+                              "alignment": "CentreCentre"
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 45,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 242,
+                                    "g": 210,
+                                    "b": 182,
+                                    "a": 255
+                                  }
+                                }
+                              }
+                            },
+                            "Text": "IDS_CAPTURE_AGE_SPECTATE_TEXT",
+                            "TextAnchor": "CentreCentre",
+                            "ChildWidgets": []
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "IconCA",
+                            "ViewPort": {
+                              "xorigin": 400,
+                              "yorigin": 35,
+                              "width": 60,
+                              "height": 60,
+                              "alignment": "CentreLeft"
+                            },
+                            "StateMaterials": {
+                              "UserStates": 1,
+                              "UserState0": {
+                                "Material": "CAIconGold"
+                              }
+                            },
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonToMap",
+                      "ViewPort": {
+                        "xorigin": 2775,
+                        "yorigin": 1700,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_RETURN_TO_MAP_HELP",
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_RETURN_TO_MAP",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonRematch",
+                      "ViewPort": {
+                        "xorigin": 1920,
+                        "yorigin": 1890,
+                        "width": 500,
+                        "height": 100,
+                        "alignment": "CentreCentre"
+                      },
+                      "Help": "IDS_REMATCH_HELP",
+                      "ZPlane": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_REMATCH",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "RematchBetaSticker",
+                            "ViewPort": {
+                              "xorigin": 30,
+                              "yorigin": 50,
+                              "width": 144,
+                              "height": 144,
+                              "alignment": "CentreCentre",
+                              "noclip": true
+                            },
+                            "ZPlane": 2,
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "BetaSticker"
+                              },
+                              "StateDisabled": {
+                                "Material": "BetaSticker"
+                              }
+                            },
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,796 @@
+{
+  "Collection": {
+    "AllowTabNavigation": false,
+    "Name": "EditorBottomMessagesPanel",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 2160,
+      "width": 13840,
+      "height": 411,
+      "alignment": "BottomLeft"
+    },
+    "TabOrder": [
+      {
+        "Tab": "PanelAnchor/Instructions"
+      },
+      {
+        "Tab": "PanelAnchor/Hints"
+      },
+      {
+        "Tab": "PanelAnchor/Victory"
+      },
+      {
+        "Tab": "PanelAnchor/Loss"
+      },
+      {
+        "Tab": "PanelAnchor/History"
+      },
+      {
+        "Tab": "PanelAnchor/Scout"
+      },
+      {
+        "Tab": "PanelAnchor/StringTableInputBox"
+      },
+      {
+        "Tab": "PanelAnchor/MessageInputBox"
+      }
+    ],
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "PanelAnchor",
+          "Anchor": {
+            "xorigin": 40,
+            "yorigin": 40,
+            "alignment": "TopLeft"
+          },
+          "ZPlane": 2,
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "CheckBox",
+                "Name": "Instructions",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 450,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+                "Help": "IDS_SED2_EDIT_MESSSAGE_SCENARIO_INSTRUCTIONS_HELP_TEXT",
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateCheckedDisabled": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateChecked": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateCheckedHover": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateCheckedPressed": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateUncheckedDisabled": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUnchecked": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUncheckedHover": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  },
+                  "StateUncheckedPressed": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  }
+                },
+                "Image": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 36,
+                  "height": 36,
+                  "alignment": "TopLeft"
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Label",
+                      "ViewPort": {
+                        "xorigin": 48,
+                        "yorigin": 0,
+                        "width": 380,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 2,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_SCENARIO_INSTRUCTIONS",
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "CheckBox",
+                "Name": "Hints",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 50,
+                  "width": 450,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+                "Help": "IDS_SED2_EDIT_MESSSAGE_HINTS_HELP_TEXT",
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateCheckedDisabled": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateChecked": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateCheckedHover": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateCheckedPressed": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateUncheckedDisabled": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUnchecked": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUncheckedHover": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  },
+                  "StateUncheckedPressed": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  }
+                },
+                "Image": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 36,
+                  "height": 36,
+                  "alignment": "TopLeft"
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Label",
+                      "ViewPort": {
+                        "xorigin": 48,
+                        "yorigin": 0,
+                        "width": 380,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 2,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_SED2_MESSAGE_HINTS",
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "CheckBox",
+                "Name": "Victory",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 100,
+                  "width": 450,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+                "Help": "IDS_SED2_RB_MESSAGE_WIN_HELP_TEXT",
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateCheckedDisabled": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateChecked": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateCheckedHover": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateCheckedPressed": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateUncheckedDisabled": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUnchecked": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUncheckedHover": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  },
+                  "StateUncheckedPressed": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  }
+                },
+                "Image": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 36,
+                  "height": 36,
+                  "alignment": "TopLeft"
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Label",
+                      "ViewPort": {
+                        "xorigin": 48,
+                        "yorigin": 0,
+                        "width": 380,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 2,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_SED2_MESSAGE_WIN",
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "CheckBox",
+                "Name": "Loss",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 150,
+                  "width": 450,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+                "Help": "IDS_SED2_RB_MESSAGE_LOSE_HELP_TEXT",
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateCheckedDisabled": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateChecked": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateCheckedHover": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateCheckedPressed": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateUncheckedDisabled": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUnchecked": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUncheckedHover": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  },
+                  "StateUncheckedPressed": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  }
+                },
+                "Image": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 36,
+                  "height": 36,
+                  "alignment": "TopLeft"
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Label",
+                      "ViewPort": {
+                        "xorigin": 48,
+                        "yorigin": 0,
+                        "width": 380,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 2,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_SED2_MESSAGE_LOSE",
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "CheckBox",
+                "Name": "History",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 200,
+                  "width": 450,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+                "Help": "IDS_SED2_EDIT_MESSSAGE_HISTORY_HELP_TEXT",
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateCheckedDisabled": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateChecked": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateCheckedHover": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateCheckedPressed": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateUncheckedDisabled": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUnchecked": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUncheckedHover": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  },
+                  "StateUncheckedPressed": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  }
+                },
+                "Image": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 36,
+                  "height": 36,
+                  "alignment": "TopLeft"
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Label",
+                      "ViewPort": {
+                        "xorigin": 48,
+                        "yorigin": 0,
+                        "width": 380,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 2,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_MESSAGE_TEXT_HISTORIC",
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "CheckBox",
+                "Name": "Scout",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 250,
+                  "width": 450,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+                "Help": "IDS_SED2_RB_MESSAGE_SCOUT_HELP_TEXT",
+                "ZPlane": 2,
+                "StateMaterials": {
+                  "StateCheckedDisabled": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateChecked": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateCheckedHover": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateCheckedPressed": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateUncheckedDisabled": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUnchecked": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUncheckedHover": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  },
+                  "StateUncheckedPressed": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  }
+                },
+                "Image": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 36,
+                  "height": 36,
+                  "alignment": "TopLeft"
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Label",
+                      "ViewPort": {
+                        "xorigin": 48,
+                        "yorigin": 0,
+                        "width": 380,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 2,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_SED2_MESSAGE_SCOUT",
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "TextBoxInput",
+                "Name": "StringTableInputBox",
+                "ViewPort": {
+                  "xorigin": 500,
+                  "yorigin": 0,
+                  "width": 492,
+                  "height": 50,
+                  "alignment": "TopLeft"
+                },
+                "ZPlane": 2,
+                "TextBox": {
+                  "xorigin": 2,
+                  "yorigin": 2,
+                  "width": 184,
+                  "height": 50,
+                  "edgespacer": 1,
+                  "linespacer": 1,
+                  "linesize": 50,
+                  "drawbox": false
+                },
+                "Help": "IDS_SED2_RB_MESSAGE_STRING_TABLE_HELP_TEXT",
+                "StateMaterials": {
+                  "StateTextNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 250,
+                        "g": 250,
+                        "b": 250,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "TextAnchor": "TopLeft",
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "Background",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 192,
+                        "height": 50,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 2,
+                      "StateMaterials": {
+                        "UserStates": 1,
+                        "UserState0": {
+                          "Material": "SEditorTextfieldShort"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Label",
+                      "ViewPort": {
+                        "xorigin": 208,
+                        "yorigin": 0,
+                        "width": 380,
+                        "height": 50,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 2,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_SED2_MESSAGE_STRING",
+                      "TextAnchor": "CentreLeft",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+
+            {
+              "Widget": {
+                "Type": "TextBoxInput",
+                "Name": "MessageInputBox",
+                "ViewPort": {
+                  "xorigin": 500,
+                  "yorigin": 65,
+                  "width": 3248,
+                  "height": 250,
+                  "alignment": "TopLeft"
+                },
+                "ZPlane": 2,
+                "TextBox": {
+                  "xorigin": 2,
+                  "yorigin": 2,
+                  "width": 3244,
+                  "height": 246,
+                  "edgespacer": 1,
+                  "linespacer": 1,
+                  "linesize": 40,
+                  "multiline": true,
+                  "drawbox": false
+                },
+                "StateMaterials": {
+                  "StateTextNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 250,
+                        "g": 250,
+                        "b": 250,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Help": "IDS_SED2_RB_MESSAGE_SCOUT_HELP_TEXT",
+                "TextAnchor": "TopLeft",
+                "ChildWidgets": [
+
+                  {
+                    "Widget": {
+                      "Type": "ScrollBarVertical",
+                      "Name": "TextBoxScrollBar",
+                      "ViewPort": {
+                        "xorigin": 3200,
+                        "yorigin": 3,
+                        "width": 32,
+                        "height": 232,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 3,
+                      "Bar": {
+                        "xorigin": 0,
+                        "yorigin": 32,
+                        "width": 32,
+                        "height": 170
+                      },
+                      "MinButton": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 32,
+                        "height": 32
+                      },
+                      "MaxButton": {
+                        "xorigin": 0,
+                        "yorigin": 200,
+                        "width": 32,
+                        "height": 32
+                      },
+                      "TabSize": {
+                        "width": 32,
+                        "height": 32
+                      },
+                      "StateMaterials": {
+                        "StateBarBackground": {
+                          "Material": "ScrollBarBackground"
+                        },
+                        "StateBarForeground": {
+                          "Material": "ScrollBarBackground"
+                        },
+                        "StateMinDisabled": {
+                          "Material": "ScrollBarUpArrowNormal"
+                        },
+                        "StateMinNormal": {
+                          "Material": "ScrollBarUpArrowNormal"
+                        },
+                        "StateMinHover": {
+                          "Material": "ScrollBarUpArrowHover"
+                        },
+                        "StateMinPressed": {
+                          "Material": "ScrollBarUpArrowPressed"
+                        },
+                        "StateMaxDisabled": {
+                          "Material": "ScrollBarDownArrowNormal"
+                        },
+                        "StateMaxNormal": {
+                          "Material": "ScrollBarDownArrowNormal"
+                        },
+                        "StateMaxHover": {
+                          "Material": "ScrollBarDownArrowHover"
+                        },
+                        "StateMaxPressed": {
+                          "Material": "ScrollBarDownArrowPressed"
+                        },
+                        "StateTabDisabled": {
+                          "Material": "ScrollBarHandleNormal"
+                        },
+                        "StateTabNormal": {
+                          "Material": "ScrollBarHandleNormal"
+                        },
+                        "StateTabHover": {
+                          "Material": "ScrollBarHandleNormal"
+                        },
+                        "StateTabPressed": {
+                          "Material": "ScrollBarHandleNormal"
+                        }
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "Background",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 3248,
+                        "height": 250,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 2,
+                      "StateMaterials": {
+                        "UserStates": 1,
+                        "UserState0": {
+                          "Material": "FlatColor",
+                          "Color": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 255
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

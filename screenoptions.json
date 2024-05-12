@@ -1,0 +1,2533 @@
+{
+  "Collection": {
+    "Name": "ScreenOptions",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 0,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "TopLeft"
+    },
+    "PageOrder": [
+      {
+        "Page": "Background/TabsAnchor/InterfaceButton"
+      },
+      {
+        "Page": "Background/TabsAnchor/GraphicsButton"
+      },
+      {
+        "Page": "Background/TabsAnchor/AudioButton"
+      },
+      {
+        "Page": "Background/TabsAnchor/ButtonGame"
+      },
+      {
+        "Page": "Background/TabsAnchor/ButtonHotkeys"
+      }
+    ],
+    "TabOrder": [
+      {
+        "Tab": "Background/TabsAnchor/InterfaceButton"
+      },
+      {
+        "Tab": "Background/TabsAnchor/GraphicsButton"
+      },
+      {
+        "Tab": "Background/TabsAnchor/AudioButton"
+      },
+      {
+        "Tab": "Background/TabsAnchor/ButtonGame"
+      },
+      {
+        "Tab": "Background/TabsAnchor/ButtonHotkeys"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Left/GameLanguageDropDown"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Left/AccessibilitySerif"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Left/SmoothSerifFont"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Left/ClampMouseToWindow"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Left/TwoButtonMouse"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Left/ScenarioSlideShowSlabText"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Left/UniqueColors"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Left/PlayerColorDropDown"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Left/HealthBarColorDropDown"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Left/GridBehaviorDropdown"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Left/SliderGridColorLabel/SliderGridColor"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Right/SliderUIScaleLabel/SliderUIScale"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Right/ToopTipScaleLabel/ToopTipScale"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Right/HelpRolloverDropDown"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Right/ControlGroupIcons"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Right/EnableDeletingObjectWarnings"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Right/ZoomToCursor"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Right/EnableFutureItemsDisplay"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Right/GlobalQueueColumnType"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Right/ExtendNotificationDurationDropdown"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Right/ReadabilityPanelsCheckbox"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Right/ShowNotifications"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Right/MouseCursorSize"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Interface/Right/TechTreePreview"
+      },
+	  {
+        "Tab": "Background/OptionsPanels/Interface/Right/ExtendedUnitStats"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Left/MusicVolumeLabel/MusicVolume"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Left/SoundVolumeLabel/SoundVolume"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Left/VoiceVolumeSliderLabel/VoiceVolumeSlider"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Left/NarratorVolumeSliderLabel/NarratorVolumeSlider"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Left/SoundtrackPlaylist"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Left/AllowAudioTaunts"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Left/MuteOnFocusLost"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Right/AccessibilityMenus"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Right/AccessibilitySlideshow"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Right/AccessibilityGame"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Right/AccessibilityChat"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Right/AccessibilityMenuTooltips"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Right/AccessibilityGameTooltips"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Right/AccessibilityUnitName"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Audio/Right/AccessibilityResourceName"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/DisplayMode"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/GraphicsPresets"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/WindowResolution"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/SliderDefaultZoomLabel/SliderDefaultZoom"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/VerticalSync"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/FrameLimitLabel/FrameLimit"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/EnableObectAntiAlias"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/EnableUIAntiAlias"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/EnableTextAntiAlias"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/HighResolution"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/Render3DWater"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/RenderBeachWaves"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/EnableVignette"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/EnableColorCorrection"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Left/EnableBlood"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Right/ShowAdvanced"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Right/Particles"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Right/EnableEdgeBlur"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Right/EdgeBlurIntensityLabel/EdgeBlurIntensity"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Right/EnableBloom"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Right/BloomIntensityLabel/BloomIntensity"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Right/EnableSharpen"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Right/SharpenIntensityLabel/SharpenIntensity"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Right/GammaIntensityLabel/GammaIntensity"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Right/EnableCoolFog"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Right/SliderFogIntensityLabel/SliderFogIntensity"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Right/EnableCoolFogBorder"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Right/SliderFogBorderIntensityLabel/SliderFogBorderIntensity"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Graphics/Right/SliderDefaultZoomLabel/SliderDefaultZoom"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Left/OffensivePosture"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Left/HoverInfo"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Left/AutomaticFarmAndFishQueue"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Left/GlowHightlightslist"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Left/HealthBarVisibility"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Left/ResourceGauge"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Left/GameSpeedDropdown"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Left/BuildingRangeIndicatorDropdown"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Left/BuildingRangeIndicatorColor"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Left/RecordCampaignGames"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Left/Crossplay"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Left/DisableUGCWarning"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Left/DisableCAWarning"
+      },
+      {
+            "Tab": "Background/OptionsPanels/Game/Left/IdlePointers"
+         },
+         {
+            "Tab": "Background/OptionsPanels/Game/Left/SmallTrees"
+         },
+         {
+        "Tab": "Background/OptionsPanels/Game/Right/OldWaypointBehavior"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Right/RickClickGarrison"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Right/EnableEasyDragMilitary"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Right/EnableSelectionModifiers"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Right/EnableAppendGroups"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Right/TauntCheckBox"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Right/TauntTextCheckBox"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Right/VillagerDoubleClickDropdown"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Right/ScrollSpeedLabel/ScrollSpeed"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Right/ScrollInertiaLabel/ScrollInertia"
+      },
+      {
+        "Tab": "Background/OptionsPanels/Game/Right/ClickDragScrollingButtonList"
+      },
+      {
+        "Tab": "Background/ButtonAnchor/ButtonConfirm"
+      },
+      {
+        "Tab": "Background/ButtonAnchor/ButtonCancel"
+      },
+      {
+        "Tab": "Background/ButtonAnchor/ButtonReset"
+      },
+      {
+        "Tab": "Background/ButtonAnchor/XBLSignOut"
+      },
+      {
+        "Tab": "Background/ButtonAnchor/ButtonRunBenchmark"
+      },
+      {
+        "Tab": "Background/ButtonAnchor/ButtonClearCloud"
+      }
+    ],
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 1920,
+            "yorigin": 1080,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "CentreCentre"
+          },
+          "ZPlaneLocalOffset": 1,
+          "Image": {
+            "xorigin": 1920,
+            "yorigin": 1080,
+            "width": 5120,
+            "height": 2160,
+            "noclip": true,
+            "alignment": "CentreCentre"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "DefaultBackground",
+              "Color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0
+              }
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "TabsAnchor",
+                "Anchor": {
+                  "xorigin": 0,
+                  "yorigin": 0
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "InterfaceButton",
+                      "ClickSound": "?button_tab",
+                      "ViewPort": {
+                        "xorigin": 525,
+                        "yorigin": 0,
+                        "width": 500,
+                        "height": 180,
+                        "alignment": "TopLeft"
+                      },
+                      "DataValue": 0,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "Tab1Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "Tab1Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "Tab1Hover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "Tab1Active",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_OPTIONS_TAB_INTERFACE",
+                      "Help": "IDS_OPTIONS_INTERFACE_TAB_TOOLTIP",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "GraphicsButton",
+                      "ClickSound": "?button_tab",
+                      "ViewPort": {
+                        "xorigin": 975,
+                        "yorigin": 0,
+                        "width": 500,
+                        "height": 180,
+                        "alignment": "TopLeft"
+                      },
+                      "DataValue": 1,
+                      "Help": "IDS_OPTIONS_GRAPHICS_TAB_TOOLTIP",
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "Tab2Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "Tab2Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "Tab2Hover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "Tab2Active",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_OPTIONS_TAB_GRAPHICS",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "AudioButton",
+                      "ClickSound": "?button_tab",
+                      "ViewPort": {
+                        "xorigin": 1425,
+                        "yorigin": 0,
+                        "width": 500,
+                        "height": 180,
+                        "alignment": "TopLeft"
+                      },
+                      "DataValue": 2,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "Tab3Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "Tab3Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "Tab3Hover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "Tab3Active",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_OPTIONS_TAB_AUDIO",
+                      "Help": "IDS_OPTIONS_AUDIO_TAB_TOOLTIP",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonGame",
+                      "ClickSound": "?button_tab",
+                      "ViewPort": {
+                        "xorigin": 1875,
+                        "yorigin": 0,
+                        "width": 500,
+                        "height": 180,
+                        "alignment": "TopLeft"
+                      },
+                      "DataValue": 3,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "Tab4Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "Tab4Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "Tab4Hover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "Tab4Active",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": 4058,
+                      "Help": "IDS_OPTIONS_GAME_TAB_TOOLTIP",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonHotkeys",
+                      "ClickSound": "?button_tab",
+                      "ViewPort": {
+                        "xorigin": 2325,
+                        "yorigin": 0,
+                        "width": 500,
+                        "height": 180,
+                        "alignment": "TopLeft"
+                      },
+                      "DataValue": 4,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "Tab5Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "Tab5Normal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "Tab5Hover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "Tab5Active",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_OPT_HOTKEYS",
+                      "Help": "IDS_OPTIONS_HOTKEYS_TAB_TOOLTIP",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "None4",
+                      "ViewPort": {
+                        "xorigin": 2775,
+                        "yorigin": 0,
+                        "width": 500,
+                        "height": 180,
+                        "alignment": "TopLeft"
+                      },
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "Tab6None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "Tab6None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "Tab6None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "Tab6None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 50,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_LOBBY_LEADERBOARD_TITLE",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "TitleAnchor",
+                "Anchor": {
+                  "xorigin": 0,
+                  "yorigin": 0
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "TitleDecoration",
+                      "ViewPort": {
+                        "xorigin": 1920,
+                        "yorigin": 275,
+                        "width": 1500,
+                        "height": 200,
+                        "alignment": "CentreCentre"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Material": "BackgroundDecorationTitle"
+                        },
+                        "StateDisabled": {
+                          "Material": "BackgroundDecorationTitle"
+                        }
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Title",
+                      "ViewPort": {
+                        "xorigin": 1925,
+                        "yorigin": 275,
+                        "width": 400,
+                        "height": 64,
+                        "alignment": "CentreCentre"
+                      },
+                      "AutoSize": true,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 60,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_OPT_TITLE",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "BackgroundSurrounds",
+                "Anchor": {
+                  "xorigin": 1920,
+                  "yorigin": -25
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Surround",
+                      "Name": "Background1",
+                      "ViewPort": {
+                        "xorigin": -460,
+                        "yorigin": 430,
+                        "width": 850,
+                        "height": 1426,
+                        "alignment": "TopCentre"
+                      },
+                      "Box": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 850,
+                        "height": 1426,
+                        "alignment": "TopLeft",
+                        "gridstep": 50,
+                        "drawbox": true
+                      },
+                      "StateMaterials": {
+                        "StateTLDisabled": {
+                          "Material": "BackgroundDecorationBoxTopLeft_3"
+                        },
+                        "StateTCDisabled": {
+                          "Material": "BackgroundDecorationBoxTop_3"
+                        },
+                        "StateTRDisabled": {
+                          "Material": "BackgroundDecorationBoxTopRight_3"
+                        },
+                        "StateCLDisabled": {
+                          "Material": "BackgroundDecorationBoxLeft_3"
+                        },
+                        "StateCCDisabled": {
+                          "Material": "BackgroundDecorationBoxInlay_3"
+                        },
+                        "StateCRDisabled": {
+                          "Material": "BackgroundDecorationBoxRight_3"
+                        },
+                        "StateBLDisabled": {
+                          "Material": "BackgroundDecorationBoxBottomLeft_3"
+                        },
+                        "StateBCDisabled": {
+                          "Material": "BackgroundDecorationBoxBottom_3"
+                        },
+                        "StateBRDisabled": {
+                          "Material": "BackgroundDecorationBoxBottomRight_3"
+                        },
+                        "StateTLNormal": {
+                          "Material": "BackgroundDecorationBoxTopLeft_3"
+                        },
+                        "StateTCNormal": {
+                          "Material": "BackgroundDecorationBoxTop_3"
+                        },
+                        "StateTRNormal": {
+                          "Material": "BackgroundDecorationBoxTopRight_3"
+                        },
+                        "StateCLNormal": {
+                          "Material": "BackgroundDecorationBoxLeft_3"
+                        },
+                        "StateCCNormal": {
+                          "Material": "BackgroundDecorationBoxInlay_3"
+                        },
+                        "StateCRNormal": {
+                          "Material": "BackgroundDecorationBoxRight_3"
+                        },
+                        "StateBLNormal": {
+                          "Material": "BackgroundDecorationBoxBottomLeft_3"
+                        },
+                        "StateBCNormal": {
+                          "Material": "BackgroundDecorationBoxBottom_3"
+                        },
+                        "StateBRNormal": {
+                          "Material": "BackgroundDecorationBoxBottomRight_3"
+                        }
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Surround",
+                      "Name": "Background2",
+                      "ViewPort": {
+                        "xorigin": 460,
+                        "yorigin": 430,
+                        "width": 850,
+                        "height": 1426,
+                        "alignment": "TopCentre"
+                      },
+                      "Box": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 850,
+                        "height": 1426,
+                        "alignment": "TopLeft",
+                        "gridstep": 50,
+                        "drawbox": true
+                      },
+                      "StateMaterials": {
+                        "StateTLDisabled": {
+                          "Material": "BackgroundDecorationBoxTopLeft_3"
+                        },
+                        "StateTCDisabled": {
+                          "Material": "BackgroundDecorationBoxTop_3"
+                        },
+                        "StateTRDisabled": {
+                          "Material": "BackgroundDecorationBoxTopRight_3"
+                        },
+                        "StateCLDisabled": {
+                          "Material": "BackgroundDecorationBoxLeft_3"
+                        },
+                        "StateCCDisabled": {
+                          "Material": "BackgroundDecorationBoxInlay_3"
+                        },
+                        "StateCRDisabled": {
+                          "Material": "BackgroundDecorationBoxRight_3"
+                        },
+                        "StateBLDisabled": {
+                          "Material": "BackgroundDecorationBoxBottomLeft_3"
+                        },
+                        "StateBCDisabled": {
+                          "Material": "BackgroundDecorationBoxBottom_3"
+                        },
+                        "StateBRDisabled": {
+                          "Material": "BackgroundDecorationBoxBottomRight_3"
+                        },
+                        "StateTLNormal": {
+                          "Material": "BackgroundDecorationBoxTopLeft_3"
+                        },
+                        "StateTCNormal": {
+                          "Material": "BackgroundDecorationBoxTop_3"
+                        },
+                        "StateTRNormal": {
+                          "Material": "BackgroundDecorationBoxTopRight_3"
+                        },
+                        "StateCLNormal": {
+                          "Material": "BackgroundDecorationBoxLeft_3"
+                        },
+                        "StateCCNormal": {
+                          "Material": "BackgroundDecorationBoxInlay_3"
+                        },
+                        "StateCRNormal": {
+                          "Material": "BackgroundDecorationBoxRight_3"
+                        },
+                        "StateBLNormal": {
+                          "Material": "BackgroundDecorationBoxBottomLeft_3"
+                        },
+                        "StateBCNormal": {
+                          "Material": "BackgroundDecorationBoxBottom_3"
+                        },
+                        "StateBRNormal": {
+                          "Material": "BackgroundDecorationBoxBottomRight_3"
+                        }
+                      },
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "OptionsPanels",
+                "Anchor": {
+                  "xorigin": 0,
+                  "yorigin": -25
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "Interface",
+                      "Anchor": {
+                        "xorigin": 0,
+                        "yorigin": 0
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "OptionsPanel",
+                            "Name": "Left",
+                            "ViewPort": {
+                              "xorigin": 1080,
+                              "yorigin": 460,
+                              "width": 800,
+                              "height": 2000,
+                              "alignment": "TopLeft"
+                            },
+                            "Spacing": {
+                              "width": 0,
+                              "height": 20
+                            },
+                            "Options": [
+                              {
+                                "Name": "GeneralHeading",
+                                "Type": "Heading",
+                                "Text": "IDS_OPTIONS_GENERAL"
+                              },
+                              {
+                                "Name": "GameLanguageDropDown",
+                                "Type": "DropDown",
+                                "Help": "IDS_OPT_GAME_LANGUAGE_HELP_TEXT",
+                                "Text": "IDS_OPT_GAME_LANGUAGE"
+                              },
+                              {
+                                "Name": "AccessibilitySerif",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPTIONS_SANS",
+                                "Help": "IDS_OPTIONS_SANS_HELP_TEXT"
+                              },
+                              {
+                                "Name": "SmoothSerifFont",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPTIONS_SMOOTH_SERIF",
+                                "Help": "IDS_OPTIONS_SMOOTH_SERIF_HELP_TEXT"
+                              },
+                              {
+                                "Name": "ClampMouseToWindow",
+                                "Help": "IDS_OPT_CLAMP_MOUSE_TO_WINDOW_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_CLAMP_MOUSE_TO_WINDOW"
+                              },
+                              {
+                                "Name": "TwoButtonMouse",
+                                "Help": "IDS_OPT_TWO_BUTTON_MOUSE_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_TWO_BUTTON_MOUSE"
+                              },
+                              {
+                                "Name": "ScenarioSlideShowSlabText",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPTIONS_CINEMATIC",
+                                "Help": "IDS_OPTIONS_CINEMATIC_HELP_TEXT"
+                              },
+                              {
+                                "Name": "ColorHeading",
+                                "Type": "Heading",
+                                "Text": "IDS_OPTIONS_COLOR"
+                              },
+                              {
+                                "Name": "UniqueColors",
+                                "Help": "OPTIONS_PLAYER_COLORS_ROLLOVER",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPTIONS_UNIQUE_COLORS"
+                              },
+                              {
+                                "Name": "PlayerColorDropDown",
+                                "Help": 300288,
+                                "Type": "DropDown",
+                                "Text": "IDS_OPT_UNIQUE_PLAYER_COLOR"
+                              },
+                              {
+                                "Name": "HealthBarColorDropDown",
+                                "Help": "IDS_OPT_GREEN_HEALTH_BARS_HELP_TEXT",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPTIONS_HEALTH_BAR_COLORS"
+                              },
+                              {
+                                "Name": "GridHeading",
+                                "Type": "Heading",
+                                "Text": "IDS_OPTIONS_GRID"
+                              },
+                              {
+                                "Name": "GridBehaviorDropdown",
+                                "Help": "IDS_OPT_GRID_BEHAVIOR_LABEL_HELP_TEXT",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPT_GRID_BEHAVIOR_LABEL"
+                              },
+                              {
+                                "Name": "SliderGridColor",
+                                "Help": "IDS_OPT_GRID_COLOR_LABEL_HELP_TEXT",
+                                "Type": "Slider",
+                                "Text": "IDS_OPT_GRID_COLOR_LABEL",
+                                "MinText": "IDS_OPT_GRID_COLOR_WHITE",
+                                "MaxText": "IDS_OPT_GRID_COLOR_BLACK"
+                              }
+                            ],
+                            "ChildWidgets": []
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "OptionsPanel",
+                            "Name": "Right",
+                            "ViewPort": {
+                              "xorigin": 2000,
+                              "yorigin": 460,
+                              "width": 800,
+                              "height": 2000,
+                              "alignment": "TopLeft"
+                            },
+                            "Spacing": {
+                              "width": 0,
+                              "height": 20
+                            },
+                            "Options": [
+                              {
+                                "Name": "InGameHeading",
+                                "Type": "Heading",
+                                "Text": "IDS_OPTIONS_IN_GAME"
+                              },
+                              {
+                                "Name": "SliderUIScale",
+                                "Help": "IDS_OPT_INGAME_UI_SCALE_HELP_TEXT",
+                                "Type": "Slider",
+                                "Text": "IDS_OPT_INGAME_UI_SCALE",
+                                "MinText": "IDS_OPT_UISCALE_75",
+                                "MaxText": "IDS_OPT_UISCALE_125"
+                              },
+                              {
+                                "Name": "ToopTipScale",
+                                "Help": "IDS_OPT_TOOPTIP_SCALE_HELP_TEXT",
+                                "Type": "Slider",
+                                "Text": "IDS_OPT_TOOLTIPSCALE",
+                                "MinText": "IDS_OPT_TOOLTIPSIZE_50",
+                                "MaxText": "IDS_OPT_TOOLTIPSIZE_100"
+                              },
+                              {
+                                "Name": "HelpRolloverDropDown",
+                                "Help": "IDS_OPT_ROLL_OVER_HELP_PANEL_HELP_TEXT",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPT_ROLL_OVER_HELP_PANEL"
+                              },
+                              {
+                                "Name": "ControlGroupIcons",
+                                "Help": "IDS_OPT_CONTROL_GROUP_ICONS_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_CONTROL_GROUP_ICONS"
+                              },
+                              {
+                                "Name": "EnableDeletingObjectWarnings",
+                                "Help": "IDS_OPT_DELETE_OBJECT_WARNINGS_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_DELETE_OBJECT_WARNINGS"
+                              },
+                              {
+                                "Name": "ZoomToCursor",
+                                "Help": "IDS_OPTIONS_ZOOM_TO_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPTIONS_ZOOM_TO"
+                              },
+                              {
+                                "Name": "EnableFutureItemsDisplay",
+                                "Help": "IDS_OPT_DISPLAY_FUTURE_ITEMS_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_DISPLAY_FUTURE_ITEMS"
+                              },
+                              {
+                                "Name": "GlobalQueueColumnType",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPTIONS_GLOBAL_QUEUE_COLUMN_LABEL",
+                                "Help": "IDS_OPTIONS_GLOBAL_QUEUE_COLUMN_LABEL_HELP_TEXT"
+                              },
+                              {
+                                "Name": "ExtendNotificationDurationDropdown",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPTIONS_NOTIFICATION_DURATION_TEXT",
+                                "Help": "IDS_OPTIONS_NOTIFICATION_DURATION_HELP"
+                              },
+                              {
+                                "Name": "ReadabilityPanelsCheckbox",
+                                "Help": 300347,
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPTIONS_READABILITY_PANELS"
+                              },
+                              {
+                                "Name": "ShowNotifications",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPTIONS_SHOW_NOTIFICATIONS",
+                                "Help": "IDS_OPTIONS_SHOW_NOTIFICATIONS_HELP"
+                              },
+                              {
+                                "Name": "MouseCursorSize",
+                                "Type": "CheckBox",
+                                "Text": "IDS_SMALL_CURSORS",
+                                "Help": "IDS_SMALL_CURSORS_HELP"
+                              },
+                              {
+                                "Name": "TechTreePreview",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_TECH_TREE_PREVIEW",
+                                "Help": "IDS_OPT_TECH_TREE_PREVIEW_HELP"
+                              },
+							  {
+                                "Name": "ExtendedUnitStats",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_EXTENDED_UNIT_STATS",
+                                "Help": "IDS_OPT_EXTENDED_UNIT_STATS_HELP"
+                              }
+                            ],
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "Audio",
+                      "Anchor": {
+                        "xorigin": 0,
+                        "yorigin": 0
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "OptionsPanel",
+                            "Name": "Left",
+                            "ViewPort": {
+                              "xorigin": 1080,
+                              "yorigin": 460,
+                              "width": 800,
+                              "height": 2000,
+                              "alignment": "TopLeft"
+                            },
+                            "Spacing": {
+                              "width": 0,
+                              "height": 20
+                            },
+                            "Options": [
+                              {
+                                "Name": "GeneralHeading",
+                                "Type": "Heading",
+                                "Text": "IDS_OPTIONS_GENERAL"
+                              },
+                              {
+                                "Name": "MusicVolume",
+                                "Help": "IDS_OPT_MUSIC_VOLUME_HELP_TEXT",
+                                "Type": "Slider",
+                                "Text": "IDS_OPT_MUSIC_VOLUME",
+                                "MinText": "IDS_OPT_MUSICVOLUME_OFF",
+                                "MaxText": "IDS_OPT_MUSICVOLUME_HIGH"
+                              },
+                              {
+                                "Name": "SoundVolume",
+                                "Help": "IDS_OPT_SOUND_VOLUME_HELP_TEXT",
+                                "Type": "Slider",
+                                "Text": "IDS_OPT_SOUND_VOLUME",
+                                "MinText": "IDS_OPT_SOUNDVOLUME_OFF",
+                                "MaxText": "IDS_OPT_SOUNDVOLUME_HIGH"
+                              },
+                              {
+                                "Name": "VoiceVolumeSlider",
+                                "Help": "IDS_OPT_VOICE_VOLUME_HELP_TEXT",
+                                "Type": "Slider",
+                                "Text": "IDS_OPT_VOICE_VOLUME",
+                                "MinText": "IDS_OPT_VOICEVOLUME_OFF",
+                                "MaxText": "IDS_OPT_VOICEVOLUME_HIGH"
+                              },
+                              {
+                                "Name": "NarratorVolumeSlider",
+                                "Help": "IDS_OPT_NARRATOR_VOLUME_HELP_TEXT",
+                                "Type": "Slider",
+                                "Text": "IDS_OPT_NARRATOR_VOLUME",
+                                "MinText": "IDS_OPT_NARRATORVOLUME_OFF",
+                                "MaxText": "IDS_OPT_NARRATORVOLUME_HIGH"
+                              },
+                              {
+                                "Name": "SoundtrackPlaylist",
+                                "Help": "IDS_OPT_SOUNDTRACK_PLAYLIST_HELP_TEXT",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPT_SOUNDTRACK_PLAYLIST"
+                              },
+                              {
+                                "Name": "AllowAudioTaunts",
+                                "Help": "IDS_OPT_DISABLE_TAUNTS_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_DISABLE_TAUNTS"
+                              },
+                              {
+                                "Name": "MuteOnFocusLost",
+                                "Help": "IDS_OPT_MUTE_ON_FOCUS_LOST_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_MUTE_ON_FOCUS_LOST"
+                              },
+                              {
+                                "Name": "VoiceChat",
+                                "Help": "IDS_OPT_VOICECHAT_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_VOICECHAT"
+                              }
+                            ],
+                            "ChildWidgets": []
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "OptionsPanel",
+                            "Name": "Right",
+                            "ViewPort": {
+                              "xorigin": 2000,
+                              "yorigin": 460,
+                              "width": 750,
+                              "height": 2000,
+                              "alignment": "TopLeft"
+                            },
+                            "Spacing": {
+                              "width": 0,
+                              "height": 20
+                            },
+                            "Options": [
+                              {
+                                "Name": "NarratorHeading",
+                                "Type": "Heading",
+                                "Text": "IDS_OPTIONS_NARRATOR"
+                              },
+                              {
+                                "Name": "MenuNarrationHeading",
+                                "Type": "Heading",
+                                "Text": 10020,
+                                "PointSize": 50
+                              },
+                              {
+                                "Name": "AccessibilityMenus",
+                                "Help": "IDS_OPT_ACCESSIBILITY_MENUS_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_ACCESSIBILITY_MENUS"
+                              },
+                              {
+                                "Name": "AccessibilitySlideshow",
+                                "Help": 300144,
+                                "Type": "CheckBox",
+                                "Text": 300143
+                              },
+                              {
+                                "Name": "AccessibilityGame",
+                                "Help": "IDS_OPT_ACCESSIBILITY_GAME_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_ACCESSIBILITY_GAME"
+                              },
+                              {
+                                "Name": "AccessibilityChat",
+                                "Help": "IDS_OPT_ACCESSIBILITY_CHAT_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_ACCESSIBILITY_CHAT"
+                              },
+                              {
+                                "Name": "TooltipNarrationHeading",
+                                "Type": "Heading",
+                                "Text": 300175,
+                                "PointSize": 50
+                              },
+                              {
+                                "Name": "AccessibilityMenuTooltips",
+                                "Help": 300134,
+                                "Type": "CheckBox",
+                                "Text": 300133
+                              },
+                              {
+                                "Name": "AccessibilityGameTooltips",
+                                "Help": 300136,
+                                "Type": "CheckBox",
+                                "Text": 300135
+                              },
+                              {
+                                "Name": "GameObjectNarrationHeading",
+                                "Type": "Heading",
+                                "Text": 300176,
+                                "PointSize": 50
+                              },
+                              {
+                                "Name": "AccessibilityUnitName",
+                                "Help": 300173,
+                                "Type": "CheckBox",
+                                "Text": 300171
+                              },
+                              {
+                                "Name": "AccessibilityResourceName",
+                                "Help": 300174,
+                                "Type": "CheckBox",
+                                "Text": 300172
+                              }
+                            ],
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "Graphics",
+                      "Anchor": {
+                        "xorigin": 0,
+                        "yorigin": 0
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "OptionsPanel",
+                            "Name": "Left",
+                            "ViewPort": {
+                              "xorigin": 1080,
+                              "yorigin": 460,
+                              "width": 800,
+                              "height": 2000,
+                              "alignment": "TopLeft"
+                            },
+                            "Spacing": {
+                              "width": 0,
+                              "height": 20
+                            },
+                            "Options": [
+                              {
+                                "Name": "DisplayMode",
+                                "Help": "IDS_OPT_DISPLAY_MODE_HELP_TEXT",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPT_DISPLAY_MODE"
+                              },
+                              {
+                                "Name": "GraphicsPresets",
+                                "Help": "IDS_OPT_GRAPHICS_PRESETS_HELP_TEXT",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPT_GRAPHICS_PRESETS"
+                              },
+                              {
+                                "Name": "WindowResolution",
+                                "Help": 96209,
+                                "Type": "DropDown",
+                                "Text": "IDS_OPT_RENDER_SCALE"
+                              },
+                              {
+                                "Name": "SliderDefaultZoom",
+                                "Help": "IDS_OPT_DEFAULT_ZOOM_HELP_TEXT",
+                                "Type": "Slider",
+                                "Text": "IDS_OPT_DEFAULT_ZOOM",
+                                "MinText": "IDS_OPT_DEFAULT_ZOOM_IN",
+                                "MaxText": "IDS_OPT_DEFAULT_ZOOM_OUT"
+                              },
+                              {
+                                "Name": "VerticalSync",
+                                "Help": "IDS_OPT_VERTICAL_SYNC_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_VERTICAL_SYNC"
+                              },
+                              {
+                                "Name": "FrameLimit",
+                                "Help": "IDS_OPT_FRAME_LIMIT_ROLLOVER",
+                                "Type": "Slider",
+                                "Text": "IDS_OPT_FRAME_LIMIT",
+                                "MinText": "15",
+                                "MaxText": "IDS_SET_INFINITE_RESOURCES"
+                              },
+                              {
+                                "Name": "EnableObectAntiAlias",
+                                "Help": "IDS_OPT_ANTIALIASING_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_ANTIALIASING"
+                              },
+                              {
+                                "Name": "EnableUIAntiAlias",
+                                "Help": "IDS_OPTIONS_ANTIALIAS_UI_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPTIONS_ANTIALIAS_UI"
+                              },
+                              {
+                                "Name": "EnableTextAntiAlias",
+                                "Help": "IDS_OPTIONS_ANTIALIAS_TEXT_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPTIONS_ANTIALIAS_TEXT"
+                              },
+                              {
+                                "Name": "HighResolution",
+                                "Help": "IDS_OPT_FORCE_GRAPHIC_SET_X1_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_FORCE_GRAPHIC_SET_X1"
+                              },
+                              {
+                                "Name": "Render3DWater",
+                                "Help": "IDS_OPT_RENDER_3D_WATER_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_RENDER_3D_WATER"
+                              },
+                              {
+                                "Name": "RenderBeachWaves",
+                                "Help": "IDS_OPT_RENDER_BEACH_WAVES_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_RENDER_BEACH_WAVES"
+                              },
+                              {
+                                "Name": "EnableVignette",
+                                "Help": "IDS_OPT_VIGNETTE_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_VIGNETTE"
+                              },
+                              {
+                                "Name": "EnableColorCorrection",
+                                "Help": "IDS_OPT_COLOR_CORRECTION_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_COLOR_CORRECTION"
+                              },
+                              {
+                                "Name": "EnableBlood",
+                                "Help": "IDS_OPT_BLOOD_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_BLOOD"
+                              }
+                            ],
+                            "ChildWidgets": []
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "OptionsPanel",
+                            "Name": "Right",
+                            "ViewPort": {
+                              "xorigin": 2000,
+                              "yorigin": 460,
+                              "width": 800,
+                              "height": 2000,
+                              "alignment": "TopLeft"
+                            },
+                            "Spacing": {
+                              "width": 0,
+                              "height": 20
+                            },
+                            "Options": [
+                              {
+                                "Name": "ShowAdvanced",
+                                "Help": "IDS_OPT_SHOW_ADVANCED_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPTIONS_SHOW_ADVANCED"
+                              },
+                              {
+                                "Name": "Particles",
+                                "Help": "IDS_OPTIONS_PARTICLES_HELP_TEXT",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPTIONS_PARTICLES"
+                              },
+                              {
+                                "Name": "EnableEdgeBlur",
+                                "Help": "IDS_EDGE_BLUR_INTENSITY_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_EDGE_BLUR"
+                              },
+                              {
+                                "Name": "EdgeBlurIntensity",
+                                "Help": "IDS_COLOR_CORRECTION_INTENSITY_HELP_TEXT",
+                                "Type": "Slider",
+                                "DrawLabel": false,
+                                "Text": "IDS_EDGE_BLUR_INTENSITY",
+                                "MinText": "IDS_OPT_LESS",
+                                "MaxText": "IDS_OPT_MORE"
+                              },
+                              {
+                                "Name": "EnableBloom",
+                                "Help": "IDS_OPT_BLOOM_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_BLOOM"
+                              },
+                              {
+                                "Name": "BloomIntensity",
+                                "Help": "IDS_OPT_BLOOM_INTENSITY_HELP_TEXT",
+                                "Type": "Slider",
+                                "DrawLabel": false,
+                                "Text": "IDS_OPT_BLOOM_INTENSITY",
+                                "MinText": "IDS_OPT_LESS",
+                                "MaxText": "IDS_OPT_MORE"
+                              },
+                              {
+                                "Name": "EnableSharpen",
+                                "Help": "IDS_OPT_SHARPEN_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_SHARPEN"
+                              },
+                              {
+                                "Name": "SharpenIntensity",
+                                "Help": "IDS_OPT_SHARPEN_INTENSITY_HELP_TEXT",
+                                "Type": "Slider",
+                                "DrawLabel": false,
+                                "Text": "IDS_OPT_SHARPEN_INTENSITY",
+                                "MinText": "IDS_OPT_LESS",
+                                "MaxText": "IDS_OPT_MORE"
+                              },
+                              {
+                                "Name": "GammaIntensity",
+                                "Help": "IDS_OPT_GAMMA_HELP_TEXT",
+                                "Type": "Slider",
+                                "Text": "IDS_OPT_GAMMA",
+                                "MinText": "IDS_OPT_LESS",
+                                "MaxText": "IDS_OPT_MORE"
+                              },
+                              {
+                                "Name": "EnableCoolFog",
+                                "Help": "IDS_OPT_COOL_FOG_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_COOL_FOG"
+                              },
+                              {
+                                "Name": "SliderFogIntensity",
+                                "Help": "IDS_OPT_FOG_INTENSITY_HELP_TEXT",
+                                "Type": "Slider",
+                                "DrawLabel": false,
+                                "Text": "IDS_OPT_FOG_INTENSITY",
+                                "MinText": "IDS_OPT_LESS",
+                                "MaxText": "IDS_OPT_MORE"
+                              },
+                              {
+                                "Name": "EnableCoolFogBorder",
+                                "Help": "IDS_OPT_FOG_BORDER_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_FOG_BORDER"
+                              },
+                              {
+                                "Name": "SliderFogBorderIntensity",
+                                "Help": "IDS_OPT_FOG_BORDER_HELP_TEXT",
+                                "Type": "Slider",
+                                "DrawLabel": false,
+                                "Text": "Fog Border Intensity",
+                                "MinText": "IDS_OPT_LESS",
+                                "MaxText": "IDS_OPT_MORE"
+                              }
+                            ],
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "Game",
+                      "Anchor": {
+                        "xorigin": 0,
+                        "yorigin": 0
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "OptionsPanel",
+                            "Name": "Left",
+                            "ViewPort": {
+                              "xorigin": 1080,
+                              "yorigin": 460,
+                              "width": 800,
+                              "height": 2000,
+                              "alignment": "TopLeft"
+                            },
+                            "Spacing": {
+                              "width": 0,
+                              "height": 20
+                            },
+                            "Options": [
+                              {
+                                "Name": "GameplayHeading",
+                                "Type": "Heading",
+                                "Text": "IDS_OPTIONS_GAMEPLAY"
+                              },
+                              {
+                                "Name": "OffensivePosture",
+                                "Help": "IDS_OPT_OFFENSIVE_POSTURE_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_OFFENSIVE_POSTURE"
+                              },
+                              {
+                                "Name": "HoverInfo",
+                                "Help": "IDS_OPT_ROLLOVER_INFO_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_HOVER_INFO"
+                              },
+                              {
+                                "Name": "AutomaticFarmAndFishQueue",
+                                "Help": "IDS_OPT_AUTOMATIC_FARM_AND_FISH_QUEUE_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_AUTOMATIC_FARM_AND_FISH_QUEUE"
+                              },
+                              {
+                                "Name": "GlowHightlightslist",
+                                "Help": "IDS_OPT_GLOW_HIGHLIGHT_LIST_LABEL_HELP_TEXT",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPT_GLOW_HIGHLIGHT_LIST_LABEL"
+                              },
+                              {
+                                "Name": "HealthBarVisibility",
+                                "Help": "IDS_OPT_HEALTH_BARS_VISIBILITY_HELP_TEXT",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPT_HEALTH_BARS"
+                              },
+                              {
+                                "Name": "ResourceGauge",
+                                "Help": "IDS_OPT_RESOURCE_GAUGE_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_RESOURCE_GAUGE"
+                              },
+                              {
+                                "Name": "GameSpeedDropdown",
+                                "Help": "IDS_OPTIONS_GAMESPEED_HELP",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPTIONS_GAMESPEED"
+                              },
+                              {
+                                "Name": "BuildingRangeIndicatorDropdown",
+                                "Help": "IDS_OPTIONS_BUILDING_RANGE_INDICATOR_HELP_TEXT",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPT_BUILDING_RANGE_INDICATOR"
+                              },
+                              {
+                                "Name": "BuildingRangeIndicatorColor",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_BUILDING_RANGE_INDICATOR_COLOR",
+                                "Help": "IDS_OPTIONS_BUILDING_RANGE_INDICATOR_COLOR_HELP_TEXT"
+                              },
+                              {
+                                "Name": "RecordCampaignGames",
+                                "Help": "IDS_OPT_RECORD_CAMPAIGN_GAMES_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_RECORD_CAMPAIGN_GAMES"
+                              },
+                              {
+                                "Name": "Crossplay",
+                                "Help": "IDS_OPTIONS_ENABLE_CROSSPLAY_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPTIONS_ENABLE_CROSSPLAY"
+                              },
+                              {
+                                "Name": "DisableUGCWarning",
+                                "Help": "IDS_OPTIONS_DISABLE_UGC_WARNING_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPTIONS_DISABLE_UGC_WARNING"
+                              },
+                              {
+                                "Name": "DisableCAWarning",
+                                "Help": "IDS_CAPTURE_AGE_WARNING_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_CAPTURE_AGE_DISABLE_TEXT"
+                                             },
+                                             {
+                                "Name": "IdlePointers",
+                                "Help": "IDS_OPTIONS_IDLE_POINTERS_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_IDLE_POINTERS"
+                              },
+                              {
+                                "Name": "SmallTrees",
+                                "Help": "IDS_OPTIONS_SMALL_TREES_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_SMALL_TREES"
+                              }
+                            ],
+                            "ChildWidgets": []
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "OptionsPanel",
+                            "Name": "Right",
+                            "ViewPort": {
+                              "xorigin": 2000,
+                              "yorigin": 460,
+                              "width": 800,
+                              "height": 2000,
+                              "alignment": "TopLeft"
+                            },
+                            "Spacing": {
+                              "width": 0,
+                              "height": 20
+                            },
+                            "Options": [
+                              {
+                                "Name": "ControlsHeading",
+                                "Type": "Heading",
+                                "Text": "IDS_OPTIONS_CONTROLS"
+                              },
+                              {
+                                "Name": "OldWaypointBehavior",
+                                "Help": "IDS_OPT_OLD_WAYPOINT_BEHAVIOR_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_OLD_WAYPOINT_BEHAVIOR"
+                              },
+                              {
+                                "Name": "RickClickGarrison",
+                                "Help": "IDS_OPT_RIGHT_CLICK_GARRISON_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_RIGHT_CLICK_GARRISON"
+                              },
+                              {
+                                "Name": "EnableEasyDragMilitary",
+                                "Help": "IDS_OPT_EASY_DRAG_MILITARY_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_EASY_DRAG_MILITARY"
+                              },
+                              {
+                                "Name": "EnableSelectionModifiers",
+                                "Help": "IDS_OPT_SELECTION_MODIFIERS_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_SELECTION_MODIFIERS"
+                              },
+                              {
+                                "Name": "EnableAppendGroups",
+                                "Help": "IDS_OPT_APPEND_GROUP_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_APPEND_GROUP"
+                              },
+                              {
+                                "Name": "EscMenu",
+                                "Help": "IDS_OPT_ESC_MENU_HELP_TEXT",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPT_ESC_MENU"
+                              },
+                              {
+                                "Name": "TauntCheckBox",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPTIONS_SLASH_TAUNTS",
+                                "Help": "IDS_OPTIONS_SLASH_TAUNTS_HELP_TEXT"
+                              },
+                              {
+                                "Name": "TauntTextCheckBox",
+                                "Type": "CheckBox",
+                                "Text": "IDS_OPTIONS_TAUNT_TEXT",
+                                "Help": "IDS_OPTIONS_TAUNT_TEXT_HELP_TEXT"
+                              },
+                              {
+                                "Name": "VillagerDoubleClickDropdown",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPT_VILLAGER_DOUBLE_CLICK",
+                                "Help": "IDS_OPTIONS_VILLAGER_DOUBLE_CLICK_HELP_TEXT"
+                              },
+                              {
+                                "Name": "ScrollingHeading",
+                                "Type": "Heading",
+                                "Text": "IDS_OPT_SCROLLING_HEADING_OPTIONS"
+                              },
+                              {
+                                "Name": "ScrollSpeed",
+                                "Help": "IDS_OPT_SCROLL_SPEED_HELP_TEXT",
+                                "Type": "Slider",
+                                "Text": "IDS_OPT_SCROLL_SPEED",
+                                "MinText": "IDS_OPT_SCROLLSPEED_SLOW",
+                                "MaxText": "IDS_OPT_SCROLLSPEED_FAST"
+                              },
+                              {
+                                "Name": "ScrollInertia",
+                                "Help": "IDS_OPT_SCROLL_INERTIA_HELP_TEXT",
+                                "Type": "Slider",
+                                "Text": "IDS_OPT_SCROLL_INERTIA",
+                                "MinText": "IDS_OPT_SCROLLINERTIA_LESS",
+                                "MaxText": "IDS_OPT_SCROLLINERTIA_MORE"
+                              },
+                              {
+                                "Name": "ClickDragScrollingButtonList",
+                                "Type": "DropDown",
+                                "Text": "IDS_OPTIONS_CLICK_DRAG_SCROLL",
+                                "Help": "IDS_OPTIONS_CLICK_DRAG_SCROLL_HELP_TEXT"
+                              }
+                            ],
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "ButtonAnchor",
+                "Anchor": {
+                  "xorigin": -20,
+                  "yorigin": 120
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonConfirm",
+                      "ViewPort": {
+                        "xorigin": 575,
+                        "yorigin": 1740,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": 300329,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": 4050,
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonCancel",
+                      "ViewPort": {
+                        "xorigin": 1125,
+                        "yorigin": 1740,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": 300330,
+                      "HotKey": {
+                        "Key": 27,
+                        "Ctrl": false,
+                        "Alt": false,
+                        "Shift": false
+                      },
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": 4006,
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonReset",
+                      "ViewPort": {
+                        "xorigin": 1675,
+                        "yorigin": 1740,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_OPT_RESET",
+                      "Help": "IDS_OPT_RESET_HELP_TEXT",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "XBLSignOut",
+                      "ViewPort": {
+                        "xorigin": 2225,
+                        "yorigin": 1740,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_XBL_SIGNOUT",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonClearCloud",
+                      "ViewPort": {
+                        "xorigin": 1690,
+                        "yorigin": 1840,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": 300333,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "Clear Cloud Data",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonTest",
+                      "show": false,
+                      "ViewPort": {
+                        "xorigin": 2190,
+                        "yorigin": 1840,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "Misc Test Button for testing",
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "Test",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonRunBenchmark",
+                      "ViewPort": {
+                        "xorigin": 2775,
+                        "yorigin": 1740,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_OPTIONS_RUN_BENCHMARK_HELP_TEXT",
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled"
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal"
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover"
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked"
+                        }
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Label",
+                            "Name": "LabelButtonRunBenchmark",
+                            "ViewPort": {
+                              "xorigin": 15,
+                              "yorigin": 0,
+                              "width": 470,
+                              "height": 70,
+                              "alignment": "TopLeft"
+                            },
+                            "StateMaterials": {
+                              "StateDisabled": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 45,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 242,
+                                    "g": 210,
+                                    "b": 182,
+                                    "a": 255
+                                  }
+                                }
+                              },
+                              "StateNormal": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 45,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 242,
+                                    "g": 210,
+                                    "b": 182,
+                                    "a": 255
+                                  }
+                                }
+                              }
+                            },
+                            "Text": "IDS_OPTIONS_RUN_BENCHMARK",
+                            "TextAnchor": "CentreCentre",
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

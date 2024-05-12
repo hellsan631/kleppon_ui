@@ -1,0 +1,2089 @@
+{
+  "Collection": {
+    "Name": "ScreenTechTree",
+	"IgnoreFocusChecks": true,
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 1080,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "CentreLeft"
+    },
+    "TabOrder": [
+      {
+        "Tab": "StaticButtonBackground/Anchor/DropDown"
+      },
+      {
+        "Tab": "StaticButtonBackground/Anchor/ButtonUnlock"
+      },
+      {
+        "Tab": "StaticButtonBackground/ButtonClose"
+      },
+      {
+        "Tab": "StaticButtonBackground/ButtonCollapse"
+      }
+    ],
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 17147,
+            "height": 2160,
+            "alignment": "TopLeft"
+          },
+          "Image": {
+            "xorigin": 773.5,
+            "yorigin": 1080,
+            "width": 17147,
+            "height": 2160,
+            "noclip": true,
+            "alignment": "CentreCentre"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "None"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "BackgroundLeft",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 17147,
+                  "height": 2160,
+                  "alignment": "TopLeft"
+                },
+                "Image": {
+                  "xorigin": 281,
+                  "yorigin": 1080,
+                  "width": 2240,
+                  "height": 2160,
+                  "noclip": true,
+                  "alignment": "CentreCentre"
+                },
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "BackgroundLeftTechTree"
+                  }
+                }
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "BackgroundRight",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 17147,
+                  "height": 2160,
+                  "alignment": "TopLeft"
+                },
+                "Image": {
+                  "xorigin": 14600,
+                  "yorigin": 1080,
+                  "width": 2240,
+                  "height": 2160,
+                  "noclip": true,
+                  "alignment": "CentreLeft"
+                },
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "BackgroundRightTechTree"
+                  }
+                }
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "BackgroundMiddle",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 17147,
+                  "height": 2160,
+                  "alignment": "TopLeft"
+                },
+                "Image": {
+                  "xorigin": 1400,
+                  "yorigin": 1080,
+                  "width": 13200,
+                  "height": 2160,
+                  "noclip": true,
+                  "alignment": "CentreLeft"
+                },
+                "Wrap": {
+                  "width": 1200,
+                  "height": 0
+                },
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "BackgroundMiddleTechTree"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "ScrollBarHorizontal",
+          "Name": "ScrollBar",
+          "ViewPort": {
+            "xorigin": 2710,
+            "yorigin": 2040,
+            "width": 814,
+            "height": 40,
+            "alignment": "CentreCentre"
+          },
+          "Help": "IDS_TECH_TREE_SCROLL_BAR",
+          "ZPlaneLocalOffset": 1,
+          "Bar": {
+            "xorigin": 32,
+            "yorigin": 0,
+            "width": 750,
+            "height": 32
+          },
+          "MinButton": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 32,
+            "height": 32
+          },
+          "MaxButton": {
+            "xorigin": 782,
+            "yorigin": 0,
+            "width": 32,
+            "height": 32
+          },
+          "TabSize": {
+            "width": 32,
+            "height": 32
+          },
+          "StateMaterials": {
+            "StateBarBackground": {
+              "Material": "ScrollBarHorizontalBackground"
+            },
+            "StateBarForeground": {
+              "Material": "ScrollBarHorizontalBackground"
+            },
+            "StateMinDisabled": {
+              "Material": "ScrollBarLeftArrowNormal"
+            },
+            "StateMinNormal": {
+              "Material": "ScrollBarLeftArrowNormal"
+            },
+            "StateMinHover": {
+              "Material": "ScrollBarLeftArrowHover"
+            },
+            "StateMinPressed": {
+              "Material": "ScrollBarLeftArrowPressed"
+            },
+            "StateMaxDisabled": {
+              "Material": "ScrollBarRightArrowNormal"
+            },
+            "StateMaxNormal": {
+              "Material": "ScrollBarRightArrowNormal"
+            },
+            "StateMaxHover": {
+              "Material": "ScrollBarRightArrowHover"
+            },
+            "StateMaxPressed": {
+              "Material": "ScrollBarRightArrowPressed"
+            },
+            "StateTabDisabled": {
+              "Material": "ScrollBarHandleHorizontalNormal"
+            },
+            "StateTabNormal": {
+              "Material": "ScrollBarHandleHorizontalNormal"
+            },
+            "StateTabHover": {
+              "Material": "ScrollBarHandleHorizontalHover"
+            },
+            "StateTabPressed": {
+              "Material": "ScrollBarHandleHorizontalActive"
+            }
+          },
+          "ChildWidgets": []
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Button",
+          "Name": "ButtonClose",
+          "ViewPort": {
+            "xorigin": 430,
+            "yorigin": 2000,
+            "width": 500,
+            "height": 70,
+            "alignment": "TopLeft"
+          },
+          "ZPlaneLocalOffset": 4,
+          "StateMaterials": {
+            "StateDisabled": {
+              "Material": "ButtonRedDisabled",
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 45,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 242,
+                  "g": 210,
+                  "b": 182,
+                  "a": 255
+                }
+              }
+            },
+            "StateNormal": {
+              "Material": "ButtonRedNormal",
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 45,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 242,
+                  "g": 210,
+                  "b": 182,
+                  "a": 255
+                }
+              }
+            },
+            "StateHover": {
+              "Material": "ButtonRedHover",
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 45,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 242,
+                  "g": 210,
+                  "b": 182,
+                  "a": 255
+                }
+              }
+            },
+            "StatePressed": {
+              "Material": "ButtonRedClicked",
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 45,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 242,
+                  "g": 210,
+                  "b": 182,
+                  "a": 255
+                }
+              }
+            }
+          },
+          "Text": "IDS_BACK",
+          "Help": "IDS_BACK_HELP_TEXT",
+          "TextAnchor": "CentreCentre",
+          "ChildWidgets": []
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "StaticButtonBackground",
+          "ViewPort": {
+            "xorigin": -100,
+            "yorigin": 0
+          },
+          "ZPlaneLocalOffset": 5,
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "BackgroundLeft",
+                "ViewPort": {
+                  "xorigin": -820,
+                  "yorigin": 0,
+                  "width": 2510,
+                  "height": 2160,
+                  "alignment": "TopLeft"
+                },
+                "ZPlaneLocalOffset": -1,
+                "Image": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 2240,
+                  "height": 2160,
+                  "alignment": "TopLeft"
+                },
+                "BlockFocus": true,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "BackgroundLeftTechTree"
+                  }
+                }
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "TileDecorationAnchor",
+                "Anchor": {
+                  "xorigin": -1015,
+                  "yorigin": -50
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "TitleDecoration",
+                      "ViewPort": {
+                        "xorigin": 1920,
+                        "yorigin": 200,
+                        "width": 1350,
+                        "height": 180,
+                        "alignment": "CentreCentre"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Material": "BackgroundDecorationTitle"
+                        },
+                        "StateDisabled": {
+                          "Material": "BackgroundDecorationTitle"
+                        }
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Title",
+                      "ViewPort": {
+                        "xorigin": 1920,
+                        "yorigin": 205,
+                        "width": 800,
+                        "height": 64,
+                        "alignment": "CentreCentre"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 60,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_MPS_TECHTREE_INFO",
+                      "TextAnchor": "TopCentre",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "AgeIcons",
+                "Anchor": {
+                  "xorigin": 1350,
+                  "yorigin": 40
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "DarkAgeIcon",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 120,
+                        "width": 256,
+                        "height": 380,
+                        "alignment": "TopLeft"
+                      },
+                      "DisableFocus": false,
+                      "Help": "IDS_TECH_TREE_DARK_AGE",
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 160,
+                        "width": 256,
+                        "height": 320,
+                        "alignment": "CentreLeft"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Material": "TTTechtreepanelDarkAgeImage"
+                        }
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "TextBox",
+                            "Name": "DarkAgeLabel",
+                            "ViewPort": {
+                              "xorigin": 128,
+                              "yorigin": 280,
+                              "width": 300,
+                              "height": 100,
+                              "alignment": "CentreCentre"
+                            },
+                            "TextBox": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 300,
+                              "height": 100,
+                              "edgespacer": 1,
+                              "linespacer": 1,
+                              "linesize": 50,
+                              "multiline": true,
+                              "drawbox": false
+                            },
+                            "StateMaterials": {
+                              "StateTextNormal": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 50,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 42,
+                                    "g": 15,
+                                    "b": 20,
+                                    "a": 255
+                                  }
+                                }
+                              }
+                            },
+                            "Text": "IDS_TECHTREE_DARK_AGE",
+                            "TextAnchor": "CentreCentre",
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "FeudalAgeIcon",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 580,
+                        "width": 256,
+                        "height": 430,
+                        "alignment": "TopLeft"
+                      },
+                      "DisableFocus": false,
+                      "Help": "IDS_TECH_TREE_FEUDAL_AGE",
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 160,
+                        "width": 256,
+                        "height": 320,
+                        "alignment": "CentreLeft"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Material": "TTTechtreepanelFeudalAgeImage"
+                        }
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "TextBox",
+                            "Name": "FeudalAgeLabel",
+                            "ViewPort": {
+                              "xorigin": 128,
+                              "yorigin": 330,
+                              "width": 300,
+                              "height": 100,
+                              "alignment": "CentreCentre"
+                            },
+                            "TextBox": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 300,
+                              "height": 100,
+                              "edgespacer": 1,
+                              "linespacer": 1,
+                              "linesize": 50,
+                              "multiline": true,
+                              "drawbox": false
+                            },
+                            "StateMaterials": {
+                              "StateTextNormal": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 50,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 42,
+                                    "g": 15,
+                                    "b": 20,
+                                    "a": 255
+                                  }
+                                }
+                              }
+                            },
+                            "Text": "IDS_TECHTREE_FEUDAL_AGE",
+                            "TextAnchor": "CentreCentre",
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "CastleAgeIcon",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 1090,
+                        "width": 256,
+                        "height": 400,
+                        "alignment": "TopLeft"
+                      },
+                      "DisableFocus": false,
+                      "Help": "IDS_TECH_TREE_CASTLE_AGE",
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 160,
+                        "width": 256,
+                        "height": 320,
+                        "alignment": "CentreLeft"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Material": "TTTechtreepanelCastleAgeImage"
+                        }
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "TextBox",
+                            "Name": "CastleAgeLabel",
+                            "ViewPort": {
+                              "xorigin": 128,
+                              "yorigin": 300,
+                              "width": 300,
+                              "height": 100,
+                              "alignment": "CentreCentre"
+                            },
+                            "TextBox": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 300,
+                              "height": 100,
+                              "edgespacer": 1,
+                              "linespacer": 1,
+                              "linesize": 50,
+                              "multiline": true,
+                              "drawbox": false
+                            },
+                            "StateMaterials": {
+                              "StateTextNormal": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 50,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 42,
+                                    "g": 15,
+                                    "b": 20,
+                                    "a": 255
+                                  }
+                                }
+                              }
+                            },
+                            "Text": "IDS_TECHTREE_CASTLE_AGE",
+                            "TextAnchor": "CentreCentre",
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "ImperialAgeIcon",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 1560,
+                        "width": 256,
+                        "height": 410,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_TECH_TREE_IMPERIAL_AGE",
+                      "DisableFocus": false,
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 160,
+                        "width": 256,
+                        "height": 320,
+                        "alignment": "CentreLeft"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Material": "TTTechtreepanelImperialAgeImage"
+                        }
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "TextBox",
+                            "Name": "ImperialAgeLabel",
+                            "ViewPort": {
+                              "xorigin": 128,
+                              "yorigin": 310,
+                              "width": 300,
+                              "height": 100,
+                              "alignment": "CentreCentre"
+                            },
+                            "TextBox": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 300,
+                              "height": 100,
+                              "edgespacer": 1,
+                              "linespacer": 1,
+                              "linesize": 50,
+                              "multiline": true,
+                              "drawbox": false
+                            },
+                            "StateMaterials": {
+                              "StateTextNormal": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 50,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 42,
+                                    "g": 15,
+                                    "b": 20,
+                                    "a": 255
+                                  }
+                                }
+                              }
+                            },
+                            "Text": "IDS_TECHTREE_IMPERIAL_AGE",
+                            "TextAnchor": "CentreCentre",
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Surround",
+                "Name": "BackgroundTop",
+                "ViewPort": {
+                  "xorigin": 215,
+                  "yorigin": 250,
+                  "width": 1125,
+                  "height": 1150,
+                  "alignment": "TopLeft"
+                },
+                "Box": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 1125,
+                  "height": 1150,
+                  "alignment": "TopLeft",
+                  "gridstep": 50,
+                  "drawbox": true
+                },
+                "StateMaterials": {
+                  "StateTLDisabled": {
+                    "Material": "BackgroundDecorationBoxTopLeft_3"
+                  },
+                  "StateTCDisabled": {
+                    "Material": "BackgroundDecorationBoxTop_3"
+                  },
+                  "StateTRDisabled": {
+                    "Material": "BackgroundDecorationBoxTopRight_3"
+                  },
+                  "StateCLDisabled": {
+                    "Material": "BackgroundDecorationBoxLeft_3"
+                  },
+                  "StateCCDisabled": {
+                    "Material": "BackgroundDecorationBoxInlay_3"
+                  },
+                  "StateCRDisabled": {
+                    "Material": "BackgroundDecorationBoxRight_3"
+                  },
+                  "StateBLDisabled": {
+                    "Material": "BackgroundDecorationBoxBottomLeft_3"
+                  },
+                  "StateBCDisabled": {
+                    "Material": "BackgroundDecorationBoxBottom_3"
+                  },
+                  "StateBRDisabled": {
+                    "Material": "BackgroundDecorationBoxBottomRight_3"
+                  },
+                  "StateTLNormal": {
+                    "Material": "BackgroundDecorationBoxTopLeft_3"
+                  },
+                  "StateTCNormal": {
+                    "Material": "BackgroundDecorationBoxTop_3"
+                  },
+                  "StateTRNormal": {
+                    "Material": "BackgroundDecorationBoxTopRight_3"
+                  },
+                  "StateCLNormal": {
+                    "Material": "BackgroundDecorationBoxLeft_3"
+                  },
+                  "StateCCNormal": {
+                    "Material": "BackgroundDecorationBoxInlay_3"
+                  },
+                  "StateCRNormal": {
+                    "Material": "BackgroundDecorationBoxRight_3"
+                  },
+                  "StateBLNormal": {
+                    "Material": "BackgroundDecorationBoxBottomLeft_3"
+                  },
+                  "StateBCNormal": {
+                    "Material": "BackgroundDecorationBoxBottom_3"
+                  },
+                  "StateBRNormal": {
+                    "Material": "BackgroundDecorationBoxBottomRight_3"
+                  }
+                },
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Surround",
+                "Name": "BackgroundBottom",
+                "ViewPort": {
+                  "xorigin": 215,
+                  "yorigin": 1410,
+                  "width": 11250,
+                  "height": 380,
+                  "alignment": "TopLeft"
+                },
+                "Box": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 1125,
+                  "height": 380,
+                  "alignment": "TopLeft",
+                  "gridstep": 50,
+                  "drawbox": true
+                },
+                "StateMaterials": {
+                  "StateTLDisabled": {
+                    "Material": "BackgroundDecorationBoxTopLeft_3"
+                  },
+                  "StateTCDisabled": {
+                    "Material": "BackgroundDecorationBoxTop_3"
+                  },
+                  "StateTRDisabled": {
+                    "Material": "BackgroundDecorationBoxTopRight_3"
+                  },
+                  "StateCLDisabled": {
+                    "Material": "BackgroundDecorationBoxLeft_3"
+                  },
+                  "StateCCDisabled": {
+                    "Material": "BackgroundDecorationBoxInlay_3"
+                  },
+                  "StateCRDisabled": {
+                    "Material": "BackgroundDecorationBoxRight_3"
+                  },
+                  "StateBLDisabled": {
+                    "Material": "BackgroundDecorationBoxBottomLeft_3"
+                  },
+                  "StateBCDisabled": {
+                    "Material": "BackgroundDecorationBoxBottom_3"
+                  },
+                  "StateBRDisabled": {
+                    "Material": "BackgroundDecorationBoxBottomRight_3"
+                  },
+                  "StateTLNormal": {
+                    "Material": "BackgroundDecorationBoxTopLeft_3"
+                  },
+                  "StateTCNormal": {
+                    "Material": "BackgroundDecorationBoxTop_3"
+                  },
+                  "StateTRNormal": {
+                    "Material": "BackgroundDecorationBoxTopRight_3"
+                  },
+                  "StateCLNormal": {
+                    "Material": "BackgroundDecorationBoxLeft_3"
+                  },
+                  "StateCCNormal": {
+                    "Material": "BackgroundDecorationBoxInlay_3"
+                  },
+                  "StateCRNormal": {
+                    "Material": "BackgroundDecorationBoxRight_3"
+                  },
+                  "StateBLNormal": {
+                    "Material": "BackgroundDecorationBoxBottomLeft_3"
+                  },
+                  "StateBCNormal": {
+                    "Material": "BackgroundDecorationBoxBottom_3"
+                  },
+                  "StateBRNormal": {
+                    "Material": "BackgroundDecorationBoxBottomRight_3"
+                  }
+                },
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "Anchor",
+                "Anchor": {
+                  "xorigin": 0,
+                  "yorigin": 0
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "DisplayBox",
+                      "ViewPort": {
+                        "xorigin": 100,
+                        "yorigin": 0,
+                        "width": 1612,
+                        "height": 2160,
+                        "alignment": "TopLeft"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Material": "TechTreePanel"
+                        }
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "TextBox",
+                            "Name": "TextBox",
+                            "Help": "IDS_TECHTREE_INFO_BOX_HELP_TEXT",
+                            "ViewPort": {
+                              "xorigin": 195,
+                              "yorigin": 400,
+                              "width": 1010,
+                              "height": 990,
+                              "alignment": "TopLeft"
+                            },
+                            "TextBox": {
+                              "xorigin": 4,
+                              "yorigin": 2,
+                              "width": 1000,
+                              "height": 990,
+                              "edgespacer": 1,
+                              "linespacer": 1,
+                              "linesize": 45,
+                              "multiline": true,
+                              "drawbox": false
+                            },
+                            "StateMaterials": {
+                              "StateTextNormal": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 45,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 57,
+                                    "g": 28,
+                                    "b": 27,
+                                    "a": 255
+                                  }
+                                }
+                              }
+                            },
+                            "TextAnchor": "TopLeft",
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "ScrollBarVertical",
+                                  "Name": "TextBoxScrollBar",
+                                  "ViewPort": {
+                                    "xorigin": 975,
+                                    "yorigin": 0,
+                                    "width": 32,
+                                    "height": 660,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "Bar": {
+                                    "xorigin": 0,
+                                    "yorigin": 32,
+                                    "width": 32,
+                                    "height": 587
+                                  },
+                                  "MinButton": {
+                                    "xorigin": 0,
+                                    "yorigin": 0,
+                                    "width": 32,
+                                    "height": 32
+                                  },
+                                  "MaxButton": {
+                                    "xorigin": 0,
+                                    "yorigin": 620,
+                                    "width": 32,
+                                    "height": 32
+                                  },
+                                  "TabSize": {
+                                    "width": 32,
+                                    "height": 32
+                                  },
+                                  "StateMaterials": {
+                                    "StateBarBackground": {
+                                      "Material": "ScrollBarBackground"
+                                    },
+                                    "StateBarForeground": {
+                                      "Material": "ScrollBarBackground"
+                                    },
+                                    "StateMinDisabled": {
+                                      "Material": "ScrollBarUpArrowNormal"
+                                    },
+                                    "StateMinNormal": {
+                                      "Material": "ScrollBarUpArrowNormal"
+                                    },
+                                    "StateMinHover": {
+                                      "Material": "ScrollBarUpArrowHover"
+                                    },
+                                    "StateMinPressed": {
+                                      "Material": "ScrollBarUpArrowPressed"
+                                    },
+                                    "StateMaxDisabled": {
+                                      "Material": "ScrollBarDownArrowNormal"
+                                    },
+                                    "StateMaxNormal": {
+                                      "Material": "ScrollBarDownArrowNormal"
+                                    },
+                                    "StateMaxHover": {
+                                      "Material": "ScrollBarDownArrowHover"
+                                    },
+                                    "StateMaxPressed": {
+                                      "Material": "ScrollBarDownArrowPressed"
+                                    },
+                                    "StateTabDisabled": {
+                                      "Material": "ScrollBarHandleNormal"
+                                    },
+                                    "StateTabNormal": {
+                                      "Material": "ScrollBarHandleNormal"
+                                    },
+                                    "StateTabHover": {
+                                      "Material": "ScrollBarHandleNormal"
+                                    },
+                                    "StateTabPressed": {
+                                      "Material": "ScrollBarHandleNormal"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "CivIcon",
+                      "ViewPort": {
+                        "xorigin": 1115,
+                        "yorigin": 290,
+                        "width": 120,
+                        "height": 120,
+                        "alignment": "TopLeft"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Material": "TechTreePanel"
+                        }
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "CivIconBorder",
+                      "ViewPort": {
+                        "xorigin": 1115,
+                        "yorigin": 290,
+                        "width": 0,
+                        "height": 0,
+                        "alignment": "TopLeft"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Material": "ButtonCmdIconNormal"
+                        }
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "DropDown",
+                      "AccessibilityName": "IDS_NARRATOR_CIVILIZATION_TO_INSPECT",
+                      "Name": "DropDown",
+                      "Help": "IDS_TECHTREE_CIVDROPDOWN_HINT",
+                      "ViewPort": {
+                        "xorigin": 300,
+                        "yorigin": 300,
+                        "width": 800,
+                        "height": 60,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlaneLocalOffset": 1,
+                      "ValueBox": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 500,
+                        "height": 60,
+                        "widthleft": 22,
+                        "widthright": 22,
+                        "edgespacer": 1
+                      },
+                      "Button": {
+                        "xorigin": 275,
+                        "yorigin": 12,
+                        "width": 30,
+                        "height": 22
+                      },
+                      "StateMaterials": {
+                        "StateLeftValueDisabled": {
+                          "Material": "DropDownLeftValueDisabled"
+                        },
+                        "StateLeftValueNormal": {
+                          "Material": "DropDownLeftValueNormal"
+                        },
+                        "StateLeftValueHover": {
+                          "Material": "DropDownLeftValueHover"
+                        },
+                        "StateMidValueDisabled": {
+                          "Material": "DropDownMidValueDisabled"
+                        },
+                        "StateMidValueNormal": {
+                          "Material": "DropDownMidValueNormal"
+                        },
+                        "StateMidValueHover": {
+                          "Material": "DropDownMidValueHover"
+                        },
+                        "StateRightValueDisabled": {
+                          "Material": "DropDownRightValueDisabled"
+                        },
+                        "StateRightValueNormal": {
+                          "Material": "DropDownRightValueNormal"
+                        },
+                        "StateRightValueHover": {
+                          "Material": "DropDownRightValueHover"
+                        },
+                        "StateButtonClosedDisabled": {
+                          "Material": "DropDownButtonClosedDisabled"
+                        },
+                        "StateButtonClosedNormal": {
+                          "Material": "DropDownButtonClosedNormal"
+                        },
+                        "StateButtonClosedHover": {
+                          "Material": "DropDownButtonClosedHover"
+                        },
+                        "StateButtonClosedPressed": {
+                          "Material": "DropDownButtonClosedPressed"
+                        },
+                        "StateButtonOpenNormal": {
+                          "Material": "DropDownButtonOpenNormal"
+                        },
+                        "StateButtonOpenHover": {
+                          "Material": "DropDownButtonOpenHover"
+                        },
+                        "StateButtonOpenPressed": {
+                          "Material": "DropDownButtonOpenPressed"
+                        }
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "ListBox",
+                            "Name": "DropDownListBox",
+                            "Help": "IDS_TECHTREE_CIVDROPDOWN_HINT",
+                            "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 30,
+                              "width": 500,
+                              "height": 1200,
+                              "alignment": "TopLeft"
+                            },
+                            "ListBox": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 500,
+                              "height": 1100,
+                              "drawbox": true,
+                              "gridstep": 22,
+                              "edgespacer": 8,
+                              "linespacer": 2,
+                              "linesize": 52,
+                              "listenForKeyInput": true,
+                              "columnwidths": [
+                                {
+                                  "width": 54
+                                },
+                                {
+                                  "width": 300
+                                },
+                                {
+                                  "width": 50
+                                }
+                              ]
+                            },
+                            "StateMaterials": {
+                              "StateTLDisabled": {
+                                "Material": "ListBoxTL"
+                              },
+                              "StateTCDisabled": {
+                                "Material": "ListBoxTC"
+                              },
+                              "StateTRDisabled": {
+                                "Material": "ListBoxTR"
+                              },
+                              "StateCLDisabled": {
+                                "Material": "ListBoxCL"
+                              },
+                              "StateCCDisabled": {
+                                "Material": "ListBoxCC"
+                              },
+                              "StateCRDisabled": {
+                                "Material": "ListBoxCR"
+                              },
+                              "StateBLDisabled": {
+                                "Material": "ListBoxBL"
+                              },
+                              "StateBCDisabled": {
+                                "Material": "ListBoxBC"
+                              },
+                              "StateBRDisabled": {
+                                "Material": "ListBoxBR"
+                              },
+                              "StateTLNormal": {
+                                "Material": "ListBoxTL"
+                              },
+                              "StateTCNormal": {
+                                "Material": "ListBoxTC"
+                              },
+                              "StateTRNormal": {
+                                "Material": "ListBoxTR"
+                              },
+                              "StateCLNormal": {
+                                "Material": "ListBoxCL"
+                              },
+                              "StateCCNormal": {
+                                "Material": "ListBoxCC"
+                              },
+                              "StateCRNormal": {
+                                "Material": "ListBoxCR"
+                              },
+                              "StateBLNormal": {
+                                "Material": "ListBoxBL"
+                              },
+                              "StateBCNormal": {
+                                "Material": "ListBoxBC"
+                              },
+                              "StateBRNormal": {
+                                "Material": "ListBoxBR"
+                              },
+                              "StateTextNormal": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 40,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 57,
+                                    "g": 28,
+                                    "b": 27,
+                                    "a": 255
+                                  }
+                                }
+                              },
+                              "StateTextSelected": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 40,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 171,
+                                    "g": 28,
+                                    "b": 27,
+                                    "a": 255
+                                  }
+                                }
+                              },
+                              "StateTextHilighted": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 40,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 57,
+                                    "g": 156,
+                                    "b": 154,
+                                    "a": 255
+                                  }
+                                }
+                              },
+                              "StateTextPressed": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 40,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 57,
+                                    "g": 156,
+                                    "b": 154,
+                                    "a": 255
+                                  }
+                                }
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "ScrollBarVertical",
+                                  "Name": "ListScrollBar",
+                                  "ViewPort": {
+                                    "xorigin": 460,
+                                    "yorigin": 4,
+                                    "width": 32,
+                                    "height": 400,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "Bar": {
+                                    "xorigin": 0,
+                                    "yorigin": 31,
+                                    "width": 32,
+                                    "height": 320
+                                  },
+                                  "MinButton": {
+                                    "xorigin": 0,
+                                    "yorigin": 0,
+                                    "width": 32,
+                                    "height": 32
+                                  },
+                                  "MaxButton": {
+                                    "xorigin": 0,
+                                    "yorigin": 350,
+                                    "width": 32,
+                                    "height": 32
+                                  },
+                                  "TabSize": {
+                                    "width": 32,
+                                    "height": 32
+                                  },
+                                  "StateMaterials": {
+                                    "StateBarBackground": {
+                                      "Material": "ScrollBarBackground"
+                                    },
+                                    "StateBarForeground": {
+                                      "Material": "ScrollBarBackground"
+                                    },
+                                    "StateMinDisabled": {
+                                      "Material": "ScrollBarUpArrowNormal"
+                                    },
+                                    "StateMinNormal": {
+                                      "Material": "ScrollBarUpArrowNormal"
+                                    },
+                                    "StateMinHover": {
+                                      "Material": "ScrollBarUpArrowHover"
+                                    },
+                                    "StateMinPressed": {
+                                      "Material": "ScrollBarUpArrowPressed"
+                                    },
+                                    "StateMaxDisabled": {
+                                      "Material": "ScrollBarDownArrowNormal"
+                                    },
+                                    "StateMaxNormal": {
+                                      "Material": "ScrollBarDownArrowNormal"
+                                    },
+                                    "StateMaxHover": {
+                                      "Material": "ScrollBarDownArrowHover"
+                                    },
+                                    "StateMaxPressed": {
+                                      "Material": "ScrollBarDownArrowPressed"
+                                    },
+                                    "StateTabDisabled": {
+                                      "Material": "ScrollBarHandleNormal"
+                                    },
+                                    "StateTabNormal": {
+                                      "Material": "ScrollBarHandleNormal"
+                                    },
+                                    "StateTabHover": {
+                                      "Material": "ScrollBarHandleNormal"
+                                    },
+                                    "StateTabPressed": {
+                                      "Material": "ScrollBarHandleNormal"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonUnlock",
+                      "ViewPort": {
+                        "xorigin": 830,
+                        "yorigin": 300,
+                        "width": 250,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlaneLocalOffset": 4,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_NEWS_GO_TO_STORE",
+                      "Help": "IDS_NEWS_GO_TO_STORE_HELP",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "KeyLabel",
+                      "ViewPort": {
+                        "xorigin": 270,
+                        "yorigin": 1430,
+                        "width": 150,
+                        "height": 45,
+                        "alignment": "TopLeft"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 42,
+                              "g": 15,
+                              "b": 20,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_TECH_TREE_KEY",
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "KeyAnchor",
+                      "Anchor": {
+                        "xorigin": -40,
+                        "yorigin": -20
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Label",
+                            "Name": "ResearchLabel",
+                            "ViewPort": {
+                              "xorigin": 400,
+                              "yorigin": 1480,
+                              "width": 175,
+                              "height": 45,
+                              "alignment": "TopLeft"
+                            },
+                            "AutoSize": true,
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 45,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 42,
+                                    "g": 15,
+                                    "b": 20,
+                                    "a": 255
+                                  }
+                                }
+                              }
+                            },
+                            "Text": "IDS_TECHTREE_RESEARCHED",
+                            "TextAnchor": "TopLeft",
+                            "ChildWidgets": []
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Label",
+                            "Name": "NotResearchLabel",
+                            "ViewPort": {
+                              "xorigin": 700,
+                              "yorigin": 1480,
+                              "width": 300,
+                              "height": 45,
+                              "alignment": "TopLeft"
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Font": {
+                                  "FontIndex": 0,
+                                  "PointSize": 45,
+                                  "Style": "Normal",
+                                  "TextColor": {
+                                    "r": 42,
+                                    "g": 15,
+                                    "b": 20,
+                                    "a": 255
+                                  }
+                                }
+                              }
+                            },
+                            "Text": "IDS_TECHTREE_NOT_RESEARCHED",
+                            "TextAnchor": "TopLeft",
+                            "ChildWidgets": []
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "UniqueIcon",
+                            "ViewPort": {
+                              "xorigin": 450,
+                              "yorigin": 1540,
+                              "width": 60,
+                              "height": 60,
+                              "alignment": "TopLeft"
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "TTKeyUnique"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Label",
+                                  "ViewPort": {
+                                    "xorigin": 30,
+                                    "yorigin": 15,
+                                    "width": 335,
+                                    "height": 40,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "StaticButtonBackground",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 40,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 42,
+                                          "g": 15,
+                                          "b": 20,
+                                          "a": 255
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "Text": "IDS_TECH_TREE_UNIQUE_UNIT",
+                                  "TextAnchor": "CentreCentre",
+                                  "ChildWidgets": []
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "NotUniqueIcon",
+                                  "ViewPort": {
+                                    "xorigin": 335,
+                                    "yorigin": 0,
+                                    "width": 60,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "StaticButtonBackground",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Material": "TTKeyNotUnique"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "UnitIcon",
+                            "ViewPort": {
+                              "xorigin": 450,
+                              "yorigin": 1600,
+                              "width": 60,
+                              "height": 60,
+                              "alignment": "TopLeft"
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "TTKeyUnit"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Label",
+                                  "ViewPort": {
+                                    "xorigin": 30,
+                                    "yorigin": 15,
+                                    "width": 335,
+                                    "height": 40,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "StaticButtonBackground",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 40,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 42,
+                                          "g": 15,
+                                          "b": 20,
+                                          "a": 255
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "Text": "IDS_TECH_TREE_UNIT",
+                                  "TextAnchor": "CentreCentre",
+                                  "ChildWidgets": []
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "NotUnitIcon",
+                                  "ViewPort": {
+                                    "xorigin": 335,
+                                    "yorigin": 0,
+                                    "width": 60,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "StaticButtonBackground",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Material": "TTKeyNotUnit"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "BuildingIcon",
+                            "ViewPort": {
+                              "xorigin": 450,
+                              "yorigin": 1660,
+                              "width": 60,
+                              "height": 60,
+                              "alignment": "TopLeft"
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "TTKeyBuilding"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Label",
+                                  "ViewPort": {
+                                    "xorigin": 30,
+                                    "yorigin": 15,
+                                    "width": 335,
+                                    "height": 40,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "StaticButtonBackground",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 40,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 42,
+                                          "g": 15,
+                                          "b": 20,
+                                          "a": 255
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "Text": "IDS_TECH_TREE_BUILDING",
+                                  "TextAnchor": "CentreCentre",
+                                  "ChildWidgets": []
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "NotBuildingIcon",
+                                  "ViewPort": {
+                                    "xorigin": 335,
+                                    "yorigin": 0,
+                                    "width": 60,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "StaticButtonBackground",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Material": "TTKeyNotBuilding"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "TechIcon",
+                            "ViewPort": {
+                              "xorigin": 450,
+                              "yorigin": 1720,
+                              "width": 60,
+                              "height": 60,
+                              "alignment": "TopLeft"
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "TTKeyTech"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Label",
+                                  "ViewPort": {
+                                    "xorigin": 30,
+                                    "yorigin": 15,
+                                    "width": 335,
+                                    "height": 40,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "StaticButtonBackground",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 40,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 42,
+                                          "g": 15,
+                                          "b": 20,
+                                          "a": 255
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "Text": "IDS_TECH_TREE_TECH",
+                                  "TextAnchor": "CentreCentre",
+                                  "ChildWidgets": []
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "NotTechIcon",
+                                  "ViewPort": {
+                                    "xorigin": 335,
+                                    "yorigin": 0,
+                                    "width": 60,
+                                    "height": 60,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "StaticButtonBackground",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Material": "TTKeyNotTech"
+                                    }
+                                  },
+                                  "ChildWidgets": []
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "NotAvailIcon",
+                            "ViewPort": {
+                              "xorigin": 970,
+                              "yorigin": 1540,
+                              "width": 60,
+                              "height": 60,
+                              "alignment": "TopLeft"
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "TTKeyUnitNotAvail"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Label",
+                                  "ViewPort": {
+                                    "xorigin": 75,
+                                    "yorigin": 15,
+                                    "width": 335,
+                                    "height": 40,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "StaticButtonBackground",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 40,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 42,
+                                          "g": 15,
+                                          "b": 20,
+                                          "a": 255
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "Text": "IDS_TECH_TREE_NOT_AVAILABLE",
+                                  "TextAnchor": "CentreLeft",
+                                  "ChildWidgets": []
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "UpgradeRequiredIcon",
+                            "ViewPort": {
+                              "xorigin": 970,
+                              "yorigin": 1660,
+                              "width": 60,
+                              "height": 60,
+                              "alignment": "TopLeft"
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "TTKeyUnitUpgradeRequired"
+                              }
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Label",
+                                  "Name": "Label",
+                                  "ViewPort": {
+                                    "xorigin": 75,
+                                    "yorigin": 15,
+                                    "width": 335,
+                                    "height": 90,
+                                    "alignment": "TopLeft"
+                                  },
+                                  "ClippingOverride": "StaticButtonBackground",
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Font": {
+                                        "FontIndex": 0,
+                                        "PointSize": 40,
+                                        "Style": "Normal",
+                                        "TextColor": {
+                                          "r": 42,
+                                          "g": 15,
+                                          "b": 20,
+                                          "a": 255
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "Text": "IDS_TECH_TREE_UPGRADE_REQUIRED",
+                                  "TextAnchor": "TopLeft",
+                                  "ChildWidgets": []
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonClose",
+                "ViewPort": {
+                  "xorigin": 430,
+                  "yorigin": 2000,
+                  "width": 500,
+                  "height": 70,
+                  "alignment": "TopLeft"
+                },
+                "HotKey": {
+                  "Key": 27,
+                  "Ctrl": false,
+                  "Alt": false,
+                  "Shift": false
+                },
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "ButtonRedDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 45,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "ButtonRedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 45,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "ButtonRedHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 45,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonRedClicked",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 45,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "IDS_BACK",
+                "Help": "IDS_BACK_HELP_TEXT",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonCollapse",
+                "ViewPort": {
+                  "xorigin": 1460,
+                  "yorigin": 2000,
+                  "width": 45,
+                  "height": 66,
+                  "alignment": "TopLeft"
+                },
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "ButtonRedDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 45,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "CollapseButtonNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 45,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "CollapseButtonHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 45,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "CollapseButtonActive",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 45,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "",
+                "Help": "IDS_TECH_TREE_COLLAPSE_BUTTON",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

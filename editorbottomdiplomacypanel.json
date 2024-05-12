@@ -1,0 +1,3106 @@
+{
+  "Collection": {
+    "AllowTabNavigation": false,
+    "Name": "EditorBottomDiplomacyPanel",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 2160,
+      "width": 13840,
+      "height": 411,
+      "alignment": "BottomLeft"
+    },
+    "TabOrder": [
+      {
+        "Tab": "PanelAnchor/PlayerDD"
+      },
+      {
+        "Tab": "PanelAnchor/MaxTeamsDD"
+      },
+      {
+        "Tab": "PanelAnchor/LockTeams"
+      },
+      {
+        "Tab": "PanelAnchor/PlayerChooseTeams"
+      },
+      {
+        "Tab": "PanelAnchor/RandomStartPoints"
+      },
+      {
+        "Tab": "PanelAnchor/P1Group/Ally"
+      },
+      {
+        "Tab": "PanelAnchor/P1Group/Neutral"
+      },
+      {
+        "Tab": "PanelAnchor/P1Group/Enemy"
+      },
+      {
+        "Tab": "PanelAnchor/P1Group/AlliedVictory"
+      },
+      {
+        "Tab": "PanelAnchor/P2Group/Ally"
+      },
+      {
+        "Tab": "PanelAnchor/P2Group/Neutral"
+      },
+      {
+        "Tab": "PanelAnchor/P2Group/Enemy"
+      },
+      {
+        "Tab": "PanelAnchor/P2Group/AlliedVictory"
+      },
+      {
+        "Tab": "PanelAnchor/P3Group/Ally"
+      },
+      {
+        "Tab": "PanelAnchor/P3Group/Neutral"
+      },
+      {
+        "Tab": "PanelAnchor/P3Group/Enemy"
+      },
+      {
+        "Tab": "PanelAnchor/P3Group/AlliedVictory"
+      },
+      {
+        "Tab": "PanelAnchor/P41Group/Ally"
+      },
+      {
+        "Tab": "PanelAnchor/P41Group/Neutral"
+      },
+      {
+        "Tab": "PanelAnchor/P41Group/Enemy"
+      },
+      {
+        "Tab": "PanelAnchor/P41Group/AlliedVictory"
+      },
+      {
+        "Tab": "PanelAnchor/P5Group/Ally"
+      },
+      {
+        "Tab": "PanelAnchor/P5Group/Neutral"
+      },
+      {
+        "Tab": "PanelAnchor/P5Group/Enemy"
+      },
+      {
+        "Tab": "PanelAnchor/P5Group/AlliedVictory"
+      },
+      {
+        "Tab": "PanelAnchor/P6Group/Ally"
+      },
+      {
+        "Tab": "PanelAnchor/P6Group/Neutral"
+      },
+      {
+        "Tab": "PanelAnchor/P6Group/Enemy"
+      },
+      {
+        "Tab": "PanelAnchor/P6Group/AlliedVictory"
+      },
+      {
+        "Tab": "PanelAnchor/P7Group/Ally"
+      },
+      {
+        "Tab": "PanelAnchor/P7Group/Neutral"
+      },
+      {
+        "Tab": "PanelAnchor/P7Group/Enemy"
+      },
+      {
+        "Tab": "PanelAnchor/P7Group/AlliedVictory"
+      },
+      {
+        "Tab": "PanelAnchor/P8Group/Ally"
+      },
+      {
+        "Tab": "PanelAnchor/P8Group/Neutral"
+      },
+      {
+        "Tab": "PanelAnchor/P8Group/Enemy"
+      },
+      {
+        "Tab": "PanelAnchor/P8Group/AlliedVictory"
+      }
+    ],
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "PanelAnchor",
+          "Anchor": {
+            "xorigin": 40,
+            "yorigin": 40,
+            "alignment": "TopLeft"
+          },
+
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "DropDown",
+                "AccessibilityName": "IDS_NARRATOR_CHOSEN_PLAYER",
+                "Name": "PlayerDD",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 343,
+                  "height": 50,
+                  "alignment": "TopLeft"
+                },
+
+                "ValueBox": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 343,
+                  "height": 50,
+                  "widthleft": 22,
+                  "widthright": 22,
+                  "edgespacer": 8
+                },
+                "Button": {
+                  "xorigin": 298,
+                  "yorigin": 12,
+                  "width": 31,
+                  "height": 23
+                },
+                "Help": "IDS_SED2_DDB_DIPLOMACY_PLAYER_LIST_HELP_TEXT",
+                "StateMaterials": {
+                  "StateLeftValueDisabled": {
+                    "Material": "DropDownLeftValueDisabled"
+                  },
+                  "StateLeftValueNormal": {
+                    "Material": "DropDownLeftValueNormal"
+                  },
+                  "StateLeftValueHover": {
+                    "Material": "DropDownLeftValueHover"
+                  },
+                  "StateMidValueDisabled": {
+                    "Material": "DropDownMidValueDisabled"
+                  },
+                  "StateMidValueNormal": {
+                    "Material": "DropDownMidValueNormal"
+                  },
+                  "StateMidValueHover": {
+                    "Material": "DropDownMidValueHover"
+                  },
+                  "StateRightValueDisabled": {
+                    "Material": "DropDownRightValueDisabled"
+                  },
+                  "StateRightValueNormal": {
+                    "Material": "DropDownRightValueNormal"
+                  },
+                  "StateRightValueHover": {
+                    "Material": "DropDownRightValueHover"
+                  },
+                  "StateButtonClosedDisabled": {
+                    "Material": "DropDownButtonClosedDisabled"
+                  },
+                  "StateButtonClosedNormal": {
+                    "Material": "DropDownButtonClosedNormal"
+                  },
+                  "StateButtonClosedHover": {
+                    "Material": "DropDownButtonClosedHover"
+                  },
+                  "StateButtonClosedPressed": {
+                    "Material": "DropDownButtonClosedPressed"
+                  },
+                  "StateButtonOpenNormal": {
+                    "Material": "DropDownButtonOpenNormal"
+                  },
+                  "StateButtonOpenHover": {
+                    "Material": "DropDownButtonOpenHover"
+                  },
+                  "StateButtonOpenPressed": {
+                    "Material": "DropDownButtonOpenPressed"
+                  }
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "ListBox",
+                      "Name": "DropDownListBox",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 41,
+                        "width": 343,
+                        "height": 1500,
+                        "alignment": "TopLeft"
+                      },
+
+                      "ListBox": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 343,
+                        "height": 300,
+                        "drawbox": true,
+                        "gridstep": 22,
+                        "edgespacer": 8,
+                        "linespacer": 1,
+                        "linesize": 40,
+                        "columnwidths": [
+                          {
+                            "width": 285
+                          }
+                        ]
+                      },
+                      "StateMaterials": {
+                        "StateTLDisabled": {
+                          "Material": "ListBoxTL"
+                        },
+                        "StateTCDisabled": {
+                          "Material": "ListBoxTC"
+                        },
+                        "StateTRDisabled": {
+                          "Material": "ListBoxTR"
+                        },
+                        "StateCLDisabled": {
+                          "Material": "ListBoxCL"
+                        },
+                        "StateCCDisabled": {
+                          "Material": "ListBoxCC"
+                        },
+                        "StateCRDisabled": {
+                          "Material": "ListBoxCR"
+                        },
+                        "StateBLDisabled": {
+                          "Material": "ListBoxBL"
+                        },
+                        "StateBCDisabled": {
+                          "Material": "ListBoxBC"
+                        },
+                        "StateBRDisabled": {
+                          "Material": "ListBoxBR"
+                        },
+                        "StateTLNormal": {
+                          "Material": "ListBoxTL"
+                        },
+                        "StateTCNormal": {
+                          "Material": "ListBoxTC"
+                        },
+                        "StateTRNormal": {
+                          "Material": "ListBoxTR"
+                        },
+                        "StateCLNormal": {
+                          "Material": "ListBoxCL"
+                        },
+                        "StateCCNormal": {
+                          "Material": "ListBoxCC"
+                        },
+                        "StateCRNormal": {
+                          "Material": "ListBoxCR"
+                        },
+                        "StateBLNormal": {
+                          "Material": "ListBoxBL"
+                        },
+                        "StateBCNormal": {
+                          "Material": "ListBoxBC"
+                        },
+                        "StateBRNormal": {
+                          "Material": "ListBoxBR"
+                        },
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextSelected": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 171,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextHilighted": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextPressed": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "ScrollBarVertical",
+                            "Name": "ListScrollBar",
+                            "ViewPort": {
+                              "xorigin": 310,
+                              "yorigin": 3,
+                              "width": 32,
+                              "height": 400,
+                              "alignment": "TopLeft"
+                            },
+
+                            "Bar": {
+                              "xorigin": 0,
+                              "yorigin": 31,
+                              "width": 32,
+                              "height": 320
+                            },
+                            "MinButton": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 32,
+                              "height": 32
+                            },
+                            "MaxButton": {
+                              "xorigin": 0,
+                              "yorigin": 350,
+                              "width": 32,
+                              "height": 32
+                            },
+                            "TabSize": {
+                              "width": 32,
+                              "height": 32
+                            },
+                            "StateMaterials": {
+                              "StateBarBackground": {
+                                "Material": "ScrollBarBackground"
+                              },
+                              "StateBarForeground": {
+                                "Material": "ScrollBarBackground"
+                              },
+
+                              "StateMinDisabled": {
+                                "Material": "ScrollBarUpArrowNormal"
+                              },
+                              "StateMinNormal": {
+                                "Material": "ScrollBarUpArrowNormal"
+                              },
+                              "StateMinHover": {
+                                "Material": "ScrollBarUpArrowHover"
+                              },
+                              "StateMinPressed": {
+                                "Material": "ScrollBarUpArrowPressed"
+                              },
+
+                              "StateMaxDisabled": {
+                                "Material": "ScrollBarDownArrowNormal"
+                              },
+                              "StateMaxNormal": {
+                                "Material": "ScrollBarDownArrowNormal"
+                              },
+                              "StateMaxHover": {
+                                "Material": "ScrollBarDownArrowHover"
+                              },
+                              "StateMaxPressed": {
+                                "Material": "ScrollBarDownArrowPressed"
+                              },
+
+                              "StateTabDisabled": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabNormal": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabHover": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabPressed": {
+                                "Material": "ScrollBarHandleNormal"
+                              }
+                            },
+                            "ChildWidgets": []
+                          }
+                        }
+
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "MaxTeams",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 50,
+                  "width": 404,
+                  "height": 44,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "IDS_SED2_DIPLO_TEAM_LIMIT",
+                "TextAnchor": "TopLeft",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "DropDown",
+                "AccessibilityName": "IDS_SED2_DIPLO_TEAM_LIMIT",
+                "Name": "MaxTeamsDD",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 100,
+                  "width": 343,
+                  "height": 50,
+                  "alignment": "TopLeft"
+                },
+
+                "ValueBox": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 343,
+                  "height": 50,
+                  "widthleft": 22,
+                  "widthright": 22,
+                  "edgespacer": 8
+                },
+                "Button": {
+                  "xorigin": 298,
+                  "yorigin": 12,
+                  "width": 31,
+                  "height": 23
+                },
+                "Help": "IDS_SED2_RB_DIPLOMACY_TEAM_LIMIT_HELP_TEXT",
+                "StateMaterials": {
+                  "StateLeftValueDisabled": {
+                    "Material": "DropDownLeftValueDisabled"
+                  },
+                  "StateLeftValueNormal": {
+                    "Material": "DropDownLeftValueNormal"
+                  },
+                  "StateLeftValueHover": {
+                    "Material": "DropDownLeftValueHover"
+                  },
+                  "StateMidValueDisabled": {
+                    "Material": "DropDownMidValueDisabled"
+                  },
+                  "StateMidValueNormal": {
+                    "Material": "DropDownMidValueNormal"
+                  },
+                  "StateMidValueHover": {
+                    "Material": "DropDownMidValueHover"
+                  },
+                  "StateRightValueDisabled": {
+                    "Material": "DropDownRightValueDisabled"
+                  },
+                  "StateRightValueNormal": {
+                    "Material": "DropDownRightValueNormal"
+                  },
+                  "StateRightValueHover": {
+                    "Material": "DropDownRightValueHover"
+                  },
+                  "StateButtonClosedDisabled": {
+                    "Material": "DropDownButtonClosedDisabled"
+                  },
+                  "StateButtonClosedNormal": {
+                    "Material": "DropDownButtonClosedNormal"
+                  },
+                  "StateButtonClosedHover": {
+                    "Material": "DropDownButtonClosedHover"
+                  },
+                  "StateButtonClosedPressed": {
+                    "Material": "DropDownButtonClosedPressed"
+                  },
+                  "StateButtonOpenNormal": {
+                    "Material": "DropDownButtonOpenNormal"
+                  },
+                  "StateButtonOpenHover": {
+                    "Material": "DropDownButtonOpenHover"
+                  },
+                  "StateButtonOpenPressed": {
+                    "Material": "DropDownButtonOpenPressed"
+                  }
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "ListBox",
+                      "Name": "DropDownListBox",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 41,
+                        "width": 343,
+                        "height": 1500,
+                        "alignment": "TopLeft"
+                      },
+
+                      "ListBox": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 343,
+                        "height": 1500,
+                        "drawbox": true,
+                        "gridstep": 22,
+                        "edgespacer": 8,
+                        "linespacer": 1,
+                        "linesize": 40,
+                        "columnwidths": [
+                          {
+                            "width": 285
+                          }
+                        ]
+                      },
+                      "StateMaterials": {
+                        "StateTLDisabled": {
+                          "Material": "ListBoxTL"
+                        },
+                        "StateTCDisabled": {
+                          "Material": "ListBoxTC"
+                        },
+                        "StateTRDisabled": {
+                          "Material": "ListBoxTR"
+                        },
+                        "StateCLDisabled": {
+                          "Material": "ListBoxCL"
+                        },
+                        "StateCCDisabled": {
+                          "Material": "ListBoxCC"
+                        },
+                        "StateCRDisabled": {
+                          "Material": "ListBoxCR"
+                        },
+                        "StateBLDisabled": {
+                          "Material": "ListBoxBL"
+                        },
+                        "StateBCDisabled": {
+                          "Material": "ListBoxBC"
+                        },
+                        "StateBRDisabled": {
+                          "Material": "ListBoxBR"
+                        },
+                        "StateTLNormal": {
+                          "Material": "ListBoxTL"
+                        },
+                        "StateTCNormal": {
+                          "Material": "ListBoxTC"
+                        },
+                        "StateTRNormal": {
+                          "Material": "ListBoxTR"
+                        },
+                        "StateCLNormal": {
+                          "Material": "ListBoxCL"
+                        },
+                        "StateCCNormal": {
+                          "Material": "ListBoxCC"
+                        },
+                        "StateCRNormal": {
+                          "Material": "ListBoxCR"
+                        },
+                        "StateBLNormal": {
+                          "Material": "ListBoxBL"
+                        },
+                        "StateBCNormal": {
+                          "Material": "ListBoxBC"
+                        },
+                        "StateBRNormal": {
+                          "Material": "ListBoxBR"
+                        },
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextSelected": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 171,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextHilighted": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextPressed": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "ScrollBarVertical",
+                            "Name": "ListScrollBar",
+                            "ViewPort": {
+                              "xorigin": 310,
+                              "yorigin": 3,
+                              "width": 32,
+                              "height": 400,
+                              "alignment": "TopLeft"
+                            },
+
+                            "Bar": {
+                              "xorigin": 0,
+                              "yorigin": 31,
+                              "width": 32,
+                              "height": 320
+                            },
+                            "MinButton": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 32,
+                              "height": 32
+                            },
+                            "MaxButton": {
+                              "xorigin": 0,
+                              "yorigin": 350,
+                              "width": 32,
+                              "height": 32
+                            },
+                            "TabSize": {
+                              "width": 32,
+                              "height": 32
+                            },
+                            "StateMaterials": {
+                              "StateBarBackground": {
+                                "Material": "ScrollBarBackground"
+                              },
+                              "StateBarForeground": {
+                                "Material": "ScrollBarBackground"
+                              },
+
+                              "StateMinDisabled": {
+                                "Material": "ScrollBarUpArrowNormal"
+                              },
+                              "StateMinNormal": {
+                                "Material": "ScrollBarUpArrowNormal"
+                              },
+                              "StateMinHover": {
+                                "Material": "ScrollBarUpArrowHover"
+                              },
+                              "StateMinPressed": {
+                                "Material": "ScrollBarUpArrowPressed"
+                              },
+
+                              "StateMaxDisabled": {
+                                "Material": "ScrollBarDownArrowNormal"
+                              },
+                              "StateMaxNormal": {
+                                "Material": "ScrollBarDownArrowNormal"
+                              },
+                              "StateMaxHover": {
+                                "Material": "ScrollBarDownArrowHover"
+                              },
+                              "StateMaxPressed": {
+                                "Material": "ScrollBarDownArrowPressed"
+                              },
+
+                              "StateTabDisabled": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabNormal": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabHover": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabPressed": {
+                                "Material": "ScrollBarHandleNormal"
+                              }
+                            },
+                            "ChildWidgets": []
+                          }
+                        }
+
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "CheckBox",
+                "Name": "LockTeams",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 160,
+                  "width": 400,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+                "Help": "IDS_SED2_RB_DIPLOMACY_LOCK_TEAMS_HELP_TEXT",
+
+                "StateMaterials": {
+                  "StateCheckedDisabled": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateChecked": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateCheckedHover": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateCheckedPressed": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateUncheckedDisabled": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUnchecked": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUncheckedHover": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  },
+                  "StateUncheckedPressed": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  }
+                },
+                "Image": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 36,
+                  "height": 36,
+                  "alignment": "TopLeft"
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Label",
+                      "ViewPort": {
+                        "xorigin": 48,
+                        "yorigin": 0,
+                        "width": 380,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_SED2_DIPLO_LOCK_TEAMS",
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "CheckBox",
+                "Name": "PlayerChooseTeams",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 205,
+                  "width": 430,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+                "Help": "IDS_SED2_RB_DIPLOMACY_CHANGE_TEAMS_HELP_TEXT",
+
+                "StateMaterials": {
+                  "StateCheckedDisabled": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateChecked": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateCheckedHover": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateCheckedPressed": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateUncheckedDisabled": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUnchecked": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUncheckedHover": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  },
+                  "StateUncheckedPressed": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  }
+                },
+                "Image": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 36,
+                  "height": 36,
+                  "alignment": "TopLeft"
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Label",
+                      "ViewPort": {
+                        "xorigin": 48,
+                        "yorigin": 0,
+                        "width": 400,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_SED2_DIPLO_CHOOSE_TEAMS",
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "CheckBox",
+                "Name": "RandomStartPoints",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 250,
+                  "width": 420,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+                "Help": "IDS_SED2_RB_DIPLOMACY_RANDOM_START_HELP_TEXT",
+
+                "StateMaterials": {
+                  "StateCheckedDisabled": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateChecked": {
+                    "Material": "SEditorCheckboxCheckedNormal"
+                  },
+                  "StateCheckedHover": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateCheckedPressed": {
+                    "Material": "SEditorCheckboxCheckedHover"
+                  },
+                  "StateUncheckedDisabled": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUnchecked": {
+                    "Material": "SEditorCheckboxUncheckedNormal"
+                  },
+                  "StateUncheckedHover": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  },
+                  "StateUncheckedPressed": {
+                    "Material": "SEditorCheckboxUncheckedHover"
+                  }
+                },
+                "Image": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 36,
+                  "height": 36,
+                  "alignment": "TopLeft"
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Label",
+                      "ViewPort": {
+                        "xorigin": 48,
+                        "yorigin": 0,
+                        "width": 380,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_SED2_DIPLO_RANDOM_START",
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "P1",
+                "ViewPort": {
+                  "xorigin": 800,
+                  "yorigin": 0,
+                  "width": 40,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "1",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Ally",
+                "ViewPort": {
+                  "xorigin": 780,
+                  "yorigin": 60,
+                  "width": 204,
+                  "height": 44,
+                  "alignment": "TopRight"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "IDS_SED2_DIPLO_ALLY",
+                "TextAnchor": "TopRight",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Neutral",
+                "ViewPort": {
+                  "xorigin": 780,
+                  "yorigin": 120,
+                  "width": 204,
+                  "height": 44,
+                  "alignment": "TopRight"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "IDS_SED2_DIPLO_NEUTRAL",
+                "TextAnchor": "TopRight",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Enemy",
+                "ViewPort": {
+                  "xorigin": 780,
+                  "yorigin": 180,
+                  "width": 204,
+                  "height": 44,
+                  "alignment": "TopRight"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "IDS_SED2_DIPLO_ENEMY",
+                "TextAnchor": "TopRight",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "AlliedVictory",
+                "ViewPort": {
+                  "xorigin": 780,
+                  "yorigin": 240,
+                  "width": 204,
+                  "height": 44,
+                  "alignment": "TopRight"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "IDS_SED2_DIPLO_ALLY_VICTORY",
+                "TextAnchor": "TopRight",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "P1Group",
+                "Anchor": {
+                  "xorigin": 800,
+                  "yorigin": 60,
+                  "alignment": "TopLeft"
+                },
+
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Ally",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Neutral",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 60,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_NUETRAL_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Enemy",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 120,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ENEMY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "AlliedVictory",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 180,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLIED_VICTORY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "P2",
+                "ViewPort": {
+                  "xorigin": 850,
+                  "yorigin": 0,
+                  "width": 40,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "2",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "P2Group",
+                "Anchor": {
+                  "xorigin": 850,
+                  "yorigin": 60,
+                  "alignment": "TopLeft"
+                },
+
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Ally",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Neutral",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 60,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_NUETRAL_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Enemy",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 120,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ENEMY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "AlliedVictory",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 180,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLIED_VICTORY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "P3",
+                "ViewPort": {
+                  "xorigin": 900,
+                  "yorigin": 0,
+                  "width": 40,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "3",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "P3Group",
+                "Anchor": {
+                  "xorigin": 900,
+                  "yorigin": 60,
+                  "alignment": "TopLeft"
+                },
+
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Ally",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Neutral",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 60,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_NUETRAL_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Enemy",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 120,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ENEMY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "AlliedVictory",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 180,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLIED_VICTORY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "P4",
+                "ViewPort": {
+                  "xorigin": 950,
+                  "yorigin": 0,
+                  "width": 40,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "4",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "P4Group",
+                "Anchor": {
+                  "xorigin": 950,
+                  "yorigin": 60,
+                  "alignment": "TopLeft"
+                },
+
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Ally",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Neutral",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 60,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_NUETRAL_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Enemy",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 120,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_enemy_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "AlliedVictory",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 180,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLIED_VICTORY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "P5",
+                "ViewPort": {
+                  "xorigin": 1000,
+                  "yorigin": 0,
+                  "width": 40,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "5",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": [
+
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "P5Group",
+                "Anchor": {
+                  "xorigin": 1000,
+                  "yorigin": 60,
+                  "alignment": "TopLeft"
+                },
+
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Ally",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Neutral",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 60,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_NUETRAL_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Enemy",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 120,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ENEMY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "AlliedVictory",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 180,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLIED_VICTORY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "P6",
+                "ViewPort": {
+                  "xorigin": 1050,
+                  "yorigin": 0,
+                  "width": 40,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "6",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": [
+
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "P6Group",
+                "Anchor": {
+                  "xorigin": 1050,
+                  "yorigin": 60,
+                  "alignment": "TopLeft"
+                },
+
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Ally",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Neutral",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 60,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_NUETRAL_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Enemy",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 120,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ENEMY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "AlliedVictory",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 180,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLIED_VICTORY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "P7",
+                "ViewPort": {
+                  "xorigin": 1100,
+                  "yorigin": 0,
+                  "width": 40,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "7",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "P7Group",
+                "Anchor": {
+                  "xorigin": 1100,
+                  "yorigin": 60,
+                  "alignment": "TopLeft"
+                },
+
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Ally",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Neutral",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 60,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_NUETRAL_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Enemy",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 120,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ENEMY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "AlliedVictory",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 180,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLIED_VICTORY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "P8",
+                "ViewPort": {
+                  "xorigin": 1150,
+                  "yorigin": 0,
+                  "width": 40,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "8",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "P8Group",
+                "Anchor": {
+                  "xorigin": 1150,
+                  "yorigin": 60,
+                  "alignment": "TopLeft"
+                },
+
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Ally",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Neutral",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 60,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_NUETRAL_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "Enemy",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 120,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ENEMY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "CheckBox",
+                      "Name": "AlliedVictory",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 180,
+                        "width": 40,
+                        "height": 40,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_SED2_RB_DIPLOMACY_ALLIED_VICTORY_HELP_TEXT",
+
+                      "StateMaterials": {
+                        "StateCheckedDisabled": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateChecked": {
+                          "Material": "SEditorCheckboxCheckedNormal"
+                        },
+                        "StateCheckedHover": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateCheckedPressed": {
+                          "Material": "SEditorCheckboxCheckedHover"
+                        },
+                        "StateUncheckedDisabled": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUnchecked": {
+                          "Material": "SEditorCheckboxUncheckedNormal"
+                        },
+                        "StateUncheckedHover": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        },
+                        "StateUncheckedPressed": {
+                          "Material": "SEditorCheckboxUncheckedHover"
+                        }
+                      },
+                      "Image": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 36,
+                        "height": 36,
+                        "alignment": "TopLeft"
+                      },
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            }
+
+          ]
+        }
+      }
+    ]
+  }
+}

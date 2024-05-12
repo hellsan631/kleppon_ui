@@ -1,0 +1,2810 @@
+{
+  "Collection": {
+    "Name": "CampaignHistoricalBattleSelection",
+    "ViewPort": {
+      "xorigin": 1920,
+      "yorigin": 1080,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "CentreCentre"
+    },
+    "TabOrder": [
+      {
+        "Tab": "Background/CampaignButton11"
+      },
+      {
+        "Tab": "Background/CampaignButton2"
+      },
+      {
+        "Tab": "Background/CampaignButton8"
+      },
+      {
+        "Tab": "Background/CampaignButton13"
+      },
+      {
+        "Tab": "Background/CampaignButton7"
+      },
+      {
+        "Tab": "Background/CampaignButton3"
+      },
+      {
+        "Tab": "Background/CampaignButton5"
+      },
+      {
+        "Tab": "Background/CampaignButton16"
+      },
+      {
+        "Tab": "Background/CampaignButton1"
+      },
+      {
+        "Tab": "Background/CampaignButton12"
+      },
+      {
+        "Tab": "Background/CampaignButton15"
+      },
+      {
+        "Tab": "Background/CampaignButton4"
+      },
+      {
+        "Tab": "Background/CampaignButton9"
+      },
+      {
+        "Tab": "Background/CampaignButton10"
+      },
+      {
+        "Tab": "Background/CampaignButton6"
+      },
+      {
+        "Tab": "Background/CampaignButton14"
+      },
+      {
+        "Tab": "Background/ButtonCancel"
+      },
+      {   
+        "Tab": "Background/DifficultyDropDown"
+      },
+      {   
+        "Tab": "Background/DataModDropDown"
+      }
+    ],
+
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "HeaderOrnamentsPlain",
+          "ViewPort": {
+            "xorigin": 1920,
+            "yorigin": 100,
+            "width": 1500,
+            "height": 200,
+            "alignment": "CentreCentre"
+          },
+          "ZPlane": 2,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "HeaderOrnamentsPlain"
+            },
+            "StateDisabled": {
+              "Material": "HeaderOrnamentsPlain"
+            }
+          },
+          "ChildWidgets": []
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Label",
+          "Name": "TitleLabel",
+          "ViewPort": {
+            "xorigin": 1920,
+            "yorigin": 110,
+            "width": 1000,
+            "height": 100,
+            "alignment": "CentreCentre"
+          },
+          "ZPlane": 2,
+          "StateMaterials": {
+            "StateNormal": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 70,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 57,
+                  "g": 28,
+                  "b": 27,
+                  "a": 255
+                }
+              }
+            }
+          },
+          "Text": 10221,
+          "TextAnchor": "CentreCentre",
+          "ChildWidgets": []
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "TopLeft"
+          },
+          "Image": {
+            "xorigin": 1920,
+            "yorigin": 1080,
+            "width": 5120,
+            "height": 2160,
+            "noclip": true,
+            "alignment": "CentreCentre"
+          },
+          "ZPlane": 0,
+          "Wrap": {
+            "width": 0,
+            "height": 0
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "CampaignBackgroundHistorical"
+            }
+          },
+         "ChildWidgets": [
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "ButtonCancel",
+                  "Help": 99306,
+                  "ViewPort": {
+                     "xorigin": 255,
+                     "yorigin": 1820,
+                     "width": 500,
+                     "height": 70,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 1,
+                  "HotKey": {
+                     "Key": 27,
+                     "Ctrl": false,
+                     "Alt": false,
+                     "Shift": false
+                  },
+                  "StateMaterials": {
+                     "StateDisabled": {
+                        "Material": "ButtonRedDisabled",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 45,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateNormal": {
+                        "Material": "ButtonRedNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 45,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ButtonRedHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 45,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ButtonRedClicked",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 45,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "Text": "IDS_BACK",
+                  "Help": "IDS_BACK_HELP_TEXT",
+                  "TextAnchor": "CentreCentre",
+                  "ChildWidgets": [],
+                  "ClickSound": "?button_select"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton1",
+                  "ViewPort": {
+                     "xorigin": 1050,
+                     "yorigin": 850,
+                     "width": 240,
+                     "height": 240,
+                     "alignment": "TopLeft"
+                  },
+                  "Image": {
+                     "xorigin": 0,
+                     "yorigin": 0,
+                     "width": 240,
+                     "height": 240,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon01ToursNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon01ToursHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 237,
+                              "g": 32,
+                              "b": 36,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon01ToursPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 200,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_TOURS",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_TOURS_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton2",
+                  "ViewPort": {
+                     "xorigin": 1320,
+                     "yorigin": 230,
+                     "width": 360,
+                     "height": 340,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon02VinlandsagaNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon02VinlandsagaHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 237,
+                              "g": 32,
+                              "b": 36,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon02VinlandsagaPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 237,
+                              "g": 32,
+                              "b": 36,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 280,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_VINLANDSAGA",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_VINLANDSAGA_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton3",
+                  "ViewPort": {
+                     "xorigin": 1050,
+                     "yorigin": 580,
+                     "width": 300,
+                     "height": 280,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon03HastingsNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon03HastingsHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 115,
+                              "b": 235,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon03HastingsPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 215,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_HASTINGS",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_HASTINGS_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton4",
+                  "ViewPort": {
+                     "xorigin": 2320,
+                     "yorigin": 1180,
+                     "width": 300,
+                     "height": 300,
+                     "alignment": "TopLeft"
+                  },
+                  "Image": {
+                     "xorigin": 0,
+                     "yorigin": 0,
+                     "width": 300,
+                     "height": 300,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon04ManzikertNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon04ManzikertHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 134,
+                              "g": 28,
+                              "b": 170,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon04ManzikertPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 245,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_MANZIKERT",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_MANZIKERT_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton5",
+                  "ViewPort": {
+                     "xorigin": 1340,
+                     "yorigin": 680,
+                     "width": 270,
+                     "height": 270,
+                     "alignment": "TopLeft"
+                  },
+                  "Image": {
+                     "xorigin": 0,
+                     "yorigin": 0,
+                     "width": 270,
+                     "height": 270,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon05AgincourtNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon05AgincourtHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 237,
+                              "g": 32,
+                              "b": 36,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon05AgincourtPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 215,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_AGINCOURT",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_AGINCOURT_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton6",
+                  "ViewPort": {
+                     "xorigin": 1700,
+                     "yorigin": 1200,
+                     "width": 260,
+                     "height": 260,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "Image": {
+                     "xorigin": 0,
+                     "yorigin": 0,
+                     "width": 260,
+                     "height": 260,
+                     "alignment": "TopLeft"
+                  },
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon06LepantoNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon06LepantoHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 237,
+                              "g": 32,
+                              "b": 36,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon06LepantoPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 210,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_LEPANTO",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_LEPANTO_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton7",
+                  "ViewPort": {
+                     "xorigin": 2680,
+                     "yorigin": 500,
+                     "width": 230,
+                     "height": 230,
+                     "alignment": "TopLeft"
+                  },
+                  "Image": {
+                     "xorigin": 0,
+                     "yorigin": 0,
+                     "width": 230,
+                     "height": 230,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon07KyotoNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon07KyotoHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon07KyotoPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 170,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_KYOTO",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_KYOTO_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton8",
+                  "ViewPort": {
+                     "xorigin": 2040,
+                     "yorigin": 400,
+                     "width": 480,
+                     "height": 240,
+                     "alignment": "TopLeft"
+                  },
+                  "Image": {
+                     "xorigin": 0,
+                     "yorigin": 0,
+                     "width": 480,
+                     "height": 240,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon08NoryangPointNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon08NoryangPointHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 237,
+                              "g": 32,
+                              "b": 36,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon08NoryangPointPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 25,
+                              "yorigin": 195,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_NORYANG",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_NORYANG_POINT_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton9",
+                  "ViewPort": {
+                     "xorigin": 2920,
+                     "yorigin": 1200,
+                     "width": 360,
+                     "height": 300,
+                     "alignment": "TopLeft"
+                  },
+                  "Image": {
+                     "xorigin": 0,
+                     "yorigin": 0,
+                     "width": 360,
+                     "height": 300,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon09BukharaNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon09BukharaHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 255,
+                              "g": 179,
+                              "b": 59,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon09BukharaPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 60,
+                              "yorigin": 235,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_BUKHARA",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_BUKHARA_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton10",
+                  "ViewPort": {
+                     "xorigin": 840,
+                     "yorigin": 1400,
+                     "width": 250,
+                     "height": 250,
+                     "alignment": "TopLeft"
+                  },
+                  "Image": {
+                     "xorigin": 40,
+                     "yorigin": 0,
+                     "width": 250,
+                     "height": 250,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon10DosPilasNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon10DosPilasHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon10DosPilasPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 190,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_DOS_PILAS",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_DOS_PILAS_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton11",
+                  "ViewPort": {
+                     "xorigin": 1050,
+                     "yorigin": 344,
+                     "width": 240,
+                     "height": 240,
+                     "alignment": "TopLeft"
+                  },
+                  "Image": {
+                     "xorigin": 0,
+                     "yorigin": 0,
+                     "width": 240,
+                     "height": 240,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon11YorkNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon11YorkHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 237,
+                              "g": 32,
+                              "b": 36,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon11YorkPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 25,
+                              "yorigin": 190,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 3,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_YORK",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_YORK_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton12",
+                  "ViewPort": {
+                     "xorigin": 1740,
+                     "yorigin": 900,
+                     "width": 290,
+                     "height": 270,
+                     "alignment": "TopLeft"
+                  },
+                  "Image": {
+                     "xorigin": 0,
+                     "yorigin": 0,
+                     "width": 290,
+                     "height": 270,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon12HonfoglalasNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon12HonfoglalasHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon12HonfoglalasPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 171,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 225,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_HONFOGLALAS",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_HONFOGLALAS_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton13",
+                  "ViewPort": {
+                     "xorigin": 2540,
+                     "yorigin": 290,
+                     "width": 250,
+                     "height": 250,
+                     "alignment": "TopLeft"
+                  },
+                  "Image": {
+                     "xorigin": 0,
+                     "yorigin": 0,
+                     "width": 250,
+                     "height": 250,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon13KurikaraNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon13KurikaraHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 115,
+                              "b": 235,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon13KurikaraPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 195,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_KURIKARA",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_KURIKARA_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton14",
+                  "ViewPort": {
+                     "xorigin": 2000,
+                     "yorigin": 1330,
+                     "width": 280,
+                     "height": 280,
+                     "alignment": "TopLeft"
+                  },
+                  "Image": {
+                     "xorigin": 20,
+                     "yorigin": 0,
+                     "width": 280,
+                     "height": 280,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon14CyprusNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon14CyprusHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 237,
+                              "g": 32,
+                              "b": 36,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon14CyprusPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 225,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_CYPRUS",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_CYPRUS_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton15",
+                  "ViewPort": {
+                     "xorigin": 2010,
+                     "yorigin": 1100,
+                     "width": 250,
+                     "height": 230,
+                     "alignment": "TopLeft"
+                  },
+                  "Image": {
+                     "xorigin": 0,
+                     "yorigin": 0,
+                     "width": 250,
+                     "height": 230,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon15BapheusNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon15BapheusHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 237,
+                              "g": 32,
+                              "b": 36,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon15BapheusPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 195,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_BAPHEUS",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_BAPHEUS_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "Button",
+                  "Name": "CampaignButton16",
+                  "ViewPort": {
+                     "xorigin": 2000,
+                     "yorigin": 640,
+                     "width": 420,
+                     "height": 300,
+                     "alignment": "TopLeft"
+                  },
+                  "Image": {
+                     "xorigin": 0,
+                     "yorigin": 0,
+                     "width": 420,
+                     "height": 300,
+                     "alignment": "TopLeft"
+                  },
+                  "ZPlane": 2,
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Material": "ScenarioIcon16LakePoyangNormal",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateHover": {
+                        "Material": "ScenarioIcon16LakePoyangHover",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 115,
+                              "b": 235,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StatePressed": {
+                        "Material": "ScenarioIcon16LakePoyangPressed",
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 44,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "CampaignTitle",
+                           "Name": "Label",
+                           "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 235,
+                              "width": 700,
+                              "height": 100,
+                              "alignment": "TopLeft"
+                           },
+                           "ClippingOverride": "Background",
+                           "ZPlane": 2,
+                           "Level": 0,
+                           "StateMaterials": {
+                              "StateNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 255,
+                                       "g": 255,
+                                       "b": 255,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "Text": "IDS_HISTORICAL_BATTLES_POYANG",
+                           "TextAnchor": "TopLeft"
+                        }
+                     }
+                  ],
+                  "Help": "IDS_HISTORICAL_BATTLES_LAKE_POYANG_HELP_TEXT",
+                  "ClickSound": "?button_gfx"
+               }
+            },
+
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "DifficultyLabel",
+                "ViewPort": {
+                  "xorigin": 805,
+                  "yorigin": 1775,
+                  "width": 520,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+                "ZPlane": 3,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 45,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateDisabled": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 45,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "IDS_CAM_CAMPAIGN_DIFFICULTY2",
+                "TextAnchor": "TopLeft",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "DropDown",
+                "AccessibilityName": "IDS_CAM_CAMPAIGN_DIFFICULTY2",
+                "Name": "DifficultyDropDown",
+                "Help": "IDS_CAM_CAMPAIGN_DIFFICULTY_HELP_TEXT",
+                "ViewPort": {
+                  "xorigin": 805,
+                  "yorigin": 1820,
+                  "width": 580,
+                  "height": 70,
+                  "alignment": "TopLeft"
+                },
+                "ZPlane": 1,
+                "ValueBox": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 580,
+                  "height": 70,
+                  "widthleft": 22,
+                  "widthright": 22,
+                  "edgespacer": 8
+                },
+                "Button": {
+                  "xorigin": 500,
+                  "yorigin": 12,
+                  "width": 31,
+                  "height": 23
+                },
+                "StateMaterials": {
+                  "StateLeftValueDisabled": {
+                    "Material": "DropDownLeftValueDisabled"
+                  },
+                  "StateLeftValueNormal": {
+                    "Material": "DropDownLeftValueNormal"
+                  },
+                  "StateLeftValueHover": {
+                    "Material": "DropDownLeftValueHover"
+                  },
+                  "StateMidValueDisabled": {
+                    "Material": "DropDownMidValueDisabled"
+                  },
+                  "StateMidValueNormal": {
+                    "Material": "DropDownMidValueNormal"
+                  },
+                  "StateMidValueHover": {
+                    "Material": "DropDownMidValueHover"
+                  },
+                  "StateRightValueDisabled": {
+                    "Material": "DropDownRightValueDisabled"
+                  },
+                  "StateRightValueNormal": {
+                    "Material": "DropDownRightValueNormal"
+                  },
+                  "StateRightValueHover": {
+                    "Material": "DropDownRightValueHover"
+                  },
+                  "StateButtonClosedDisabled": {
+                    "Material": "DropDownButtonClosedDisabled"
+                  },
+                  "StateButtonClosedNormal": {
+                    "Material": "DropDownButtonClosedNormal"
+                  },
+                  "StateButtonClosedHover": {
+                    "Material": "DropDownButtonClosedHover"
+                  },
+                  "StateButtonClosedPressed": {
+                    "Material": "DropDownButtonClosedPressed"
+                  },
+                  "StateButtonOpenNormal": {
+                    "Material": "DropDownButtonOpenNormal"
+                  },
+                  "StateButtonOpenHover": {
+                    "Material": "DropDownButtonOpenHover"
+                  },
+                  "StateButtonOpenPressed": {
+                    "Material": "DropDownButtonOpenPressed"
+                  }
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "ListBox",
+                      "Name": "DropDownListBox",
+                      "Help": "IDS_CAM_CAMPAIGN_DIFFICULTY_HELP_TEXT",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 49,
+                        "width": 580,
+                        "height": 180,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlane": 2,
+                      "ListBox": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 580,
+                        "height": 180,
+                        "drawbox": true,
+                        "gridstep": 22,
+                        "edgespacer": 8,
+                        "linespacer": 1,
+                        "linesize": 44,
+                        "listenForKeyInput": true
+                      },
+                      "StateMaterials": {
+                        "StateTLDisabled": {
+                          "Material": "ListBoxTL"
+                        },
+                        "StateTCDisabled": {
+                          "Material": "ListBoxTC"
+                        },
+                        "StateTRDisabled": {
+                          "Material": "ListBoxTR"
+                        },
+                        "StateCLDisabled": {
+                          "Material": "ListBoxCL"
+                        },
+                        "StateCCDisabled": {
+                          "Material": "ListBoxCC"
+                        },
+                        "StateCRDisabled": {
+                          "Material": "ListBoxCR"
+                        },
+                        "StateBLDisabled": {
+                          "Material": "ListBoxBL"
+                        },
+                        "StateBCDisabled": {
+                          "Material": "ListBoxBC"
+                        },
+                        "StateBRDisabled": {
+                          "Material": "ListBoxBR"
+                        },
+                        "StateTLNormal": {
+                          "Material": "ListBoxTL"
+                        },
+                        "StateTCNormal": {
+                          "Material": "ListBoxTC"
+                        },
+                        "StateTRNormal": {
+                          "Material": "ListBoxTR"
+                        },
+                        "StateCLNormal": {
+                          "Material": "ListBoxCL"
+                        },
+                        "StateCCNormal": {
+                          "Material": "ListBoxCC"
+                        },
+                        "StateCRNormal": {
+                          "Material": "ListBoxCR"
+                        },
+                        "StateBLNormal": {
+                          "Material": "ListBoxBL"
+                        },
+                        "StateBCNormal": {
+                          "Material": "ListBoxBC"
+                        },
+                        "StateBRNormal": {
+                          "Material": "ListBoxBR"
+                        },
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextSelected": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 171,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextHilighted": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextPressed": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "ScrollBarVertical",
+                            "Name": "ListScrollBar",
+                            "ViewPort": {
+                              "xorigin": 328,
+                              "yorigin": 3,
+                              "width": 32,
+                              "height": 232,
+                              "alignment": "TopLeft"
+                            },
+                            "ZPlane": 5,
+                            "Bar": {
+                              "xorigin": 0,
+                              "yorigin": 31,
+                              "width": 32,
+                              "height": 170
+                            },
+                            "MinButton": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 32,
+                              "height": 32
+                            },
+                            "MaxButton": {
+                              "xorigin": 0,
+                              "yorigin": 200,
+                              "width": 32,
+                              "height": 32
+                            },
+                            "TabSize": {
+                              "width": 32,
+                              "height": 32
+                            },
+                            "StateMaterials": {
+                              "StateBarBackground": {
+                                "Material": "ScrollBarBackground"
+                              },
+                              "StateBarForeground": {
+                                "Material": "ScrollBarBackground"
+                              },
+                              "StateMinDisabled": {
+                                "Material": "ScrollBarUpArrowNormal"
+                              },
+                              "StateMinNormal": {
+                                "Material": "ScrollBarUpArrowNormal"
+                              },
+                              "StateMinHover": {
+                                "Material": "ScrollBarUpArrowHover"
+                              },
+                              "StateMinPressed": {
+                                "Material": "ScrollBarUpArrowPressed"
+                              },
+                              "StateMaxDisabled": {
+                                "Material": "ScrollBarDownArrowNormal"
+                              },
+                              "StateMaxNormal": {
+                                "Material": "ScrollBarDownArrowNormal"
+                              },
+                              "StateMaxHover": {
+                                "Material": "ScrollBarDownArrowHover"
+                              },
+                              "StateMaxPressed": {
+                                "Material": "ScrollBarDownArrowPressed"
+                              },
+                              "StateTabDisabled": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabNormal": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabHover": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabPressed": {
+                                "Material": "ScrollBarHandleNormal"
+                              }
+                            },
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+               "Widget": {
+                  "Type": "Label",
+                  "Name": "DataModDropDownLabel",
+                  "ViewPort": {
+                     "xorigin": 1435,
+                     "yorigin": 1775,
+                     "width": 520,
+                     "height": 40,
+                     "alignment": "TopLeft"
+                  },
+                  "StateMaterials": {
+                     "StateNormal": {
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 45,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                           }
+                        }
+                     },
+                     "StateDisabled": {
+                        "Font": {
+                           "FontIndex": 0,
+                           "PointSize": 45,
+                           "Style": "Normal",
+                           "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                           }
+                        }
+                     }
+                  },
+                  "Text": "IDS_MODMGR_TAG_DATA",
+                  "TextAnchor": "TopLeft",
+                  "ChildWidgets": []
+               }
+            },
+            {
+               "Widget": {
+                  "Type": "DropDown",
+                  "AccessibilityName": 200016,
+                  "Name": "DataModDropDown",
+                  "Help": "IDS_MODMGR_DATAMOD_SCENARIO_SELECTION_DROPDOWN_TOOLTIP",
+                  "ViewPort": {
+                     "xorigin": 1435,
+                     "yorigin": 1820,
+                     "width": 580,
+                     "height": 70,
+                     "alignment": "TopLeft"
+                  },
+                  "ValueBox": {
+                     "xorigin": 0,
+                     "yorigin": 0,
+                     "width": 580,
+                     "height": 70,
+                     "widthleft": 22,
+                     "widthright": 22,
+                     "edgespacer": 8
+                  },
+                  "Button": {
+                     "xorigin": 500,
+                     "yorigin": 12,
+                     "width": 31,
+                     "height": 23
+                  },
+                  "StateMaterials": {
+                     "StateLeftValueDisabled": {
+                        "Material": "DropDownLeftValueDisabled"
+                     },
+                     "StateLeftValueNormal": {
+                        "Material": "DropDownLeftValueNormal"
+                     },
+                     "StateLeftValueHover": {
+                        "Material": "DropDownLeftValueHover"
+                     },
+                     "StateMidValueDisabled": {
+                        "Material": "DropDownMidValueDisabled"
+                     },
+                     "StateMidValueNormal": {
+                        "Material": "DropDownMidValueNormal"
+                     },
+                     "StateMidValueHover": {
+                        "Material": "DropDownMidValueHover"
+                     },
+                     "StateRightValueDisabled": {
+                        "Material": "DropDownRightValueDisabled"
+                     },
+                     "StateRightValueNormal": {
+                        "Material": "DropDownRightValueNormal"
+                     },
+                     "StateRightValueHover": {
+                        "Material": "DropDownRightValueHover"
+                     },
+                     "StateButtonClosedDisabled": {
+                        "Material": "DropDownButtonClosedDisabled"
+                     },
+                     "StateButtonClosedNormal": {
+                        "Material": "DropDownButtonClosedNormal"
+                     },
+                     "StateButtonClosedHover": {
+                        "Material": "DropDownButtonClosedHover"
+                     },
+                     "StateButtonClosedPressed": {
+                        "Material": "DropDownButtonClosedPressed"
+                     },
+                     "StateButtonOpenNormal": {
+                        "Material": "DropDownButtonOpenNormal"
+                     },
+                     "StateButtonOpenHover": {
+                        "Material": "DropDownButtonOpenHover"
+                     },
+                     "StateButtonOpenPressed": {
+                        "Material": "DropDownButtonOpenPressed"
+                     }
+                  },
+                  "ChildWidgets": [
+                     {
+                        "Widget": {
+                           "Type": "ListBox",
+                           "Name": "DropDownListBox",
+                           "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 49,
+                              "width": 580,
+                              "height": 180,
+                              "alignment": "TopLeft"
+                           },
+                           "ListBox": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 580,
+                              "height": 180,
+                              "drawbox": true,
+                              "gridstep": 22,
+                              "edgespacer": 8,
+                              "linespacer": 1,
+                              "linesize": 44,
+                              "listenForKeyInput": true
+                           },
+                           "StateMaterials": {
+                              "StateTLDisabled": {
+                                 "Material": "ListBoxTL"
+                              },
+                              "StateTCDisabled": {
+                                 "Material": "ListBoxTC"
+                              },
+                              "StateTRDisabled": {
+                                 "Material": "ListBoxTR"
+                              },
+                              "StateCLDisabled": {
+                                 "Material": "ListBoxCL"
+                              },
+                              "StateCCDisabled": {
+                                 "Material": "ListBoxCC"
+                              },
+                              "StateCRDisabled": {
+                                 "Material": "ListBoxCR"
+                              },
+                              "StateBLDisabled": {
+                                 "Material": "ListBoxBL"
+                              },
+                              "StateBCDisabled": {
+                                 "Material": "ListBoxBC"
+                              },
+                              "StateBRDisabled": {
+                                 "Material": "ListBoxBR"
+                              },
+                              "StateTLNormal": {
+                                 "Material": "ListBoxTL"
+                              },
+                              "StateTCNormal": {
+                                 "Material": "ListBoxTC"
+                              },
+                              "StateTRNormal": {
+                                 "Material": "ListBoxTR"
+                              },
+                              "StateCLNormal": {
+                                 "Material": "ListBoxCL"
+                              },
+                              "StateCCNormal": {
+                                 "Material": "ListBoxCC"
+                              },
+                              "StateCRNormal": {
+                                 "Material": "ListBoxCR"
+                              },
+                              "StateBLNormal": {
+                                 "Material": "ListBoxBL"
+                              },
+                              "StateBCNormal": {
+                                 "Material": "ListBoxBC"
+                              },
+                              "StateBRNormal": {
+                                 "Material": "ListBoxBR"
+                              },
+                              "StateTextNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 57,
+                                       "g": 28,
+                                       "b": 27,
+                                       "a": 255
+                                    }
+                                 }
+                              },
+                              "StateTextSelected": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 171,
+                                       "g": 28,
+                                       "b": 27,
+                                       "a": 255
+                                    }
+                                 }
+                              },
+                              "StateTextHilighted": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 57,
+                                       "g": 156,
+                                       "b": 154,
+                                       "a": 255
+                                    }
+                                 }
+                              },
+                              "StateTextPressed": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 45,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 57,
+                                       "g": 156,
+                                       "b": 154,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "ChildWidgets": [
+                              {
+                                 "Widget": {
+                                    "Type": "ScrollBarVertical",
+                                    "Name": "ListScrollBar",
+                                    "ViewPort": {
+                                       "xorigin": 468,
+                                       "yorigin": 3,
+                                       "width": 32,
+                                       "height": 232,
+                                       "alignment": "TopLeft"
+                                    },
+                                    "Bar": {
+                                       "xorigin": 0,
+                                       "yorigin": 31,
+                                       "width": 32,
+                                       "height": 170
+                                    },
+                                    "MinButton": {
+                                       "xorigin": 0,
+                                       "yorigin": 0,
+                                       "width": 32,
+                                       "height": 32
+                                    },
+                                    "MaxButton": {
+                                       "xorigin": 0,
+                                       "yorigin": 200,
+                                       "width": 32,
+                                       "height": 32
+                                    },
+                                    "TabSize": {
+                                       "width": 32,
+                                       "height": 32
+                                    },
+                                    "StateMaterials": {
+                                       "StateBarBackground": {
+                                          "Material": "ScrollBarBackground"
+                                       },
+                                       "StateBarForeground": {
+                                          "Material": "ScrollBarBackground"
+                                       },
+                                       "StateMinDisabled": {
+                                          "Material": "ScrollBarUpArrowNormal"
+                                       },
+                                       "StateMinNormal": {
+                                          "Material": "ScrollBarUpArrowNormal"
+                                       },
+                                       "StateMinHover": {
+                                          "Material": "ScrollBarUpArrowHover"
+                                       },
+                                       "StateMinPressed": {
+                                          "Material": "ScrollBarUpArrowPressed"
+                                       },
+                                       "StateMaxDisabled": {
+                                          "Material": "ScrollBarDownArrowNormal"
+                                       },
+                                       "StateMaxNormal": {
+                                          "Material": "ScrollBarDownArrowNormal"
+                                       },
+                                       "StateMaxHover": {
+                                          "Material": "ScrollBarDownArrowHover"
+                                       },
+                                       "StateMaxPressed": {
+                                          "Material": "ScrollBarDownArrowPressed"
+                                       },
+                                       "StateTabDisabled": {
+                                          "Material": "ScrollBarHandleNormal"
+                                       },
+                                       "StateTabNormal": {
+                                          "Material": "ScrollBarHandleNormal"
+                                       },
+                                       "StateTabHover": {
+                                          "Material": "ScrollBarHandleNormal"
+                                       },
+                                       "StateTabPressed": {
+                                          "Material": "ScrollBarHandleNormal"
+                                       }
+                                    },
+                                    "ChildWidgets": []
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            }
+         ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "BackgroundSurround",
+          "Anchor": {
+            "xorigin": 215,
+            "yorigin": 1755
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "LobbyBoxTopLeft",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 50,
+                  "height": 50,
+                  "alignment": "TopLeft"
+                },
+                "ZPlane": 1,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "BackgroundTransDecorationBoxTopLeft_3"
+                  },
+                  "StateDisabled": {
+                    "Material": "BackgroundTransDecorationBoxTopLeft_3"
+                  }
+                },
+                "ChildWidgets": [
+
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "LobbyBoxTop",
+                "ViewPort": {
+                  "xorigin": 50,
+                  "yorigin": 0,
+                  "width": 1740,
+                  "height": 50,
+                  "alignment": "TopLeft"
+                },
+                "ZPlane": 1,
+                "Wrap": {
+                  "width": 50,
+                  "height": 0
+                },
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "BackgroundTransDecorationBoxTop_3"
+                  },
+                  "StateDisabled": {
+                    "Material": "BackgroundTransDecorationBoxTop_3"
+                  }
+                },
+                "ChildWidgets": [
+
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "LobbyBoxTopRight",
+                "ViewPort": {
+                  "xorigin": 1790,
+                  "yorigin": 0,
+                  "width": 50,
+                  "height": 50,
+                  "alignment": "TopLeft"
+                },
+                "ZPlane": 1,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "BackgroundTransDecorationBoxTopRight_3"
+                  },
+                  "StateDisabled": {
+                    "Material": "BackgroundTransDecorationBoxTopRight_3"
+                  }
+                },
+                "ChildWidgets": [
+
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "LobbyBox",
+                "ViewPort": {
+                  "xorigin": 50,
+                  "yorigin": 50,
+                  "width": 1740,
+                  "height": 95,
+                  "alignment": "TopLeft"
+                },
+                "Wrap": {
+                  "width": 50,
+                  "height": 50
+                },
+                "ZPlane": 1,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "BackgroundTransDecorationBoxInlay_3"
+                  },
+                  "StateDisabled": {
+                    "Material": "BackgroundTransDecorationBoxInlay_3"
+                  }
+                },
+                "ChildWidgets": [
+
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "LobbyBoxLeft",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 50,
+                  "width": 50,
+                  "height": 95,
+                  "alignment": "TopLeft"
+                },
+                "ZPlane": 1,
+                "Wrap": {
+                  "width": 0,
+                  "height": 50
+                },
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "BackgroundTransDecorationBoxLeft_3"
+                  },
+                  "StateDisabled": {
+                    "Material": "BackgroundTransDecorationBoxLeft_3"
+                  }
+                },
+                "ChildWidgets": [
+
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "LobbyBoxRight",
+                "ViewPort": {
+                  "xorigin": 1790,
+                  "yorigin": 50,
+                  "width": 50,
+                  "height": 95,
+                  "alignment": "TopLeft"
+                },
+                "ZPlane": 1,
+                "Wrap": {
+                  "width": 0,
+                  "height": 50
+                },
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "BackgroundTransDecorationBoxRight_3"
+                  },
+                  "StateDisabled": {
+                    "Material": "BackgroundTransDecorationBoxRight_3"
+                  }
+                },
+                "ChildWidgets": [
+
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "LobbyBoxBottomLeft",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 145,
+                  "width": 50,
+                  "height": 50,
+                  "alignment": "TopLeft"
+                },
+                "ZPlane": 1,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "BackgroundTransDecorationBoxBottomLeft_3"
+                  },
+                  "StateDisabled": {
+                    "Material": "BackgroundTransDecorationBoxBottomLeft_3"
+                  }
+                },
+                "ChildWidgets": [
+
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "LobbyBoxBottom",
+                "ViewPort": {
+                  "xorigin": 50,
+                  "yorigin": 145,
+                  "width": 1740,
+                  "height": 50,
+                  "alignment": "TopLeft"
+                },
+                "ZPlane": 1,
+                "Wrap": {
+                  "width": 50,
+                  "height": 0
+                },
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "BackgroundTransDecorationBoxBottom_3"
+                  },
+                  "StateDisabled": {
+                    "Material": "BackgroundTransDecorationBoxBottom_3"
+                  }
+                },
+                "ChildWidgets": [
+
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "LobbyBoxBottomRight",
+                "ViewPort": {
+                  "xorigin": 1790,
+                  "yorigin": 145,
+                  "width": 50,
+                  "height": 50,
+                  "alignment": "TopLeft"
+                },
+                "ZPlane": 1,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "BackgroundTransDecorationBoxBottomRight_3"
+                  },
+                  "StateDisabled": {
+                    "Material": "BackgroundTransDecorationBoxBottomRight_3"
+                  }
+                },
+                "ChildWidgets": [
+
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

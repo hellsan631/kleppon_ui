@@ -1,0 +1,156 @@
+{
+  "Collection": {
+    "Name": "RankingMessage",
+    "ViewPort": {
+      "xorigin": 1920,
+      "yorigin": 1080,
+      "width": 1560,
+      "height": 800,
+      "alignment": "CentreCentre"
+    },
+    "TabOrder": [
+      {
+        "Tab": "Background/ButtonOk"
+      }
+    ],
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 1280,
+            "height": 720,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "PoppupBackground_1"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonOk",
+                "ViewPort": {
+                  "xorigin": 420,
+                  "yorigin": 446,
+                  "width": 442,
+                  "height": 70,
+                  "alignment": "TopLeft"
+                },
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "ButtonRedDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+"a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "ButtonRedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "ButtonRedHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonRedClicked",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 38,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "IDS_TEXT_OK",
+                "Help": "IDS_TEXT_OK_HELP_TEXT",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+	            "Widget": {
+	            "Type": "Anchor",
+	            "Name": "PlayerName",
+	            "Anchor": {
+	                "xorigin": 0,
+	                "yorigin": 250
+	                },
+	                "ChildWidgets": [
+			            {
+			              "Widget": {
+			                "Type": "Label",
+			                "Name": "MessageLabel",
+			                "ViewPort": {
+			                  "xorigin": 130,
+			                  "yorigin": 0,
+			                  "width": 1000,
+			                  "height": 300,
+                        "alignment": "CentreLeft"
+			                },
+			                "StateMaterials": {
+			                  "StateNormal": {
+			                    "Font": {
+			                      "FontIndex": 0,
+			                      "PointSize": 45,
+			                      "Style": "Normal",
+			                      "TextColor": {
+			                        "r": 57,
+			                        "g": 28,
+			                        "b": 27,
+			                        "a": 255
+			                      }
+			                    }
+			                  }
+			                },
+			                "Text": ":",
+			                "TextAnchor": "CentreCentre"
+			              }
+			            }
+	        		]
+				}
+			}
+          ]
+        }
+      }
+    ]
+  }
+}

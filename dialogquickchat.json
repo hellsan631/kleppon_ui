@@ -1,0 +1,148 @@
+{
+	"Collection": {
+		"Name": "DialogQuickChat",
+		"ViewPort": {
+			"xorigin": 1920,
+			"yorigin": 1080,
+			"width": 1280,
+			"height": 280,
+			"alignment": "CentreCentre"
+		},
+		"Widgets": [{
+			"Widget": {
+				"Type": "Base",
+				"Name": "Background",
+				"ViewPort": {
+					"xorigin": 0,
+					"yorigin": 0,
+					"width": 1235,
+					"height": 270,
+					"alignment": "TopLeft"
+				},
+				"ZPlaneLocalOffset": 1,
+				"StateMaterials": {
+					"StateNormal": {
+						"Material": "ChatChatBarBg"
+					}
+				},
+				"ChildWidgets": [{
+					"Widget": {
+						"Type": "Anchor",
+						"Name": "Chat",
+						"Anchor": {
+							"xorigin": 0,
+							"yorigin": 134
+						},
+						"ChildWidgets": [{
+								"Widget": {
+									"Type": "Label",
+									"Name": "ChatLabel",
+									"ViewPort": {
+										"xorigin": 15,
+										"yorigin": 0,
+										"width": 160,
+										"height": 50,
+										"alignment": "CentreLeft"
+									},
+									"StateMaterials": {
+										"StateNormal": {
+											"Font": {
+												"FontIndex": 0,
+												"PointSize": 40,
+												"Style": "Normal",
+												"TextColor": {
+													"r": 57,
+													"g": 28,
+													"b": 27,
+													"a": 255
+												}
+											}
+										}
+									},
+									"Text": "IDS_MPS_CHAT",
+									"TextAnchor": "CentreRight",
+									"ChildWidgets": []
+								}
+							},
+							{
+                        "Widget": {
+                           "Type": "TextBoxInput",
+                           "Name": "ChatInputBox",
+                           "Help": "IDS_CHAT_INPUT_HELP_TEXT",
+                           "AccessibilityName": "IDS_MPS_CHAT",
+                           "ViewPort": {
+                              "xorigin": 195,
+                              "yorigin": 0,
+                              "width": 900,
+                              "height": 64,
+                              "alignment": "CentreLeft"
+                           },
+                           "TextBox": {
+                              "xorigin": 2,
+                              "yorigin": 2,
+                              "width": 892,
+                              "height": 60,
+                              "edgespacer": 8,
+                              "linespacer": 1,
+                              "linesize": 44,
+                              "drawbox": false
+                           },
+                           "ZPlaneLocalOffset": 1,
+                           "StateMaterials": {
+                              "StateTextNormal": {
+                                 "Font": {
+                                    "FontIndex": 0,
+                                    "PointSize": 40,
+                                    "Style": "Normal",
+                                    "TextColor": {
+                                       "r": 250,
+                                       "g": 250,
+                                       "b": 250,
+                                       "a": 255
+                                    }
+                                 }
+                              }
+                           },
+                           "TextAnchor": "CentreLeft",
+                           "ChildWidgets": [
+                              {
+                                 "Widget": {
+                                    "Type": "Base",
+                                    "Name": "ChatBoxBG",
+                                    "ViewPort": {
+                                       "xorigin": 0,
+                                       "yorigin": 0,
+                                       "width": 987,
+                                       "height": 60,
+                                       "alignment": "TopLeft"
+                                    },
+                                    "Image": {
+                                       "xorigin": 0,
+                                       "yorigin": 0,
+                                       "width": 987,
+                                       "height": 60,
+                                       "alignment": "TopLeft"
+                                    },
+                                    "ZPlaneLocalOffset": -1,
+                                    "StateMaterials": {
+                                       "StateNormal": {
+                                          "Material": "ChatChatInputBg"
+                                       },
+                                       "StateDisabled": {
+                                          "Material": "ChatChatInputBg"
+                                       }
+                                    },
+                                    "ChildWidgets": []
+                                 }
+                              }
+
+                           ]
+                        }
+							}
+						]
+					}
+				}]
+			}
+		}]
+	}
+}

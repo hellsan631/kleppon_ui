@@ -1,0 +1,446 @@
+{
+  "Collection": {
+    "Name": "TimerPanel",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 0,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "TopLeft"
+    },
+    "Widgets": [
+      
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "WorldTimer",
+          "Anchor": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "alignment": "TopLeft"
+          },
+          "ZPlane": 0,
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "WorldTimerLabel",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 1000,
+                  "height": 1000,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 3,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      },
+                      "TextOutlineWidth": 0.05,
+                      "TextOutlineColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "TextAnchor": "TopLeft"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "FPSDisplay",
+          "Anchor": {
+            "xorigin": 1700,
+            "yorigin": 64,
+            "alignment": "TopLeft"
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "FPSDisplayLabel",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 1000,
+                  "height": 40,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 40,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      },
+                      "TextOutlineWidth": 0.05,
+                      "TextOutlineColor": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "TextAnchor": "TopLeft"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "ProfileTimers",
+          "Anchor": {
+            "xorigin": 0,
+            "yorigin": 0
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Profile0",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 2000,
+                  "height": 1000,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 55,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      },
+                      "TextOutlineWidth": 0.05,
+                      "TextOutlineColor": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "TextAnchor": "TopRight"
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Profile1",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 40,
+                  "width": 2000,
+                  "height": 1000,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 55,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      },
+                      "TextOutlineWidth": 0.05,
+                      "TextOutlineColor": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "TextAnchor": "TopRight"
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Profile2",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 80,
+                  "width": 2000,
+                  "height": 1000,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 55,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      },
+                      "TextOutlineWidth": 0.05,
+                      "TextOutlineColor": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "TextAnchor": "TopRight"
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Profile3",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 120,
+                  "width": 2000,
+                  "height": 1000,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 55,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      },
+                      "TextOutlineWidth": 0.05,
+                      "TextOutlineColor": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "TextAnchor": "TopRight"
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Profile4",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 160,
+                  "width": 2000,
+                  "height": 1000,
+                  "alignment": "TopLeft"
+                },
+
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 55,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      },
+                      "TextOutlineWidth": 0.05,
+                      "TextOutlineColor": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "TextAnchor": "TopRight"
+              }
+            }
+
+
+
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "TextBox",
+          "Name": "ProfileInfo",
+          "ViewPort": {
+            "xorigin": 520,
+            "yorigin": 320,
+            "width": 2032,
+            "height": 1200,
+            "alignment": "TopLeft"
+          },
+          "TextBox": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 2000,
+            "height": 1200,
+            "edgespacer": 10,
+            "linespacer": 1,
+            "linesize": 50,
+            "multiline": true,
+            "drawbox": true
+          },
+          "StateMaterials": {
+            "StateTextNormal": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 45,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 255
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 255
+                }
+              }
+            }
+          },
+          "TextAnchor": "TopCentre",
+          "Text": "",
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "ScrollBarVertical",
+                "Name": "TextBoxScrollBar",
+                "ViewPort": {
+                  "xorigin": 2000,
+                  "yorigin": 0,
+                  "width": 32,
+                  "height": 560,
+                  "alignment": "TopLeft"
+                },
+                "Bar": {
+                  "xorigin": 0,
+                  "yorigin": 31,
+                  "width": 32,
+                  "height": 387
+                },
+                "MinButton": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 32,
+                  "height": 32
+                },
+                "MaxButton": {
+                  "xorigin": 0,
+                  "yorigin": 420,
+                  "width": 32,
+                  "height": 32
+                },
+                "TabSize": {
+                  "width": 32,
+                  "height": 32
+                },
+                "StateMaterials": {
+                  "StateBarBackground": {
+                    "Material": "ScrollBarBackground"
+                  },
+                  "StateBarForeground": {
+                    "Material": "ScrollBarBackground"
+                  },
+                  "StateMinDisabled": {
+                    "Material": "ScrollBarUpArrowNormal"
+                  },
+                  "StateMinNormal": {
+                    "Material": "ScrollBarUpArrowNormal"
+                  },
+                  "StateMinHover": {
+                    "Material": "ScrollBarUpArrowHover"
+                  },
+                  "StateMinPressed": {
+                    "Material": "ScrollBarUpArrowPressed"
+                  },
+                  "StateMaxDisabled": {
+                    "Material": "ScrollBarDownArrowNormal"
+                  },
+                  "StateMaxNormal": {
+                    "Material": "ScrollBarDownArrowNormal"
+                  },
+                  "StateMaxHover": {
+                    "Material": "ScrollBarDownArrowHover"
+                  },
+                  "StateMaxPressed": {
+                    "Material": "ScrollBarDownArrowPressed"
+                  },
+                  "StateTabDisabled": {
+                    "Material": "ScrollBarHandleNormal"
+                  },
+                  "StateTabNormal": {
+                    "Material": "ScrollBarHandleNormal"
+                  },
+                  "StateTabHover": {
+                    "Material": "ScrollBarHandleNormal"
+                  },
+                  "StateTabPressed": {
+                    "Material": "ScrollBarHandleNormal"
+                  }
+                },
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

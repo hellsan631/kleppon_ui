@@ -1,0 +1,950 @@
+{
+  "Collection": {
+    "Name": "ProfilerPanel",
+    "ViewPort": {
+      "xorigin": 1920,
+      "yorigin": 0,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "TopCentre"
+    },
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "Update",
+          "Anchor": {
+            "xorigin": 60,
+            "yorigin": 320,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 45,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 0.2,
+                  "g": 0.4,
+                  "b": 1,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0.3,
+                  "g": 0.0,
+                  "b": 0.2,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "SoftRender",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 240,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "ObjectDraw",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 280,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "SpriteUpdate",
+          "Anchor": {
+            "xorigin": 980,
+            "yorigin": 240,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "BuildView",
+          "Anchor": {
+            "xorigin": 980,
+            "yorigin": 200,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "Minimap",
+          "Anchor": {
+            "xorigin": 580,
+            "yorigin": 160,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "MainViewPaint",
+          "Anchor": {
+            "xorigin": 580,
+            "yorigin": 200,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "TerrainLayer",
+          "Anchor": {
+            "xorigin": 580,
+            "yorigin": 240,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "DXRender",
+          "Anchor": {
+            "xorigin": 580,
+            "yorigin": 280,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "DXCopy",
+          "Anchor": {
+            "xorigin": 580,
+            "yorigin": 320,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "DXUI",
+          "Anchor": {
+            "xorigin": 580,
+            "yorigin": 360,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "PreDrawView",
+          "Anchor": {
+            "xorigin": 980,
+            "yorigin": 160,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "PostDrawView",
+          "Anchor": {
+            "xorigin": 980,
+            "yorigin": 280,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "AverageRenderFPS",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 320,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "ZoomScale",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 360,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "SystemsLoop",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 400,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "WorldUpdate",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 440,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "RenderTime",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 480,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "EyeX",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 520,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "EyeY",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 550,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "EyeZ",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 580,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "ViewX",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 620,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "ViewY",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 660,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "ViewZ",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 700,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "RemX",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 760,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Anchor",
+          "Name": "RemY",
+          "Anchor": {
+            "xorigin": 80,
+            "yorigin": 800,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Font": {
+                "FontIndex": 0,
+                "PointSize": 35,
+                "Style": "Normal",
+                "TextColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 0,
+                  "a": 1
+                },
+                "TextOutlineWidth": 0.05,
+                "TextOutlineColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "ChildWidgets": [
+          ]
+        }
+      }
+    ]
+  }
+}

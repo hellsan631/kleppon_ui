@@ -1,0 +1,1093 @@
+{
+  "Collection": {
+    "Name": "DialogObjectives",
+    "ViewPort": {
+      "xorigin": 1920,
+      "yorigin": 1080,
+      "width": 1358,
+      "height": 1512,
+      "alignment": "CentreCentre"
+    },
+    "TabOrder": [
+      {
+        "Tab": "Clipped/BackgroundHints/TextBox"
+      },
+      {
+        "Tab": "Clipped/ButtonCancel"
+      },
+      {
+        "Tab": "Clipped/ObjectivesTab"
+      },
+      {
+        "Tab": "Clipped/StandardTab"
+      },
+      {
+        "Tab": "Clipped/HintsTab"
+      },
+      {
+        "Tab": "Clipped/ScoutsTab"
+      }
+    ],
+    "ZOrder": 100,
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "ClipArea",
+          "Name": "Clipped",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 1358,
+            "height": 1512,
+            "alignment": "TopLeft"
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "BackgroundStandard",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 1358,
+                  "height": 1512,
+                  "alignment": "TopLeft"
+                },
+                "show": false,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "Objectives-MenuObjectivesHintsBg"
+                  }
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Title",
+                      "ViewPort": {
+                        "xorigin": 679,
+                        "yorigin": 134,
+                        "width": 400,
+                        "height": 48,
+                        "alignment": "CentreCentre"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 44,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_MPS_SETTINGS",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "TextBox",
+                      "Name": "TextBox",
+                      "Help": "IDS_OBJECTIVES_MAIN_HELP_TEXT",
+                      "ViewPort": {
+                        "xorigin": 679,
+                        "yorigin": 709,
+                        "width": 950,
+                        "height": 950,
+                        "alignment": "CentreCentre"
+                      },
+                      "TextBox": {
+                        "xorigin": 2,
+                        "yorigin": 2,
+                        "width": 946,
+                        "height": 946,
+                        "edgespacer": 1,
+                        "linespacer": 1,
+                        "linesize": 42,
+                        "multiline": true,
+                        "drawbox": false
+                      },
+                      "StateMaterials": {
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "ScrollBarVertical",
+                            "Name": "TextBoxScrollBar",
+                            "ViewPort": {
+                              "xorigin": 910,
+                              "yorigin": 4,
+                              "width": 40,
+                              "height": 942,
+                              "alignment": "TopLeft"
+                            },
+                            "Bar": {
+                              "xorigin": 0,
+                              "yorigin": 35,
+                              "width": 35,
+                              "height": 870
+                            },
+                            "MinButton": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 35,
+                              "height": 35
+                            },
+                            "MaxButton": {
+                              "xorigin": 0,
+                              "yorigin": 908,
+                              "width": 35,
+                              "height": 35
+                            },
+                            "TabSize": {
+                              "width": 35,
+                              "height": 75
+                            },
+                            "StateMaterials": {
+                              "StateMinNormal": {
+                                "Material": "ObjectivesButtonUpParchmentNormal"
+                              },
+                              "StateMinHover": {
+                                "Material": "ObjectivesButtonUpParchmentHover"
+                              },
+                              "StateMinPressed": {
+                                "Material": "ObjectivesButtonUpParchmentActive"
+                              },
+                              "StateMaxNormal": {
+                                "Material": "ObjectivesButtonDownParchmentNormal"
+                              },
+                              "StateMaxHover": {
+                                "Material": "ObjectivesButtonDownParchmentHover"
+                              },
+                              "StateMaxPressed": {
+                                "Material": "ObjectivesButtonDownParchmentActive"
+                              },
+                              "StateTabNormal": {
+                                "Material": "ObjectivesScrollbarParchmentNormal"
+                              },
+                              "StateTabHover": {
+                                "Material": "ObjectivesScrollbarParchmentHover"
+                              },
+                              "StateTabPressed": {
+                                "Material": "ObjectivesScrollbarParchmentActive"
+                              }
+                            },
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "BackgroundObjectives",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 1358,
+                  "height": 1512,
+                  "alignment": "TopLeft"
+                },
+                "show": true,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "Objectives-MenuObjectivesHintsBg"
+                  }
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Title",
+                      "ViewPort": {
+                        "xorigin": 679,
+                        "yorigin": 138,
+                        "width": 400,
+                        "height": 48,
+                        "alignment": "CentreCentre"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 44,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_OBJECTIVES_MAIN",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "ObjectivesTextBox",
+                      "Name": "ObjectivesBox",
+                      "Help": "IDS_OBJECTIVES_MAIN_HELP_TEXT",
+                      "ViewPort": {
+                        "xorigin": 679,
+                        "yorigin": 709,
+                        "width": 950,
+                        "height": 950,
+                        "alignment": "CentreCentre"
+                      },
+                      "TextBox": {
+                        "xorigin": 2,
+                        "yorigin": 2,
+                        "width": 946,
+                        "height": 946,
+                        "edgespacer": 2,
+                        "linespacer": 3,
+                        "linesize": 42,
+                        "checkboxspacer": 42,
+                        "multiline": true,
+                        "drawbox": false
+                      },
+                      "IconSize": {
+                        "width": 32,
+                        "height": 32
+                      },
+                      "StateMaterials": {
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateMainObjectiveIncomplete": {
+                          "Material": "ObjectivesMainUnchecked"
+                        },
+                        "StateMainObjectiveComplete": {
+                          "Material": "ObjectivesMainChecked"
+                        },
+                        "StateSecondaryObjectiveIncomplete": {
+                          "Material": "ObjectivesSecondaryUnchecked"
+                        },
+                        "StateSecondaryObjectiveComplete": {
+                          "Material": "ObjectivesSecondaryChecked"
+                        }
+                      },
+                      "TextAnchor": "CentreLeft",
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "ScrollBarVertical",
+                            "Name": "TextBoxScrollBar",
+                            "ViewPort": {
+                              "xorigin": 910,
+                              "yorigin": 4,
+                              "width": 40,
+                              "height": 942,
+                              "alignment": "TopLeft"
+                            },
+                            "Bar": {
+                              "xorigin": 0,
+                              "yorigin": 35,
+                              "width": 35,
+                              "height": 870
+                            },
+                            "MinButton": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 35,
+                              "height": 35
+                            },
+                            "MaxButton": {
+                              "xorigin": 0,
+                              "yorigin": 908,
+                              "width": 35,
+                              "height": 35
+                            },
+                            "TabSize": {
+                              "width": 35,
+                              "height": 75
+                            },
+                            "StateMaterials": {
+                              "StateMinNormal": {
+                                "Material": "ObjectivesButtonUpParchmentNormal"
+                              },
+                              "StateMinHover": {
+                                "Material": "ObjectivesButtonUpParchmentHover"
+                              },
+                              "StateMinPressed": {
+                                "Material": "ObjectivesButtonUpParchmentActive"
+                              },
+                              "StateMaxNormal": {
+                                "Material": "ObjectivesButtonDownParchmentNormal"
+                              },
+                              "StateMaxHover": {
+                                "Material": "ObjectivesButtonDownParchmentHover"
+                              },
+                              "StateMaxPressed": {
+                                "Material": "ObjectivesButtonDownParchmentActive"
+                              },
+                              "StateTabNormal": {
+                                "Material": "ObjectivesScrollbarParchmentNormal"
+                              },
+                              "StateTabHover": {
+                                "Material": "ObjectivesScrollbarParchmentHover"
+                              },
+                              "StateTabPressed": {
+                                "Material": "ObjectivesScrollbarParchmentActive"
+                              }
+                            },
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "BackgroundHints",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 1358,
+                  "height": 1512,
+                  "alignment": "TopLeft"
+                },
+                "show": false,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "Objectives-MenuObjectivesHintsBg"
+                  }
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Title",
+                      "ViewPort": {
+                        "xorigin": 679,
+                        "yorigin": 138,
+                        "width": 400,
+                        "height": 48,
+                        "alignment": "CentreCentre"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 44,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_OBJECTIVES_HINTS",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "TextBox",
+                      "Name": "TextBox",
+                      "Help": "IDS_OBJECTIVES_HINTS_HELP_TEXT",
+                      "ViewPort": {
+                        "xorigin": 679,
+                        "yorigin": 709,
+                        "width": 950,
+                        "height": 950,
+                        "alignment": "CentreCentre"
+                      },
+                      "TextBox": {
+                        "xorigin": 2,
+                        "yorigin": 2,
+                        "width": 946,
+                        "height": 946,
+                        "edgespacer": 2,
+                        "linespacer": 3,
+                        "linesize": 42,
+                        "multiline": true,
+                        "drawbox": false
+                      },
+                      "StateMaterials": {
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "ScrollBarVertical",
+                            "Name": "TextBoxScrollBar",
+                            "ViewPort": {
+                              "xorigin": 905,
+                              "yorigin": 4,
+                              "width": 40,
+                              "height": 942,
+                              "alignment": "TopLeft"
+                            },
+                            "Bar": {
+                              "xorigin": 0,
+                              "yorigin": 35,
+                              "width": 35,
+                              "height": 870
+                            },
+                            "MinButton": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 35,
+                              "height": 35
+                            },
+                            "MaxButton": {
+                              "xorigin": 0,
+                              "yorigin": 908,
+                              "width": 35,
+                              "height": 35
+                            },
+                            "TabSize": {
+                              "width": 35,
+                              "height": 75
+                            },
+                            "StateMaterials": {
+                              "StateMinNormal": {
+                                "Material": "ObjectivesButtonUpParchmentNormal"
+                              },
+                              "StateMinHover": {
+                                "Material": "ObjectivesButtonUpParchmentHover"
+                              },
+                              "StateMinPressed": {
+                                "Material": "ObjectivesButtonUpParchmentActive"
+                              },
+                              "StateMaxNormal": {
+                                "Material": "ObjectivesButtonDownParchmentNormal"
+                              },
+                              "StateMaxHover": {
+                                "Material": "ObjectivesButtonDownParchmentHover"
+                              },
+                              "StateMaxPressed": {
+                                "Material": "ObjectivesButtonDownParchmentActive"
+                              },
+                              "StateTabNormal": {
+                                "Material": "ObjectivesScrollbarParchmentNormal"
+                              },
+                              "StateTabHover": {
+                                "Material": "ObjectivesScrollbarParchmentHover"
+                              },
+                              "StateTabPressed": {
+                                "Material": "ObjectivesScrollbarParchmentActive"
+                              }
+                            },
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "BackgroundScouts",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 1358,
+                  "height": 1512,
+                  "alignment": "TopLeft"
+                },
+                "show": false,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "Objectives-MenuScoutsBg"
+                  }
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Title",
+                      "ViewPort": {
+                        "xorigin": 679,
+                        "yorigin": 138,
+                        "width": 400,
+                        "height": 48,
+                        "alignment": "CentreCentre"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 44,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_OBJECTIVES_SCOUTS",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "TextBox",
+                      "Name": "TextBox",
+                      "Help": "IDS_OBJECTIVES_SCOUTS_HELP_TEXT",
+                      "ViewPort": {
+                        "xorigin": 704,
+                        "yorigin": 759,
+                        "width": 950,
+                        "height": 950,
+                        "alignment": "CentreCentre"
+                      },
+                      "TextBox": {
+                        "xorigin": 2,
+                        "yorigin": 2,
+                        "width": 946,
+                        "height": 900,
+                        "edgespacer": 2,
+                        "linespacer": 3,
+                        "linesize": 42,
+                        "multiline": true,
+                        "drawbox": false
+                      },
+                      "StateMaterials": {
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 42,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "TextAnchor": "TopLeft",
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "ScrollBarVertical",
+                            "Name": "TextBoxScrollBar",
+                            "ViewPort": {
+                              "xorigin": 910,
+                              "yorigin": 4,
+                              "width": 40,
+                              "height": 942,
+                              "alignment": "TopLeft"
+                            },
+                            "Bar": {
+                              "xorigin": 0,
+                              "yorigin": 35,
+                              "width": 35,
+                              "height": 870
+                            },
+                            "MinButton": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 35,
+                              "height": 35
+                            },
+                            "MaxButton": {
+                              "xorigin": 0,
+                              "yorigin": 908,
+                              "width": 35,
+                              "height": 35
+                            },
+                            "TabSize": {
+                              "width": 35,
+                              "height": 75
+                            },
+                            "StateMaterials": {
+                              "StateMinNormal": {
+                                "Material": "ObjectivesButtonUpParchmentNormal"
+                              },
+                              "StateMinHover": {
+                                "Material": "ObjectivesButtonUpParchmentHover"
+                              },
+                              "StateMinPressed": {
+                                "Material": "ObjectivesButtonUpParchmentActive"
+                              },
+                              "StateMaxNormal": {
+                                "Material": "ObjectivesButtonDownParchmentNormal"
+                              },
+                              "StateMaxHover": {
+                                "Material": "ObjectivesButtonDownParchmentHover"
+                              },
+                              "StateMaxPressed": {
+                                "Material": "ObjectivesButtonDownParchmentActive"
+                              },
+                              "StateTabNormal": {
+                                "Material": "ObjectivesScrollbarParchmentNormal"
+                              },
+                              "StateTabHover": {
+                                "Material": "ObjectivesScrollbarParchmentHover"
+                              },
+                              "StateTabPressed": {
+                                "Material": "ObjectivesScrollbarParchmentActive"
+                              }
+                            },
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonCancel",
+                "ViewPort": {
+                  "xorigin": 679,
+                  "yorigin": 1300,
+                  "width": 416,
+                  "height": 54,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlaneLocalOffset": 1,
+                "HotKey": {
+                  "Key": 27,
+                  "Ctrl": false,
+                  "Alt": false,
+                  "Shift": false
+                },
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "ButtonRedDisabled",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "ButtonRedNormal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "ButtonRedHover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonRedClicked",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 242,
+                        "g": 210,
+                        "b": 182,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "IDS_TEXT_CLOSE",
+                "Help": "IDS_TEXT_CLOSE_HELP_TEXT",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ObjectivesTab",
+                "ViewPort": {
+                  "xorigin": 180,
+                  "yorigin": 1325,
+                  "width": 337,
+                  "height": 159,
+                  "alignment": "TopLeft"
+                },
+                "ZPlaneLocalOffset": 1,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "ObjectivesTab1Hover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "ObjectivesTab1Normal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "ObjectivesTab1Hover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "ObjectivesTab1Hover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "IDS_OBJECTIVES_MAIN",
+                "Help": "IDS_OBJECTIVES_MAIN_HELP_TEXT",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "StandardTab",
+                "ViewPort": {
+                  "xorigin": 180,
+                  "yorigin": 1325,
+                  "width": 337,
+                  "height": 159,
+                  "alignment": "TopLeft"
+                },
+                "ZPlaneLocalOffset": 1,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "ObjectivesTab1Hover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "ObjectivesTab1Normal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "ObjectivesTab1Hover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "ObjectivesTab1Hover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "IDS_OBJECTIVES_INSTRUCTIONS",
+                "Help": "IDS_OBJECTIVES_INSTRUCTIONS_HELP",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "HintsTab",
+                "ViewPort": {
+                  "xorigin": 520,
+                  "yorigin": 1325,
+                  "width": 337,
+                  "height": 159,
+                  "alignment": "TopLeft"
+                },
+                "ZPlaneLocalOffset": 1,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "ObjectivesTab2Hover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "ObjectivesTab2Normal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "ObjectivesTab2Hover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "ObjectivesTab2Hover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "IDS_OBJECTIVES_HINTS",
+                "Help": "IDS_OBJECTIVES_HINTS_HELP_TEXT",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ScoutsTab",
+                "ViewPort": {
+                  "xorigin": 860,
+                  "yorigin": 1325,
+                  "width": 337,
+                  "height": 159,
+                  "alignment": "TopLeft"
+                },
+                "ZPlaneLocalOffset": 1,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "ObjectivesTab3Hover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateNormal": {
+                    "Material": "ObjectivesTab3Normal",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StateHover": {
+                    "Material": "ObjectivesTab3Hover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  },
+                  "StatePressed": {
+                    "Material": "ObjectivesTab3Hover",
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 42,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "IDS_OBJECTIVES_SCOUTS",
+                "Help": "IDS_OBJECTIVES_SCOUTS_HELP_TEXT",
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

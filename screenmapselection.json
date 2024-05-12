@@ -1,0 +1,3451 @@
+{
+  "Collection": {
+    "Name": "ScreenMapSelection",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 0,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "TopLeft"
+    },
+    "TabOrder": [
+         {
+            "Tab": "Background/TopWidgetsAnchor/SearchBarInput"
+         },
+         {
+            "Tab": "Background/TopWidgetsAnchor/GameDropDown"
+         },
+         {
+            "Tab": "Background/TopWidgetsAnchor/MapStyleDropDown"
+         },
+         {
+            "Tab": "Background/ListAnchor/MasterBox"
+         },
+         {
+            "Tab": "Background/BottomButtonsAnchor/ButtonCancel"
+         },
+         {
+            "Tab": "Background/BottomButtonsAnchor/ButtonReset"
+         },
+         {
+            "Tab": "Background/BottomButtonsAnchor/ButtonApply"
+         },
+         {
+            "Tab": "Background/SideWidgetsAnchor/ButtonSingle"
+         },
+         {
+            "Tab": "Background/SideWidgetsAnchor/ButtonRandom"
+         },
+         {
+            "Tab": "Background/SideWidgetsAnchor/FiltersAnchor/LandCheckBox"
+         },
+         {
+            "Tab": "Background/SideWidgetsAnchor/FiltersAnchor/MixedCheckBox"
+         },
+         {
+            "Tab": "Background/SideWidgetsAnchor/FiltersAnchor/WaterCheckBox"
+         },
+         {
+            "Tab": "Background/SideWidgetsAnchor/FiltersAnchor/NomadCheckBox"
+         },
+         {
+            "Tab": "Background/SideWidgetsAnchor/FiltersAnchor/ImmigrationCheckBox"
+         },
+         {
+            "Tab": "Background/SideWidgetsAnchor/FiltersAnchor/OpenCheckBox"
+         },
+         {
+            "Tab": "Background/SideWidgetsAnchor/FiltersAnchor/ClosedCheckBox"
+         },
+         {
+            "Tab": "Background/SideWidgetsAnchor/FiltersAnchor/SuggestedCheckBox"
+         }
+    ],
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 1920,
+            "yorigin": 1080,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "CentreCentre"
+          },
+          "Image": {
+            "xorigin": 1920,
+            "yorigin": 1080,
+            "width": 5120,
+            "height": 2160,
+            "noclip": true,
+            "alignment": "CentreCentre"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "DefaultBackground",
+              "Color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0
+              }
+            }
+          },
+          "ChildWidgets": [
+			{
+              "Widget": {
+              "Type": "Anchor",
+              "Name": "TileDecorationAnchor",
+              "Anchor": {
+                "xorigin": 0,
+                "yorigin": 0
+              },
+              "ChildWidgets": [
+                  {
+                  "Widget": {
+                    "Type": "Base",
+                    "Name": "TitleDecoration",
+                    "ViewPort": {
+                      "xorigin": 1920,
+                      "yorigin": 275,
+                      "width": 1500,
+                      "height": 200,
+                      "alignment": "CentreCentre"
+                    },
+
+                    "StateMaterials": {
+                      "StateNormal": {
+                        "Material": "BackgroundDecorationTitle"
+                      },
+                      "StateDisabled": {
+                        "Material": "BackgroundDecorationTitle"
+                      }
+                    },
+                    "ChildWidgets": []
+                  }
+                },
+                {
+                  "Widget": {
+                    "Type": "Label",
+                    "Name": "Title",
+                    "ViewPort": {
+                      "xorigin": 1925,
+                      "yorigin": 280,
+                      "width": 400,
+                      "height": 64,
+                      "alignment": "CentreCentre"
+                    },
+                    "AutoSize": true,
+                    "StateMaterials": {
+                      "StateNormal": {
+                        "Font": {
+                          "FontIndex": 0,
+                          "PointSize": 60,
+                          "Style": "Normal",
+                          "TextColor": {
+                            "r": 57,
+                            "g": 28,
+                            "b": 27,
+                            "a": 255
+                          }
+                        }
+                      }
+                    },
+                    "Text": "IDS_MPS_SELECT_LOCATION",
+                    "TextAnchor": "TopCentre",
+                    "ChildWidgets": [
+
+                    ]
+                  }
+                }
+              ]
+            }
+            },
+			{
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "BottomButtonsAnchor",
+                "Anchor": {
+                  "xorigin": -20,
+                  "yorigin": 170
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonApply",
+                      "ViewPort": {
+						"xorigin": 1675,
+                        "yorigin": 1700,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "HotKey": {
+                        "Key": 27,
+                        "Ctrl": false,
+                        "Alt": false,
+                        "Shift": false
+                      },
+                      "ZPlaneLocalOffset": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+"a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_TEXT_APPLY",
+                      "Help": "IDS_TEXT_APPLY_HELP_TEXT",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonReset",
+                      "ViewPort": {
+                        "xorigin": 1125,
+                        "yorigin": 1700,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlaneLocalOffset": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+"a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_TEXT_RESET",
+                      "Help": "IDS_TEXT_RESET_MAPS_HELP_TEXT",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonCancel",
+                      "ViewPort": {
+                        "xorigin": 575,
+                        "yorigin": 1700,
+                        "width": 500,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "ZPlaneLocalOffset": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+"a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_TEXT_CANCEL",
+                      "Help": "IDS_TEXT_CANCEL_HELP_TEXT",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+         {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "TopWidgetsAnchor",
+                "Anchor": {
+                  "xorigin": 555,
+                  "yorigin": 400
+                },
+               "ChildWidgets": [
+
+
+
+
+                  {
+                     "Widget": {
+                        "Type": "Label",
+                        "Name": "SearchLabel",
+                        "ViewPort": {
+                           "xorigin": 3,
+                           "yorigin": 7,
+                           "width": 375,
+                           "height": 44,
+                           "alignment": "TopLeft"
+                        },
+                        "StateMaterials": {
+                           "StateNormal": {
+                              "Font": {
+                                 "FontIndex": 0,
+                                 "PointSize": 45,
+                                 "Style": "Normal",
+                                 "TextColor": {
+                                    "r": 57,
+                                    "g": 28,
+                                    "b": 27,
+                                    "a": 255
+                                 }
+                              }
+                           }
+                        },
+                        "Text": "IDS_MODMGR_MOD_SEARCH",
+                        "TextAnchor": "TopLeft",
+                        "ChildWidgets": []
+                     }
+                  },
+                  {
+                     "Widget": {
+                        "Type": "Base",
+                        "Name": "SearchBox",
+                        "ViewPort": {
+                           "xorigin": 160,
+                           "yorigin": 0,
+                           "width": 640,
+                           "height": 60,
+                           "alignment": "TopLeft"
+                        },
+                        "Image": {
+                           "xorigin": 0,
+                           "yorigin": 0,
+                           "width": 24,
+                           "height": 65,
+                           "alignment": "TopLeft"
+                        },
+                        "StateMaterials": {
+                           "StateNormal": {
+                              "Material": "SearchBarLeft"
+                           },
+                           "StateDisabled": {
+                              "Material": "SearchBarLeft"
+                           }
+                        },
+                        "ChildWidgets": [
+                           {
+                              "Widget": {
+                                 "Type": "Base",
+                                 "Name": "SearchBoxCentre",
+                                 "ViewPort": {
+                                    "xorigin": 24,
+                                    "yorigin": 0,
+                                    "width": 700,
+                                    "height": 65,
+                                    "alignment": "TopLeft"
+                                 },
+                                 "Image": {
+                                    "xorigin": 0,
+                                    "yorigin": 0,
+                                    "width": 600,
+                                    "height": 65,
+                                    "alignment": "TopLeft"
+                                 },
+                                 "Wrap": {
+                                    "width": 22,
+                                    "height": 0
+                                 },
+                                 "StateMaterials": {
+                                    "StateNormal": {
+                                       "Material": "SearchBarCentre"
+                                    },
+                                    "StateDisabled": {
+                                       "Material": "SearchBarCentre"
+                                    }
+                                 },
+                                 "ChildWidgets": [
+                                    {
+                                       "Widget": {
+                                          "Type": "Base",
+                                          "Name": "SearchBoxRight",
+                                          "ViewPort": {
+                                             "xorigin": 600,
+                                             "yorigin": 0,
+                                             "width": 24,
+                                             "height": 65,
+                                             "alignment": "TopLeft"
+                                          },
+                                          "Image": {
+                                             "xorigin": 0,
+                                             "yorigin": 0,
+                                             "width": 24,
+                                             "height": 65,
+                                             "alignment": "TopLeft"
+                                          },
+                                          "StateMaterials": {
+                                             "StateNormal": {
+                                                "Material": "SearchBarRight"
+                                             },
+                                             "StateDisabled": {
+                                                "Material": "SearchBarRight"
+                                             }
+                                          },
+                                          "ChildWidgets": []
+                                       }
+                                    }
+                                 ]
+                              }
+                           }
+                        ]
+                     }
+                  },
+
+
+
+
+
+                  {
+                     "Widget": {
+                        "Type": "TextBoxInput",
+                        "Name": "SearchBarInput",
+                        "ViewPort": {
+                           "xorigin": 165,
+                           "yorigin": 6,
+                           "width": 640,
+                           "height": 50,
+                           "alignment": "TopLeft"
+                        },
+                        "Help": 300323,
+                        "ZPlaneLocalOffset": 3,
+                        "TextBox": {
+                           "xorigin": 0,
+                           "yorigin": 0,
+                           "width": 630,
+                           "height": 44,
+                           "edgespacer": 4,
+                           "linespacer": 1,
+                           "linesize": 36,
+                           "drawbox": false
+                        },
+                        "StateMaterials": {
+                           "StateTLDisabled": {
+                              "Material": "ListBoxTL"
+                           },
+                           "StateTCDisabled": {
+                              "Material": "ListBoxTC"
+                           },
+                           "StateTRDisabled": {
+                              "Material": "ListBoxTR"
+                           },
+                           "StateCLDisabled": {
+                              "Material": "ListBoxCL"
+                           },
+                           "StateCCDisabled": {
+                              "Material": "ListBoxCC"
+                           },
+                           "StateCRDisabled": {
+                              "Material": "ListBoxCR"
+                           },
+                           "StateBLDisabled": {
+                              "Material": "ListBoxBL"
+                           },
+                           "StateBCDisabled": {
+                              "Material": "ListBoxBC"
+                           },
+                           "StateBRDisabled": {
+                              "Material": "ListBoxBR"
+                           },
+                           "StateTLNormal": {
+                              "Material": "ListBoxTL"
+                           },
+                           "StateTCNormal": {
+                              "Material": "ListBoxTC"
+                           },
+                           "StateTRNormal": {
+                              "Material": "ListBoxTR"
+                           },
+                           "StateCLNormal": {
+                              "Material": "ListBoxCL"
+                           },
+                           "StateCCNormal": {
+                              "Material": "ListBoxCC"
+                           },
+                           "StateCRNormal": {
+                              "Material": "ListBoxCR"
+                           },
+                           "StateBLNormal": {
+                              "Material": "ListBoxBL"
+                           },
+                           "StateBCNormal": {
+                              "Material": "ListBoxBC"
+                           },
+                           "StateBRNormal": {
+                              "Material": "ListBoxBR"
+                           },
+                           "StateTextNormal": {
+                              "Font": {
+                                 "FontIndex": 0,
+                                 "PointSize": 50,
+                                 "Style": "Normal",
+                                 "TextColor": {
+                                    "r": 242,
+                                    "g": 210,
+                                    "b": 182,
+                                    "a": 255
+                                 }
+                              }
+                           }
+                        },
+                        "TextAnchor": "CentreLeft",
+                        "ChildWidgets": []
+                     }
+                  },
+
+
+
+
+
+
+
+                  {
+                     "Widget": {
+                        "Type": "Label",
+                        "Name": "Game",
+                        "ViewPort": {
+                           "xorigin": 840,
+                           "yorigin": 7,
+                           "width": 375,
+                           "height": 44,
+                           "alignment": "TopLeft"
+                        },
+                        "StateMaterials": {
+                           "StateNormal": {
+                              "Font": {
+                                 "FontIndex": 0,
+                                 "PointSize": 45,
+                                 "Style": "Normal",
+                                 "TextColor": {
+                                    "r": 57,
+                                    "g": 28,
+                                    "b": 27,
+                                    "a": 255
+                                 }
+                              }
+                           }
+                        },
+                        "Text": "IDS_SET_GAMETYPE",
+                        "TextAnchor": "TopLeft",
+                        "ChildWidgets": []
+                     }
+                  },
+                  {
+                     "Widget": {
+                        "Type": "DropDown",
+                        "AccessibilityName": "IDS_SET_GAMETYPE",
+                        "Name": "GameDropDown",
+                        "Help": "IDS_SET_GAMETYPE_HELP_TEXT",
+                        "ViewPort": {
+                           "xorigin": 1110,
+                           "yorigin": 0,
+                           "width": 470,
+                           "height": 60,
+                           "alignment": "TopLeft"
+                        },
+                        "ValueBox": {
+                           "xorigin": 0,
+                           "yorigin": 0,
+                           "width": 470,
+                           "height": 60,
+                           "widthleft": 22,
+                           "widthright": 22,
+                           "edgespacer": 8
+                        },
+                        "Button": {
+                           "xorigin": 330,
+                           "yorigin": 12,
+                           "width": 31,
+                           "height": 23
+                        },
+                        "StateMaterials": {
+                           "StateLeftValueDisabled": {
+                              "Material": "DropDownLeftValueDisabled"
+                           },
+                           "StateLeftValueNormal": {
+                              "Material": "DropDownLeftValueNormal"
+                           },
+                           "StateLeftValueHover": {
+                              "Material": "DropDownLeftValueHover"
+                           },
+                           "StateMidValueDisabled": {
+                              "Material": "DropDownMidValueDisabled"
+                           },
+                           "StateMidValueNormal": {
+                              "Material": "DropDownMidValueNormal"
+                           },
+                           "StateMidValueHover": {
+                              "Material": "DropDownMidValueHover"
+                           },
+                           "StateRightValueDisabled": {
+                              "Material": "DropDownRightValueDisabled"
+                           },
+                           "StateRightValueNormal": {
+                              "Material": "DropDownRightValueNormal"
+                           },
+                           "StateRightValueHover": {
+                              "Material": "DropDownRightValueHover"
+                           },
+                           "StateButtonClosedDisabled": {
+                              "Material": "DropDownButtonClosedDisabled"
+                           },
+                           "StateButtonClosedNormal": {
+                              "Material": "DropDownButtonClosedNormal"
+                           },
+                           "StateButtonClosedHover": {
+                              "Material": "DropDownButtonClosedHover"
+                           },
+                           "StateButtonClosedPressed": {
+                              "Material": "DropDownButtonClosedPressed"
+                           },
+                           "StateButtonOpenNormal": {
+                              "Material": "DropDownButtonOpenNormal"
+                           },
+                           "StateButtonOpenHover": {
+                              "Material": "DropDownButtonOpenHover"
+                           },
+                           "StateButtonOpenPressed": {
+                              "Material": "DropDownButtonOpenPressed"
+                           }
+                        },
+                        "ChildWidgets": [
+                           {
+                              "Widget": {
+                                 "Type": "ListBox",
+                                 "Name": "DropDownListBox",
+                                 "Help": "IDS_SET_GAMETYPE_HELP_TEXT",
+                                 "ViewPort": {
+                                    "xorigin": 0,
+                                    "yorigin": 41,
+                                    "width": 470,
+                                    "height": 380,
+                                    "alignment": "TopLeft"
+                                 },
+                                 "ListBox": {
+                                    "xorigin": 0,
+                                    "yorigin": 0,
+                                    "width": 470,
+                                    "height": 380,
+                                    "drawbox": true,
+                                    "gridstep": 22,
+                                    "edgespacer": 8,
+                                    "linespacer": 1,
+                                    "linesize": 40,
+                                    "listenForKeyInput": true
+                                 },
+                                 "StateMaterials": {
+                                    "StateTLDisabled": {
+                                       "Material": "ListBoxTL"
+                                    },
+                                    "StateTCDisabled": {
+                                       "Material": "ListBoxTC"
+                                    },
+                                    "StateTRDisabled": {
+                                       "Material": "ListBoxTR"
+                                    },
+                                    "StateCLDisabled": {
+                                       "Material": "ListBoxCL"
+                                    },
+                                    "StateCCDisabled": {
+                                       "Material": "ListBoxCC"
+                                    },
+                                    "StateCRDisabled": {
+                                       "Material": "ListBoxCR"
+                                    },
+                                    "StateBLDisabled": {
+                                       "Material": "ListBoxBL"
+                                    },
+                                    "StateBCDisabled": {
+                                       "Material": "ListBoxBC"
+                                    },
+                                    "StateBRDisabled": {
+                                       "Material": "ListBoxBR"
+                                    },
+                                    "StateTLNormal": {
+                                       "Material": "ListBoxTL"
+                                    },
+                                    "StateTCNormal": {
+                                       "Material": "ListBoxTC"
+                                    },
+                                    "StateTRNormal": {
+                                       "Material": "ListBoxTR"
+                                    },
+                                    "StateCLNormal": {
+                                       "Material": "ListBoxCL"
+                                    },
+                                    "StateCCNormal": {
+                                       "Material": "ListBoxCC"
+                                    },
+                                    "StateCRNormal": {
+                                       "Material": "ListBoxCR"
+                                    },
+                                    "StateBLNormal": {
+                                       "Material": "ListBoxBL"
+                                    },
+                                    "StateBCNormal": {
+                                       "Material": "ListBoxBC"
+                                    },
+                                    "StateBRNormal": {
+                                       "Material": "ListBoxBR"
+                                    },
+                                    "StateTextNormal": {
+                                       "Font": {
+                                          "FontIndex": 0,
+                                          "PointSize": 45,
+                                          "Style": "Normal",
+                                          "TextColor": {
+                                             "r": 57,
+                                             "g": 28,
+                                             "b": 27,
+                                             "a": 255
+                                          }
+                                       }
+                                    },
+                                    "StateTextSelected": {
+                                       "Font": {
+                                          "FontIndex": 0,
+                                          "PointSize": 45,
+                                          "Style": "Normal",
+                                          "TextColor": {
+                                             "r": 171,
+                                             "g": 28,
+                                             "b": 27,
+                                             "a": 255
+                                          }
+                                       }
+                                    },
+                                    "StateTextHilighted": {
+                                       "Font": {
+                                          "FontIndex": 0,
+                                          "PointSize": 45,
+                                          "Style": "Normal",
+                                          "TextColor": {
+                                             "r": 57,
+                                             "g": 156,
+                                             "b": 154,
+                                             "a": 255
+                                          }
+                                       }
+                                    },
+                                    "StateTextPressed": {
+                                       "Font": {
+                                          "FontIndex": 0,
+                                          "PointSize": 45,
+                                          "Style": "Normal",
+                                          "TextColor": {
+                                             "r": 57,
+                                             "g": 156,
+                                             "b": 154,
+                                             "a": 255
+                                          }
+                                       }
+                                    }
+                                 },
+                                 "ChildWidgets": [
+                                    {
+                                       "Widget": {
+                                          "Type": "ScrollBarVertical",
+                                          "Name": "ListScrollBar",
+                                          "ViewPort": {
+                                             "xorigin": 425,
+                                             "yorigin": 3,
+                                             "width": 32,
+                                             "height": 232,
+                                             "alignment": "TopLeft"
+                                          },
+                                          "Bar": {
+                                             "xorigin": 0,
+                                             "yorigin": 31,
+                                             "width": 32,
+                                             "height": 170
+                                          },
+                                          "MinButton": {
+                                             "xorigin": 0,
+                                             "yorigin": 0,
+                                             "width": 32,
+                                             "height": 32
+                                          },
+                                          "MaxButton": {
+                                             "xorigin": 0,
+                                             "yorigin": 200,
+                                             "width": 32,
+                                             "height": 32
+                                          },
+                                          "TabSize": {
+                                             "width": 32,
+                                             "height": 32
+                                          },
+                                          "StateMaterials": {
+                                             "StateBarBackground": {
+                                                "Material": "ScrollBarBackground"
+                                             },
+                                             "StateBarForeground": {
+                                                "Material": "ScrollBarBackground"
+                                             },
+                                             "StateMinDisabled": {
+                                                "Material": "ScrollBarUpArrowNormal"
+                                             },
+                                             "StateMinNormal": {
+                                                "Material": "ScrollBarUpArrowNormal"
+                                             },
+                                             "StateMinHover": {
+                                                "Material": "ScrollBarUpArrowHover"
+                                             },
+                                             "StateMinPressed": {
+                                                "Material": "ScrollBarUpArrowPressed"
+                                             },
+                                             "StateMaxDisabled": {
+                                                "Material": "ScrollBarDownArrowNormal"
+                                             },
+                                             "StateMaxNormal": {
+                                                "Material": "ScrollBarDownArrowNormal"
+                                             },
+                                             "StateMaxHover": {
+                                                "Material": "ScrollBarDownArrowHover"
+                                             },
+                                             "StateMaxPressed": {
+                                                "Material": "ScrollBarDownArrowPressed"
+                                             },
+                                             "StateTabDisabled": {
+                                                "Material": "ScrollBarHandleNormal"
+                                             },
+                                             "StateTabNormal": {
+                                                "Material": "ScrollBarHandleNormal"
+                                             },
+                                             "StateTabHover": {
+                                                "Material": "ScrollBarHandleNormal"
+                                             },
+                                             "StateTabPressed": {
+                                                "Material": "ScrollBarHandleNormal"
+                                             }
+                                          },
+                                          "ChildWidgets": []
+                                       }
+                                    }
+                                 ]
+                              }
+                           }
+                        ]
+                     }
+                  },
+
+
+
+
+                  {
+                     "Widget": {
+                        "Type": "Label",
+                        "Name": "MapStyle",
+                        "ViewPort": {
+                           "xorigin": 1705,
+                           "yorigin": 7,
+                           "width": 375,
+                           "height": 44,
+                           "alignment": "TopLeft"
+                        },
+                        "StateMaterials": {
+                           "StateNormal": {
+                              "Font": {
+                                 "FontIndex": 0,
+                                 "PointSize": 45,
+                                 "Style": "Normal",
+                                 "TextColor": {
+                                    "r": 57,
+                                    "g": 28,
+                                    "b": 27,
+                                    "a": 255
+                                 }
+                              }
+                           }
+                        },
+                        "Text": "IDS_SET_MAPTYPE",
+                        "TextAnchor": "TopLeft",
+                        "ChildWidgets": []
+                     }
+                  },
+                  {
+                     "Widget": {
+                        "Type": "DropDown",
+                        "AccessibilityName": "IDS_SET_MAPTYPE",
+                        "Name": "MapStyleDropDown",
+                        "Help": "IDS_SET_MAPTYPE_HELP_TEXT",
+                        "ViewPort": {
+                           "xorigin": 1975,
+                           "yorigin": 0,
+                           "width": 450,
+                           "height": 60,
+                           "alignment": "TopLeft"
+                        },
+                        "ValueBox": {
+                           "xorigin": 0,
+                           "yorigin": 0,
+                           "width": 450,
+                           "height": 60,
+                           "widthleft": 22,
+                           "widthright": 22,
+                           "edgespacer": 8
+                        },
+                        "Button": {
+                           "xorigin": 320,
+                           "yorigin": 12,
+                           "width": 31,
+                           "height": 23
+                        },
+                        "StateMaterials": {
+                           "StateLeftValueDisabled": {
+                              "Material": "DropDownLeftValueDisabled"
+                           },
+                           "StateLeftValueNormal": {
+                              "Material": "DropDownLeftValueNormal"
+                           },
+                           "StateLeftValueHover": {
+                              "Material": "DropDownLeftValueHover"
+                           },
+                           "StateMidValueDisabled": {
+                              "Material": "DropDownMidValueDisabled"
+                           },
+                           "StateMidValueNormal": {
+                              "Material": "DropDownMidValueNormal"
+                           },
+                           "StateMidValueHover": {
+                              "Material": "DropDownMidValueHover"
+                           },
+                           "StateRightValueDisabled": {
+                              "Material": "DropDownRightValueDisabled"
+                           },
+                           "StateRightValueNormal": {
+                              "Material": "DropDownRightValueNormal"
+                           },
+                           "StateRightValueHover": {
+                              "Material": "DropDownRightValueHover"
+                           },
+                           "StateButtonClosedDisabled": {
+                              "Material": "DropDownButtonClosedDisabled"
+                           },
+                           "StateButtonClosedNormal": {
+                              "Material": "DropDownButtonClosedNormal"
+                           },
+                           "StateButtonClosedHover": {
+                              "Material": "DropDownButtonClosedHover"
+                           },
+                           "StateButtonClosedPressed": {
+                              "Material": "DropDownButtonClosedPressed"
+                           },
+                           "StateButtonOpenNormal": {
+                              "Material": "DropDownButtonOpenNormal"
+                           },
+                           "StateButtonOpenHover": {
+                              "Material": "DropDownButtonOpenHover"
+                           },
+                           "StateButtonOpenPressed": {
+                              "Material": "DropDownButtonOpenPressed"
+                           }
+                        },
+                        "ChildWidgets": [
+                           {
+                              "Widget": {
+                                 "Type": "ListBox",
+                                 "Name": "DropDownListBox",
+                                 "Help": "IDS_SET_GAMETYPE_HELP_TEXT",
+                                 "ViewPort": {
+                                    "xorigin": 0,
+                                    "yorigin": 41,
+                                    "width": 450,
+                                    "height": 380,
+                                    "alignment": "TopLeft"
+                                 },
+                                 "ListBox": {
+                                    "xorigin": 0,
+                                    "yorigin": 0,
+                                    "width": 450,
+                                    "height": 380,
+                                    "drawbox": true,
+                                    "gridstep": 22,
+                                    "edgespacer": 8,
+                                    "linespacer": 1,
+                                    "linesize": 40,
+                                    "listenForKeyInput": true
+                                 },
+                                 "StateMaterials": {
+                                    "StateTLDisabled": {
+                                       "Material": "ListBoxTL"
+                                    },
+                                    "StateTCDisabled": {
+                                       "Material": "ListBoxTC"
+                                    },
+                                    "StateTRDisabled": {
+                                       "Material": "ListBoxTR"
+                                    },
+                                    "StateCLDisabled": {
+                                       "Material": "ListBoxCL"
+                                    },
+                                    "StateCCDisabled": {
+                                       "Material": "ListBoxCC"
+                                    },
+                                    "StateCRDisabled": {
+                                       "Material": "ListBoxCR"
+                                    },
+                                    "StateBLDisabled": {
+                                       "Material": "ListBoxBL"
+                                    },
+                                    "StateBCDisabled": {
+                                       "Material": "ListBoxBC"
+                                    },
+                                    "StateBRDisabled": {
+                                       "Material": "ListBoxBR"
+                                    },
+                                    "StateTLNormal": {
+                                       "Material": "ListBoxTL"
+                                    },
+                                    "StateTCNormal": {
+                                       "Material": "ListBoxTC"
+                                    },
+                                    "StateTRNormal": {
+                                       "Material": "ListBoxTR"
+                                    },
+                                    "StateCLNormal": {
+                                       "Material": "ListBoxCL"
+                                    },
+                                    "StateCCNormal": {
+                                       "Material": "ListBoxCC"
+                                    },
+                                    "StateCRNormal": {
+                                       "Material": "ListBoxCR"
+                                    },
+                                    "StateBLNormal": {
+                                       "Material": "ListBoxBL"
+                                    },
+                                    "StateBCNormal": {
+                                       "Material": "ListBoxBC"
+                                    },
+                                    "StateBRNormal": {
+                                       "Material": "ListBoxBR"
+                                    },
+                                    "StateTextNormal": {
+                                       "Font": {
+                                          "FontIndex": 0,
+                                          "PointSize": 45,
+                                          "Style": "Normal",
+                                          "TextColor": {
+                                             "r": 57,
+                                             "g": 28,
+                                             "b": 27,
+                                             "a": 255
+                                          }
+                                       }
+                                    },
+                                    "StateTextSelected": {
+                                       "Font": {
+                                          "FontIndex": 0,
+                                          "PointSize": 45,
+                                          "Style": "Normal",
+                                          "TextColor": {
+                                             "r": 171,
+                                             "g": 28,
+                                             "b": 27,
+                                             "a": 255
+                                          }
+                                       }
+                                    },
+                                    "StateTextHilighted": {
+                                       "Font": {
+                                          "FontIndex": 0,
+                                          "PointSize": 45,
+                                          "Style": "Normal",
+                                          "TextColor": {
+                                             "r": 57,
+                                             "g": 156,
+                                             "b": 154,
+                                             "a": 255
+                                          }
+                                       }
+                                    },
+                                    "StateTextPressed": {
+                                       "Font": {
+                                          "FontIndex": 0,
+                                          "PointSize": 45,
+                                          "Style": "Normal",
+                                          "TextColor": {
+                                             "r": 57,
+                                             "g": 156,
+                                             "b": 154,
+                                             "a": 255
+                                          }
+                                       }
+                                    }
+                                 },
+                                 "ChildWidgets": [
+                                    {
+                                       "Widget": {
+                                          "Type": "ScrollBarVertical",
+                                          "Name": "ListScrollBar",
+                                          "ViewPort": {
+                                             "xorigin": 415,
+                                             "yorigin": 3,
+                                             "width": 32,
+                                             "height": 232,
+                                             "alignment": "TopLeft"
+                                          },
+                                          "Bar": {
+                                             "xorigin": 0,
+                                             "yorigin": 31,
+                                             "width": 32,
+                                             "height": 170
+                                          },
+                                          "MinButton": {
+                                             "xorigin": 0,
+                                             "yorigin": 0,
+                                             "width": 32,
+                                             "height": 32
+                                          },
+                                          "MaxButton": {
+                                             "xorigin": 0,
+                                             "yorigin": 200,
+                                             "width": 32,
+                                             "height": 32
+                                          },
+                                          "TabSize": {
+                                             "width": 32,
+                                             "height": 32
+                                          },
+                                          "StateMaterials": {
+                                             "StateBarBackground": {
+                                                "Material": "ScrollBarBackground"
+                                             },
+                                             "StateBarForeground": {
+                                                "Material": "ScrollBarBackground"
+                                             },
+                                             "StateMinDisabled": {
+                                                "Material": "ScrollBarUpArrowNormal"
+                                             },
+                                             "StateMinNormal": {
+                                                "Material": "ScrollBarUpArrowNormal"
+                                             },
+                                             "StateMinHover": {
+                                                "Material": "ScrollBarUpArrowHover"
+                                             },
+                                             "StateMinPressed": {
+                                                "Material": "ScrollBarUpArrowPressed"
+                                             },
+                                             "StateMaxDisabled": {
+                                                "Material": "ScrollBarDownArrowNormal"
+                                             },
+                                             "StateMaxNormal": {
+                                                "Material": "ScrollBarDownArrowNormal"
+                                             },
+                                             "StateMaxHover": {
+                                                "Material": "ScrollBarDownArrowHover"
+                                             },
+                                             "StateMaxPressed": {
+                                                "Material": "ScrollBarDownArrowPressed"
+                                             },
+                                             "StateTabDisabled": {
+                                                "Material": "ScrollBarHandleNormal"
+                                             },
+                                             "StateTabNormal": {
+                                                "Material": "ScrollBarHandleNormal"
+                                             },
+                                             "StateTabHover": {
+                                                "Material": "ScrollBarHandleNormal"
+                                             },
+                                             "StateTabPressed": {
+                                                "Material": "ScrollBarHandleNormal"
+                                             }
+                                          },
+                                          "ChildWidgets": []
+                                       }
+                                    }
+                                 ]
+                              }
+                           }
+                        ]
+                     }
+                  }
+               ]
+                  }
+            },
+			{
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "SideWidgetsAnchor",
+                "Anchor": {
+                  "xorigin": 2720,
+                  "yorigin": 460
+                },
+                "ChildWidgets": [
+				
+				 {
+                          "Widget": {
+                            "Type": "Anchor",
+                            "Name": "BackgroundSurround",
+                            "Anchor": {
+                              "xorigin": -80,
+                              "yorigin": 20
+                            },
+                            "ChildWidgets": [
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "LobbyBoxTopLeft",
+                                  "ViewPort": {
+                                    "xorigin": 0,
+                                    "yorigin": 0,
+                                    "width": 50,
+                                    "height": 50,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Material": "BackgroundDecorationBoxTopLeft_3"
+                                    },
+                                    "StateDisabled": {
+                                      "Material": "BackgroundDecorationBoxTopLeft_3"
+                                    }
+                                  },
+                                  "ChildWidgets": [
+
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "LobbyBoxTop",
+                                  "ViewPort": {
+                                    "xorigin": 50,
+                                    "yorigin": 0,
+                                    "width": 590,
+                                    "height": 50,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "Wrap": {
+                                    "width": 50,
+                                    "height": 0
+                                  },
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Material": "BackgroundDecorationBoxTop_3"
+                                    },
+                                    "StateDisabled": {
+                                      "Material": "BackgroundDecorationBoxTop_3"
+                                    }
+                                  },
+                                  "ChildWidgets": [
+
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "LobbyBoxTopRight",
+                                  "ViewPort": {
+                                    "xorigin": 640,
+                                    "yorigin": 0,
+                                    "width": 50,
+                                    "height": 50,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Material": "BackgroundDecorationBoxTopRight_3"
+                                    },
+                                    "StateDisabled": {
+                                      "Material": "BackgroundDecorationBoxTopRight_3"
+                                    }
+                                  },
+                                  "ChildWidgets": [
+
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "LobbyBox",
+                                  "ViewPort": {
+                                    "xorigin": 40,
+                                    "yorigin": 40,
+                                    "width": 600,
+                                    "height": 820,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Material": "BackgroundDecorationBoxInlay_3"
+                                    },
+                                    "StateDisabled": {
+                                      "Material": "BackgroundDecorationBoxInlay_3"
+                                    }
+                                  },
+                                  "ChildWidgets": [
+
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "LobbyBoxLeft",
+                                  "ViewPort": {
+                                    "xorigin": 0,
+                                    "yorigin": 50,
+                                    "width": 50,
+                                    "height": 810,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "Wrap": {
+                                    "width": 0,
+                                    "height": 50
+                                  },
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Material": "BackgroundDecorationBoxLeft_3"
+                                    },
+                                    "StateDisabled": {
+                                      "Material": "BackgroundDecorationBoxLeft_3"
+                                    }
+                                  },
+                                  "ChildWidgets": [
+
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "LobbyBoxRight",
+                                  "ViewPort": {
+                                    "xorigin": 640,
+                                    "yorigin": 50,
+                                    "width": 50,
+                                    "height": 810,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "Wrap": {
+                                    "width": 0,
+                                    "height": 50
+                                  },
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Material": "BackgroundDecorationBoxRight_3"
+                                    },
+                                    "StateDisabled": {
+                                      "Material": "BackgroundDecorationBoxRight_3"
+                                    }
+                                  },
+                                  "ChildWidgets": [
+
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "LobbyBoxBottomLeft",
+                                  "ViewPort": {
+                                    "xorigin": 0,
+                                    "yorigin": 860,
+                                    "width": 50,
+                                    "height": 50,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Material": "BackgroundDecorationBoxBottomLeft_3"
+                                    },
+                                    "StateDisabled": {
+                                      "Material": "BackgroundDecorationBoxBottomLeft_3"
+                                    }
+                                  },
+                                  "ChildWidgets": [
+
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "LobbyBoxBottom",
+                                  "ViewPort": {
+                                    "xorigin": 50,
+                                    "yorigin": 860,
+                                    "width": 590,
+                                    "height": 50,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "Wrap": {
+                                    "width": 50,
+                                    "height": 0
+                                  },
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Material": "BackgroundDecorationBoxBottom_3"
+                                    },
+                                    "StateDisabled": {
+                                      "Material": "BackgroundDecorationBoxBottom_3"
+                                    }
+                                  },
+                                  "ChildWidgets": [
+
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": {
+                                  "Type": "Base",
+                                  "Name": "LobbyBoxBottomRight",
+                                  "ViewPort": {
+                                    "xorigin": 640,
+                                    "yorigin": 860,
+                                    "width": 50,
+                                    "height": 50,
+                                    "alignment": "TopLeft"
+                                  },
+
+                                  "StateMaterials": {
+                                    "StateNormal": {
+                                      "Material": "BackgroundDecorationBoxBottomRight_3"
+                                    },
+                                    "StateDisabled": {
+                                      "Material": "BackgroundDecorationBoxBottomRight_3"
+                                    }
+                                  },
+                                  "ChildWidgets": [
+
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+				
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonSingle",
+                      "ViewPort": {
+                        "xorigin": -45,
+                        "yorigin": 70,
+                        "width": 615,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_MAP_SELECT_SINGLE_HELP_TEXT",
+                      "ZPlaneLocalOffset": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+"a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateGroupActive": {
+                          "Material": "SEditorButtonTopBarClickedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_SINGLE",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonRandom",
+                      "ViewPort": {
+                        "xorigin": -45,
+                        "yorigin": 150,
+                        "width": 615,
+                        "height": 70,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": "IDS_MAP_SELECT_RND_HELP_TEXT",
+                      "ZPlaneLocalOffset": 1,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "ButtonRedDisabled",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+"a": 255
+                            }
+                          }
+                        },
+                        "StateNormal": {
+                          "Material": "ButtonRedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateHover": {
+                          "Material": "ButtonRedHover",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StatePressed": {
+                          "Material": "ButtonRedClicked",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateGroupActive": {
+                          "Material": "SEditorButtonTopBarClickedNormal",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 242,
+                              "g": 210,
+                              "b": 182,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "IDS_LIST_RANDOM",
+                      "TextAnchor": "CentreCentre",
+                      "ChildWidgets": []
+                    }
+                  },
+				  {
+					"Widget": {
+					"Type": "Anchor",
+					"Name": "FiltersAnchor",
+					"Anchor": {
+					  "xorigin": -40,
+					  "yorigin": 260
+					},
+					"ChildWidgets": [
+						{
+						  "Widget": {
+							"Type": "Button",
+							"Name": "LandCheckBox",
+							"ViewPort": {
+							  "xorigin": 0,
+							  "yorigin": 0,
+							  "width": 450,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+                "Help": 300337,
+							"DataValue": 0,
+							"StateMaterials": {
+							  "StateDisabled": {
+								"Material": "CheckBoxUncheckedDisabled",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateNormal": {
+							    "Material": "CheckBoxUnchecked",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateHover": {
+								"Material": "CheckBoxUncheckedHover",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+							    }
+							  },
+							  "StatePressed": {
+							    "Material": "CheckBoxUncheckedPressed",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  }
+						    },
+							"Image": {
+							  "xorigin": 0,
+							  "yorigin": 0,
+							  "width": 50,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"ChildWidgets": [
+							  {
+								"Widget": {
+								  "Type": "Label",
+								  "Name": "Label",
+								  "ViewPort": {
+									"xorigin": 70,
+									"yorigin": 3,
+									"width": 400,
+									"height": 50,
+									"alignment": "TopLeft"
+								  },
+								  "StateMaterials": {
+									"StateNormal": {
+									  "Font": {
+										"FontIndex": 0,
+										"PointSize": 50,
+										"Style": "Normal",
+										"TextColor": {
+										  "r": 58,
+										  "g": 27,
+										  "b": 28,
+										  "a": 255
+										}
+								      }
+								    }
+								  },
+								  "Text": 10094,
+								  "TextAnchor": "TopLeft",
+								  "ChildWidgets": []
+								}
+							  }
+							]
+						  }
+						},
+						{
+						  "Widget": {
+							"Type": "Button",
+							"Name": "MixedCheckBox",
+							"ViewPort": {
+							  "xorigin": 0,
+							  "yorigin": 60,
+							  "width": 450,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"Help": 300338,
+							"DataValue": 0,
+							"StateMaterials": {
+							  "StateDisabled": {
+								"Material": "CheckBoxUncheckedDisabled",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateNormal": {
+							    "Material": "CheckBoxUnchecked",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateHover": {
+								"Material": "CheckBoxUncheckedHover",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+							    }
+							  },
+							  "StatePressed": {
+							    "Material": "CheckBoxUncheckedPressed",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  }
+						    },
+							"Image": {
+							  "xorigin": 0,
+							  "yorigin": 0,
+							  "width": 50,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"ChildWidgets": [
+							  {
+								"Widget": {
+								  "Type": "Label",
+								  "Name": "Label",
+								  "ViewPort": {
+									"xorigin": 70,
+									"yorigin": 3,
+									"width": 400,
+									"height": 50,
+									"alignment": "TopLeft"
+								  },
+								  "StateMaterials": {
+									"StateNormal": {
+									  "Font": {
+										"FontIndex": 0,
+										"PointSize": 50,
+										"Style": "Normal",
+										"TextColor": {
+										  "r": 58,
+										  "g": 27,
+										  "b": 28,
+										  "a": 255
+										}
+								      }
+								    }
+								  },
+								  "Text": 10095,
+								  "TextAnchor": "TopLeft",
+								  "ChildWidgets": []
+								}
+							  }
+							]
+						  }
+						},
+						{
+						  "Widget": {
+							"Type": "Button",
+							"Name": "WaterCheckBox",
+							"ViewPort": {
+							  "xorigin": 0,
+							  "yorigin": 120,
+							  "width": 450,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"Help": 300339,
+							"DataValue": 0,
+							"StateMaterials": {
+							  "StateDisabled": {
+								"Material": "CheckBoxUncheckedDisabled",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateNormal": {
+							    "Material": "CheckBoxUnchecked",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateHover": {
+								"Material": "CheckBoxUncheckedHover",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+							    }
+							  },
+							  "StatePressed": {
+							    "Material": "CheckBoxUncheckedPressed",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  }
+						    },
+							"Image": {
+							  "xorigin": 0,
+							  "yorigin": 0,
+							  "width": 50,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"ChildWidgets": [
+							  {
+								"Widget": {
+								  "Type": "Label",
+								  "Name": "Label",
+								  "ViewPort": {
+									"xorigin": 70,
+									"yorigin": 3,
+									"width": 400,
+									"height": 50,
+									"alignment": "TopLeft"
+								  },
+								  "StateMaterials": {
+									"StateNormal": {
+									  "Font": {
+										"FontIndex": 0,
+										"PointSize": 50,
+										"Style": "Normal",
+										"TextColor": {
+										  "r": 58,
+										  "g": 27,
+										  "b": 28,
+										  "a": 255
+										}
+								      }
+								    }
+								  },
+								  "Text": 10096,
+								  "TextAnchor": "TopLeft",
+								  "ChildWidgets": []
+								}
+							  }
+							]
+						  }
+						},
+						{
+						  "Widget": {
+							"Type": "Button",
+							"Name": "NomadCheckBox",
+							"ViewPort": {
+							  "xorigin": 0,
+							  "yorigin": 180,
+							  "width": 450,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"Help": 300340,
+							"DataValue": 0,
+							"StateMaterials": {
+							  "StateDisabled": {
+								"Material": "CheckBoxUncheckedDisabled",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateNormal": {
+							    "Material": "CheckBoxUnchecked",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateHover": {
+								"Material": "CheckBoxUncheckedHover",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+							    }
+							  },
+							  "StatePressed": {
+							    "Material": "CheckBoxUncheckedPressed",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  }
+						    },
+							"Image": {
+							  "xorigin": 0,
+							  "yorigin": 0,
+							  "width": 50,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"ChildWidgets": [
+							  {
+								"Widget": {
+								  "Type": "Label",
+								  "Name": "Label",
+								  "ViewPort": {
+									"xorigin": 70,
+									"yorigin": 3,
+									"width": 400,
+									"height": 50,
+									"alignment": "TopLeft"
+								  },
+								  "StateMaterials": {
+									"StateNormal": {
+									  "Font": {
+										"FontIndex": 0,
+										"PointSize": 50,
+										"Style": "Normal",
+										"TextColor": {
+										  "r": 58,
+										  "g": 27,
+										  "b": 28,
+										  "a": 255
+										}
+								      }
+								    }
+								  },
+								  "Text": 10097,
+								  "TextAnchor": "TopLeft",
+								  "ChildWidgets": []
+								}
+							  }
+							]
+						  }
+						},
+						{
+						  "Widget": {
+							"Type": "Button",
+							"Name": "ImmigrationCheckBox",
+							"ViewPort": {
+							  "xorigin": 0,
+							  "yorigin": 240,
+							  "width": 530,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"Help": 300341,
+							"DataValue": 0,
+							"StateMaterials": {
+							  "StateDisabled": {
+								"Material": "CheckBoxUncheckedDisabled",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateNormal": {
+							    "Material": "CheckBoxUnchecked",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateHover": {
+								"Material": "CheckBoxUncheckedHover",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+							    }
+							  },
+							  "StatePressed": {
+							    "Material": "CheckBoxUncheckedPressed",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  }
+						    },
+							"Image": {
+							  "xorigin": 0,
+							  "yorigin": 0,
+							  "width": 50,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"ChildWidgets": [
+							  {
+								"Widget": {
+								  "Type": "Label",
+								  "Name": "Label",
+								  "ViewPort": {
+									"xorigin": 70,
+									"yorigin": 3,
+									"width": 480,
+									"height": 50,
+									"alignment": "TopLeft"
+								  },
+								  "StateMaterials": {
+									"StateNormal": {
+									  "Font": {
+										"FontIndex": 0,
+										"PointSize": 50,
+										"Style": "Normal",
+										"TextColor": {
+										  "r": 58,
+										  "g": 27,
+										  "b": 28,
+										  "a": 255
+										}
+								      }
+								    }
+								  },
+								  "Text": 10098,
+								  "TextAnchor": "TopLeft",
+								  "ChildWidgets": []
+								}
+							  }
+							]
+						  }
+						},
+						{
+						  "Widget": {
+							"Type": "Button",
+							"Name": "OpenCheckBox",
+							"ViewPort": {
+							  "xorigin": 0,
+							  "yorigin": 300,
+							  "width": 450,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"Help": 300342,
+							"DataValue": 0,
+							"StateMaterials": {
+							  "StateDisabled": {
+								"Material": "CheckBoxUncheckedDisabled",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateNormal": {
+							    "Material": "CheckBoxUnchecked",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateHover": {
+								"Material": "CheckBoxUncheckedHover",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+							    }
+							  },
+							  "StatePressed": {
+							    "Material": "CheckBoxUncheckedPressed",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  }
+						    },
+							"Image": {
+							  "xorigin": 0,
+							  "yorigin": 0,
+							  "width": 50,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"ChildWidgets": [
+							  {
+								"Widget": {
+								  "Type": "Label",
+								  "Name": "Label",
+								  "ViewPort": {
+									"xorigin": 70,
+									"yorigin": 3,
+									"width": 400,
+									"height": 50,
+									"alignment": "TopLeft"
+								  },
+								  "StateMaterials": {
+									"StateNormal": {
+									  "Font": {
+										"FontIndex": 0,
+										"PointSize": 50,
+										"Style": "Normal",
+										"TextColor": {
+										  "r": 58,
+										  "g": 27,
+										  "b": 28,
+										  "a": 255
+										}
+								      }
+								    }
+								  },
+								  "Text": 10099,
+								  "TextAnchor": "TopLeft",
+								  "ChildWidgets": []
+								}
+							  }
+							]
+						  }
+						},
+						{
+						  "Widget": {
+							"Type": "Button",
+							"Name": "ClosedCheckBox",
+							"ViewPort": {
+							  "xorigin": 0,
+							  "yorigin": 360,
+							  "width": 480,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"Help": 300343,
+							"DataValue": 0,
+							"StateMaterials": {
+							  "StateDisabled": {
+								"Material": "CheckBoxUncheckedDisabled",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateNormal": {
+							    "Material": "CheckBoxUnchecked",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateHover": {
+								"Material": "CheckBoxUncheckedHover",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+							    }
+							  },
+							  "StatePressed": {
+							    "Material": "CheckBoxUncheckedPressed",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  }
+						    },
+							"Image": {
+							  "xorigin": 0,
+							  "yorigin": 0,
+							  "width": 50,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"ChildWidgets": [
+							  {
+								"Widget": {
+								  "Type": "Label",
+								  "Name": "Label",
+								  "ViewPort": {
+									"xorigin": 70,
+									"yorigin": 3,
+									"width": 400,
+									"height": 50,
+									"alignment": "TopLeft"
+								  },
+								  "StateMaterials": {
+									"StateNormal": {
+									  "Font": {
+										"FontIndex": 0,
+										"PointSize": 50,
+										"Style": "Normal",
+										"TextColor": {
+										  "r": 58,
+										  "g": 27,
+										  "b": 28,
+										  "a": 255
+										}
+								      }
+								    }
+								  },
+								  "Text": 10100,
+								  "TextAnchor": "TopLeft",
+								  "ChildWidgets": []
+								}
+							  }
+							]
+						  }
+						},
+						{
+						  "Widget": {
+							"Type": "Button",
+							"Name": "SuggestedCheckBox",
+							"ViewPort": {
+							  "xorigin": 0,
+							  "yorigin": 480,
+							  "width": 630,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"Help": "IDS_MAP_SELECT_RND_SHOW_SUGGESTED_HELP_TEXT",
+							"DataValue": 0,
+							"StateMaterials": {
+							  "StateDisabled": {
+								"Material": "CheckBoxUncheckedDisabled",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateNormal": {
+							    "Material": "CheckBoxUnchecked",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  },
+							  "StateHover": {
+								"Material": "CheckBoxUncheckedHover",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+							    }
+							  },
+							  "StatePressed": {
+							    "Material": "CheckBoxUncheckedPressed",
+								"Font": {
+								  "FontIndex": 0,
+								  "PointSize": 45,
+								  "Style": "Normal"
+								}
+							  }
+						    },
+							"Image": {
+							  "xorigin": 0,
+							  "yorigin": 0,
+							  "width": 50,
+							  "height": 50,
+							  "alignment": "TopLeft"
+							},
+							"ChildWidgets": [
+							  {
+								"Widget": {
+								  "Type": "Label",
+								  "Name": "Label",
+								  "ViewPort": {
+									"xorigin": 58,
+									"yorigin": 3,
+									"width": 545,
+									"height": 50,
+									"alignment": "TopLeft"
+								  },
+								  "StateMaterials": {
+									"StateNormal": {
+									  "Font": {
+										"FontIndex": 0,
+										"PointSize": 50,
+										"Style": "Normal",
+										"TextColor": {
+										  "r": 58,
+										  "g": 27,
+										  "b": 28,
+										  "a": 255
+										}
+								      }
+								    }
+								  },
+								  "Text": 10092,
+								  "TextAnchor": "TopLeft",
+								  "ChildWidgets": []
+								}
+							  }
+							]
+						  }
+						}
+					  ]
+				    }
+				  }
+                ]
+              }
+            },
+         {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "ListAnchor",
+                "Anchor": {
+                  "xorigin": -85,
+                  "yorigin": 450
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Anchor",
+                      "Name": "ModTableBackground",
+                      "Anchor": {
+                        "xorigin": 640,
+                        "yorigin": 30
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "LobbyBoxTopLeft",
+                            "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 50,
+                              "height": 50,
+                              "alignment": "TopLeft"
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "BackgroundDecorationBoxTopLeft_3"
+                              },
+                              "StateDisabled": {
+                                "Material": "BackgroundDecorationBoxTopLeft_3"
+                              }
+                            },
+                            "ChildWidgets": [
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "LobbyBoxTop",
+                            "ViewPort": {
+                              "xorigin": 50,
+                              "yorigin": 0,
+                              "width": 1931,
+                              "height": 50,
+                              "alignment": "TopLeft"
+                            },
+                            "Wrap": {
+                              "width": 50,
+                              "height": 0
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "BackgroundDecorationBoxTop_3"
+                              },
+                              "StateDisabled": {
+                                "Material": "BackgroundDecorationBoxTop_3"
+                              }
+                            },
+                            "ChildWidgets": [
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "LobbyBoxTopRight",
+                            "ViewPort": {
+                              "xorigin": 1981,
+                              "yorigin": 0,
+                              "width": 50,
+                              "height": 50,
+                              "alignment": "TopLeft"
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "BackgroundDecorationBoxTopRight_3"
+                              },
+                              "StateDisabled": {
+                                "Material": "BackgroundDecorationBoxTopRight_3"
+                              }
+                            },
+                            "ChildWidgets": [
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "LobbyBox",
+                            "ViewPort": {
+                              "xorigin": 40,
+                              "yorigin": 40,
+                              "width": 1951,
+                              "height": 1270,
+                              "alignment": "TopLeft"
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "BackgroundDecorationBoxInlay_3"
+                              },
+                              "StateDisabled": {
+                                "Material": "BackgroundDecorationBoxInlay_3"
+                              }
+                            },
+                            "ChildWidgets": [
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "LobbyBoxLeft",
+                            "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 50,
+                              "width": 50,
+                              "height": 1260,
+                              "alignment": "TopLeft"
+                            },
+                            "Wrap": {
+                              "width": 0,
+                              "height": 50
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "BackgroundDecorationBoxLeft_3"
+                              },
+                              "StateDisabled": {
+                                "Material": "BackgroundDecorationBoxLeft_3"
+                              }
+                            },
+                            "ChildWidgets": [
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "LobbyBoxRight",
+                            "ViewPort": {
+                              "xorigin": 1981,
+                              "yorigin": 50,
+                              "width": 50,
+                              "height": 1260,
+                              "alignment": "TopLeft"
+                            },
+                            "Wrap": {
+                              "width": 0,
+                              "height": 50
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "BackgroundDecorationBoxRight_3"
+                              },
+                              "StateDisabled": {
+                                "Material": "BackgroundDecorationBoxRight_3"
+                              }
+                            },
+                            "ChildWidgets": [
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "LobbyBoxBottomLeft",
+                            "ViewPort": {
+                              "xorigin": 0,
+                              "yorigin": 1310,
+                              "width": 50,
+                              "height": 50,
+                              "alignment": "TopLeft"
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "BackgroundDecorationBoxBottomLeft_3"
+                              },
+                              "StateDisabled": {
+                                "Material": "BackgroundDecorationBoxBottomLeft_3"
+                              }
+                            },
+                            "ChildWidgets": [
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "LobbyBoxBottom",
+                            "ViewPort": {
+                              "xorigin": 50,
+                              "yorigin": 1310,
+                              "width": 1931,
+                              "height": 50,
+                              "alignment": "TopLeft"
+                            },
+                            "Wrap": {
+                              "width": 50,
+                              "height": 0
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "BackgroundDecorationBoxBottom_3"
+                              },
+                              "StateDisabled": {
+                                "Material": "BackgroundDecorationBoxBottom_3"
+                              }
+                            },
+                            "ChildWidgets": [
+                            ]
+                          }
+                        },
+                        {
+                          "Widget": {
+                            "Type": "Base",
+                            "Name": "LobbyBoxBottomRight",
+                            "ViewPort": {
+                              "xorigin": 1981,
+                              "yorigin": 1310,
+                              "width": 50,
+                              "height": 50,
+                              "alignment": "TopLeft"
+                            },
+                            "StateMaterials": {
+                              "StateNormal": {
+                                "Material": "BackgroundDecorationBoxBottomRight_3"
+                              },
+                              "StateDisabled": {
+                                "Material": "BackgroundDecorationBoxBottomRight_3"
+                              }
+                            },
+                            "ChildWidgets": [
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+
+
+
+
+                  {
+                    "Widget": {
+                      "Type": "ListBox",
+                      "Name": "MasterBox",
+                      "Help": "",
+					  "ClickSound": "no sound",
+                      "ViewPort": {
+                        "xorigin": 665,
+                        "yorigin": 40,
+                        "width": 0,
+                        "height": 1325,
+                        "alignment": "TopLeft"
+                      },
+                      "ListBox": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 300,
+                        "height": 1325,
+                        "drawbox": true,
+                        "gridlayout": true,
+                        "gridstep": 22,
+                        "edgespacer": 8,
+                        "linespacer": 13,
+                        "linesize": 300,
+                        "listenForKeyInput": true,
+                        "columnwidths": [
+                          {
+                            "width": 300
+                          },
+                          {
+                            "width": 300
+                          }
+                        ]
+                      },
+                      "StateMaterials": {
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextSelected": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 255,
+                              "g": 255,
+                              "b": 255,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextHilighted": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextPressed": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextAlternateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 171,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "ChildWidgets": [
+                        {
+                          "Widget": {
+                            "Type": "ScrollBarVertical",
+                            "Name": "ListScrollBar",
+                            "ViewPort": {
+                              "xorigin": 1951,
+                              "yorigin": 10,
+                              "width": 32,
+                              "height": 1400,
+                              "alignment": "TopLeft"
+                            },
+                            "ZPlaneLocalOffset": 2,
+                            "ClippingOverride": "Background",
+                            "AutoSize": false,
+                            "Bar": {
+                              "xorigin": 14,
+                              "yorigin": 32,
+                              "width": 5,
+                              "height": 1245
+                            },
+                            "MinButton": {
+                              "xorigin": 0,
+                              "yorigin": 0,
+                              "width": 32,
+                              "height": 32
+                            },
+                            "MaxButton": {
+                              "xorigin": 0,
+                              "yorigin": 1280,
+                              "width": 32,
+                              "height": 32
+                            },
+                            "TabSize": {
+                              "width": 32,
+                              "height": 32
+                            },
+                            "StateMaterials": {
+                              "StateBarBackground": {
+                                "Material": "ScrollBarBackground"
+                              },
+                              "StateBarForeground": {
+                                "Material": "ScrollBarBackground"
+                              },
+                              "StateMinDisabled": {
+                                "Material": "LobbyDropDownArrowUpNormal"
+                              },
+                              "StateMinNormal": {
+                                "Material": "LobbyDropDownArrowUpNormal"
+                              },
+                              "StateMinHover": {
+                                "Material": "LobbyDropDownArrowUpHover"
+                              },
+                              "StateMinPressed": {
+                                "Material": "LobbyDropDownArrowUpPressed"
+                              },
+                              "StateMaxDisabled": {
+                                "Material": "LobbyDropDownArrowDownNormal"
+                              },
+                              "StateMaxNormal": {
+                                "Material": "LobbyDropDownArrowDownNormal"
+                              },
+                              "StateMaxHover": {
+                                "Material": "LobbyDropDownArrowDownHover"
+                              },
+                              "StateMaxPressed": {
+                                "Material": "LobbyDropDownArrowDownPressed"
+                              },
+                              "StateTabDisabled": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabNormal": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabHover": {
+                                "Material": "ScrollBarHandleNormal"
+                              },
+                              "StateTabPressed": {
+                                "Material": "ScrollBarHandleNormal"
+                              }
+                            },
+                            "ChildWidgets": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "ListBox",
+                      "Name": "SlaveBox1",
+                      "Help": "",
+					  "ClickSound": "no sound",
+                      "ViewPort": {
+                        "xorigin": 990,
+                        "yorigin": 40,
+                        "width": 0,
+                        "height": 1325,
+                        "alignment": "TopLeft"
+                      },
+                      "ListBox": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 300,
+                        "height": 1325,
+                        "drawbox": true,
+                        "gridlayout": true,
+                        "gridstep": 22,
+                        "edgespacer": 8,
+                        "linespacer": 13,
+                        "linesize": 300,
+                        "listenForKeyInput": true,
+                        "columnwidths": [
+                          {
+                            "width": 300
+                          },
+                          {
+                            "width": 300
+                          }
+                        ]
+                      },
+                      "StateMaterials": {
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextSelected": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 255,
+                              "g": 255,
+                              "b": 255,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextHilighted": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextPressed": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextAlternateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 171,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "ListBox",
+                      "Name": "SlaveBox2",
+                      "Help": "",
+					  "ClickSound": "no sound",
+                      "ViewPort": {
+                        "xorigin": 1315,
+                        "yorigin": 40,
+                        "width": 0,
+                        "height": 1325,
+                        "alignment": "TopLeft"
+                      },
+                      "ListBox": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 300,
+                        "height": 1325,
+                        "drawbox": true,
+                        "gridlayout": true,
+                        "gridstep": 22,
+                        "edgespacer": 8,
+                        "linespacer": 13,
+                        "linesize": 300,
+                        "listenForKeyInput": true,
+                        "columnwidths": [
+                          {
+                            "width": 300
+                          },
+                          {
+                            "width": 300
+                          }
+                        ]
+                      },
+                      "StateMaterials": {
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextSelected": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 255,
+                              "g": 255,
+                              "b": 255,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextHilighted": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextPressed": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextAlternateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 171,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "ListBox",
+                      "Name": "SlaveBox3",
+                      "Help": "",
+					  "ClickSound": "no sound",
+                      "ViewPort": {
+                        "xorigin": 1640,
+                        "yorigin": 40,
+                        "width": 0,
+                        "height": 1325,
+                        "alignment": "TopLeft"
+                      },
+                      "ListBox": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 300,
+                        "height": 1325,
+                        "drawbox": true,
+                        "gridlayout": true,
+                        "gridstep": 22,
+                        "edgespacer": 8,
+                        "linespacer": 13,
+                        "linesize": 300,
+                        "listenForKeyInput": true,
+                        "columnwidths": [
+                          {
+                            "width": 300
+                          },
+                          {
+                            "width": 300
+                          }
+                        ]
+                      },
+                      "StateMaterials": {
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextSelected": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 255,
+                              "g": 255,
+                              "b": 255,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextHilighted": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextPressed": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextAlternateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 171,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "ListBox",
+                      "Name": "SlaveBox4",
+                      "Help": "",
+					  "ClickSound": "no sound",
+                      "ViewPort": {
+                        "xorigin": 1965,
+                        "yorigin": 40,
+                        "width": 0,
+                        "height": 1325,
+                        "alignment": "TopLeft"
+                      },
+                      "ListBox": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 300,
+                        "height": 1325,
+                        "drawbox": true,
+                        "gridlayout": true,
+                        "gridstep": 22,
+                        "edgespacer": 8,
+                        "linespacer": 13,
+                        "linesize": 300,
+                        "listenForKeyInput": true,
+                        "columnwidths": [
+                          {
+                            "width": 300
+                          },
+                          {
+                            "width": 300
+                          }
+                        ]
+                      },
+                      "StateMaterials": {
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextSelected": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 255,
+                              "g": 255,
+                              "b": 255,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextHilighted": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextPressed": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextAlternateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 171,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Widget": {
+                      "Type": "ListBox",
+                      "Name": "SlaveBox5",
+                      "Help": "",
+					  "ClickSound": "no sound",
+                      "ViewPort": {
+                        "xorigin": 2290,
+                        "yorigin": 40,
+                        "width": 0,
+                        "height": 1325,
+                        "alignment": "TopLeft"
+                      },
+                      "ListBox": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 300,
+                        "height": 1325,
+                        "drawbox": true,
+                        "gridlayout": true,
+                        "gridstep": 22,
+                        "edgespacer": 8,
+                        "linespacer": 13,
+                        "linesize": 300,
+                        "listenForKeyInput": true,
+                        "columnwidths": [
+                          {
+                            "width": 300
+                          },
+                          {
+                            "width": 300
+                          }
+                        ]
+                      },
+                      "StateMaterials": {
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextSelected": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 255,
+                              "g": 255,
+                              "b": 255,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextHilighted": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextPressed": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 57,
+                              "g": 156,
+                              "b": 154,
+                              "a": 255
+                            }
+                          }
+                        },
+                        "StateTextAlternateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 45,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 171,
+                              "g": 28,
+                              "b": 27,
+                              "a": 255
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

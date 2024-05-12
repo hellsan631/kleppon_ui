@@ -1,0 +1,52 @@
+{
+  "Collection": {
+    "Name": "DialogScrollAnchor",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 0,
+      "width": 38400,
+      "height": 21600,
+      "alignment": "TopLeft"
+    },
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "AnchorIcon",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 256,
+            "height": 256,
+            "alignment": "CentreCentre"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "InGameCursorDragScrollAnchor"
+            }
+          },
+		  "ChildWidgets": []
+		}
+	  },
+	  {
+		"Widget": {
+          "Type": "RotateableBase",
+          "Name": "CursorArrowIcon",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 128,
+            "height": 128,
+            "alignment": "CentreCentre"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "InGameCursorDragScrollCursor"
+            }
+          },
+		  "ChildWidgets": []
+		}
+	  }
+	]
+  }
+}

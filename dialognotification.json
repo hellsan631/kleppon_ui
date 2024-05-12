@@ -1,0 +1,1716 @@
+{
+  "Collection": {
+    "Name": "DialogNotification",
+    "ViewPort": {
+      "xorigin": 3840,
+      "yorigin": 0,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "TopRight"
+    },
+    "ZOrder": 1000,
+    "TabOrder": [
+      {
+        "Tab": "Background/ButtonInvites"
+      },
+      {
+        "Tab": "Background/ButtonClose"
+      }
+    ],
+    "Widgets": [
+
+
+
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "Notification1",
+          "ViewPort": {
+            "xorigin": 3820,
+            "yorigin": 20,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopRight"
+          },
+          "Box": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopLeft",
+            "gridstep": 32,
+            "drawbox": true
+          },
+          
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonMain",
+                "ViewPort": {
+                  "xorigin": 26,
+                  "yorigin": 26,
+                  "width": 76,
+                  "height": 76,
+                  "alignment": "TopLeft"
+                },
+                
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateNormal": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuInviteHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuInviteActive"
+                  }
+                },
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Title",
+                "ViewPort": {
+                  "xorigin": 120,
+                  "yorigin": 72,
+                  "width": 363,
+                  "height": 64,
+                  "alignment": "CentreLeft"
+                },
+                "AutoSize": false,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 50,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 251,
+                        "g": 227,
+                        "b": 203,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonClose",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 45,
+                  "height": 45,
+                  "alignment": "TopRight"
+                },
+                "AccessibilityTextOverride": "IDS_EXIT_GAME",
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ButtonCloseNormal"
+                  },
+                  "StateHover": {
+                    "Material": "ButtonCloseHover"
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonCloseClicked"
+                  }
+                },
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "Notification2",
+          "ViewPort": {
+            "xorigin": 3820,
+            "yorigin": 20,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopRight"
+          },
+          "Box": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopLeft",
+            "gridstep": 32,
+            "drawbox": true
+          },
+          
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonMain",
+                "ViewPort": {
+                  "xorigin": 26,
+                  "yorigin": 26,
+                  "width": 76,
+                  "height": 76,
+                  "alignment": "TopLeft"
+                },
+                
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateNormal": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuInviteHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuInviteActive"
+                  }
+                },
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Title",
+                "ViewPort": {
+                  "xorigin": 120,
+                  "yorigin": 72,
+                  "width": 363,
+                  "height": 64,
+                  "alignment": "CentreLeft"
+                },
+                "AutoSize": false,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 50,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 251,
+                        "g": 227,
+                        "b": 203,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonClose",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 45,
+                  "height": 45,
+                  "alignment": "TopRight"
+                },
+                "AccessibilityTextOverride": "IDS_EXIT_GAME",
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ButtonCloseNormal"
+                  },
+                  "StateHover": {
+                    "Material": "ButtonCloseHover"
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonCloseClicked"
+                  }
+                },
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "Notification3",
+          "ViewPort": {
+            "xorigin": 3820,
+            "yorigin": 20,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopRight"
+          },
+          "Box": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopLeft",
+            "gridstep": 32,
+            "drawbox": true
+          },
+          
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonMain",
+                "ViewPort": {
+                  "xorigin": 26,
+                  "yorigin": 26,
+                  "width": 76,
+                  "height": 76,
+                  "alignment": "TopLeft"
+                },
+                
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateNormal": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuInviteHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuInviteActive"
+                  }
+                },
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Title",
+                "ViewPort": {
+                  "xorigin": 120,
+                  "yorigin": 72,
+                  "width": 363,
+                  "height": 64,
+                  "alignment": "CentreLeft"
+                },
+                "AutoSize": false,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 50,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 251,
+                        "g": 227,
+                        "b": 203,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonClose",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 45,
+                  "height": 45,
+                  "alignment": "TopRight"
+                },
+                "AccessibilityTextOverride": "IDS_EXIT_GAME",
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ButtonCloseNormal"
+                  },
+                  "StateHover": {
+                    "Material": "ButtonCloseHover"
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonCloseClicked"
+                  }
+                },
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "Notification4",
+          "ViewPort": {
+            "xorigin": 3820,
+            "yorigin": 20,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopRight"
+          },
+          "Box": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopLeft",
+            "gridstep": 32,
+            "drawbox": true
+          },
+          
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonMain",
+                "ViewPort": {
+                  "xorigin": 26,
+                  "yorigin": 26,
+                  "width": 76,
+                  "height": 76,
+                  "alignment": "TopLeft"
+                },
+                
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateNormal": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuInviteHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuInviteActive"
+                  }
+                },
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Title",
+                "ViewPort": {
+                  "xorigin": 120,
+                  "yorigin": 72,
+                  "width": 363,
+                  "height": 64,
+                  "alignment": "CentreLeft"
+                },
+                "AutoSize": false,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 50,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 251,
+                        "g": 227,
+                        "b": 203,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonClose",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 45,
+                  "height": 45,
+                  "alignment": "TopRight"
+                },
+                "AccessibilityTextOverride": "IDS_EXIT_GAME",
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ButtonCloseNormal"
+                  },
+                  "StateHover": {
+                    "Material": "ButtonCloseHover"
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonCloseClicked"
+                  }
+                },
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "Notification5",
+          "ViewPort": {
+            "xorigin": 3820,
+            "yorigin": 20,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopRight"
+          },
+          "Box": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopLeft",
+            "gridstep": 32,
+            "drawbox": true
+          },
+          
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonMain",
+                "ViewPort": {
+                  "xorigin": 26,
+                  "yorigin": 26,
+                  "width": 76,
+                  "height": 76,
+                  "alignment": "TopLeft"
+                },
+                
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateNormal": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuInviteHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuInviteActive"
+                  }
+                },
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Title",
+                "ViewPort": {
+                  "xorigin": 120,
+                  "yorigin": 72,
+                  "width": 363,
+                  "height": 64,
+                  "alignment": "CentreLeft"
+                },
+                "AutoSize": false,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 50,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 251,
+                        "g": 227,
+                        "b": 203,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonClose",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 45,
+                  "height": 45,
+                  "alignment": "TopRight"
+                },
+                "AccessibilityTextOverride": "IDS_EXIT_GAME",
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ButtonCloseNormal"
+                  },
+                  "StateHover": {
+                    "Material": "ButtonCloseHover"
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonCloseClicked"
+                  }
+                },
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "Notification6",
+          "ViewPort": {
+            "xorigin": 3820,
+            "yorigin": 20,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopRight"
+          },
+          "Box": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopLeft",
+            "gridstep": 32,
+            "drawbox": true
+          },
+          
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonMain",
+                "ViewPort": {
+                  "xorigin": 26,
+                  "yorigin": 26,
+                  "width": 76,
+                  "height": 76,
+                  "alignment": "TopLeft"
+                },
+                
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateNormal": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuInviteHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuInviteActive"
+                  }
+                },
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Title",
+                "ViewPort": {
+                  "xorigin": 120,
+                  "yorigin": 72,
+                  "width": 363,
+                  "height": 64,
+                  "alignment": "CentreLeft"
+                },
+                "AutoSize": false,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 50,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 251,
+                        "g": 227,
+                        "b": 203,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonClose",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 45,
+                  "height": 45,
+                  "alignment": "TopRight"
+                },
+                "AccessibilityTextOverride": "IDS_EXIT_GAME",
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ButtonCloseNormal"
+                  },
+                  "StateHover": {
+                    "Material": "ButtonCloseHover"
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonCloseClicked"
+                  }
+                },
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "Notification7",
+          "ViewPort": {
+            "xorigin": 3820,
+            "yorigin": 20,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopRight"
+          },
+          "Box": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopLeft",
+            "gridstep": 32,
+            "drawbox": true
+          },
+          
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonMain",
+                "ViewPort": {
+                  "xorigin": 26,
+                  "yorigin": 26,
+                  "width": 76,
+                  "height": 76,
+                  "alignment": "TopLeft"
+                },
+                
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateNormal": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuInviteHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuInviteActive"
+                  }
+                },
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Title",
+                "ViewPort": {
+                  "xorigin": 120,
+                  "yorigin": 72,
+                  "width": 363,
+                  "height": 64,
+                  "alignment": "CentreLeft"
+                },
+                "AutoSize": false,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 50,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 251,
+                        "g": 227,
+                        "b": 203,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonClose",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 45,
+                  "height": 45,
+                  "alignment": "TopRight"
+                },
+                "AccessibilityTextOverride": "IDS_EXIT_GAME",
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ButtonCloseNormal"
+                  },
+                  "StateHover": {
+                    "Material": "ButtonCloseHover"
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonCloseClicked"
+                  }
+                },
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "Notification8",
+          "ViewPort": {
+            "xorigin": 3820,
+            "yorigin": 20,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopRight"
+          },
+          "Box": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopLeft",
+            "gridstep": 32,
+            "drawbox": true
+          },
+          
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonMain",
+                "ViewPort": {
+                  "xorigin": 26,
+                  "yorigin": 26,
+                  "width": 76,
+                  "height": 76,
+                  "alignment": "TopLeft"
+                },
+                
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateNormal": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuInviteHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuInviteActive"
+                  }
+                },
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Title",
+                "ViewPort": {
+                  "xorigin": 120,
+                  "yorigin": 72,
+                  "width": 363,
+                  "height": 64,
+                  "alignment": "CentreLeft"
+                },
+                "AutoSize": false,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 50,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 251,
+                        "g": 227,
+                        "b": 203,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonClose",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 45,
+                  "height": 45,
+                  "alignment": "TopRight"
+                },
+                "AccessibilityTextOverride": "IDS_EXIT_GAME",
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ButtonCloseNormal"
+                  },
+                  "StateHover": {
+                    "Material": "ButtonCloseHover"
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonCloseClicked"
+                  }
+                },
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "Notification9",
+          "ViewPort": {
+            "xorigin": 3820,
+            "yorigin": 20,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopRight"
+          },
+          "Box": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopLeft",
+            "gridstep": 32,
+            "drawbox": true
+          },
+          
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonMain",
+                "ViewPort": {
+                  "xorigin": 26,
+                  "yorigin": 26,
+                  "width": 76,
+                  "height": 76,
+                  "alignment": "TopLeft"
+                },
+                
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateNormal": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuInviteHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuInviteActive"
+                  }
+                },
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Title",
+                "ViewPort": {
+                  "xorigin": 120,
+                  "yorigin": 72,
+                  "width": 363,
+                  "height": 64,
+                  "alignment": "CentreLeft"
+                },
+                "AutoSize": false,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 50,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 251,
+                        "g": 227,
+                        "b": 203,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonClose",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 45,
+                  "height": 45,
+                  "alignment": "TopRight"
+                },
+                "AccessibilityTextOverride": "IDS_EXIT_GAME",
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ButtonCloseNormal"
+                  },
+                  "StateHover": {
+                    "Material": "ButtonCloseHover"
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonCloseClicked"
+                  }
+                },
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "Notification10",
+          "ViewPort": {
+            "xorigin": 3820,
+            "yorigin": 20,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopRight"
+          },
+          "Box": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 132,
+            "height": 132,
+            "alignment": "TopLeft",
+            "gridstep": 32,
+            "drawbox": true
+          },
+          
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonMain",
+                "ViewPort": {
+                  "xorigin": 26,
+                  "yorigin": 26,
+                  "width": 76,
+                  "height": 76,
+                  "alignment": "TopLeft"
+                },
+                
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateNormal": {
+                    "Material": "MenuInviteNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuInviteHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuInviteActive"
+                  }
+                },
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "Title",
+                "ViewPort": {
+                  "xorigin": 120,
+                  "yorigin": 72,
+                  "width": 363,
+                  "height": 64,
+                  "alignment": "CentreLeft"
+                },
+                "AutoSize": false,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 50,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 251,
+                        "g": 227,
+                        "b": 203,
+                        "a": 255
+                      }
+                    }
+                  }
+                },
+                "Text": "",
+                "TextAnchor": "TopCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonClose",
+                "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "width": 45,
+                  "height": 45,
+                  "alignment": "TopRight"
+                },
+                "AccessibilityTextOverride": "IDS_EXIT_GAME",
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ButtonCloseNormal"
+                  },
+                  "StateHover": {
+                    "Material": "ButtonCloseHover"
+                  },
+                  "StatePressed": {
+                    "Material": "ButtonCloseClicked"
+                  }
+                },
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

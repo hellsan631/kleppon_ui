@@ -1,0 +1,470 @@
+{
+  "Collection": {
+    "Name": "InstructionsPanel",
+    "ViewPort": {
+      "xorigin": 1920,
+      "yorigin": 300,
+      "width": 1000,
+      "height": 900,
+      "alignment": "TopCentre"
+    },
+    "Widgets": [{
+        "Widget": {
+          "Type": "Surround",
+          "Name": "EventBackground1",
+          "ViewPort": {
+            "xorigin": 500,
+            "yorigin": 0,
+            "width": 1000,
+            "height": 220,
+            "alignment": "TopCentre"
+          },
+          "Box": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 1000,
+            "height": 220,
+            "alignment": "TopLeft",
+            "gridstep": 32,
+            "drawbox": true
+          },
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ChildWidgets": [{
+            "Widget": {
+              "Type": "Base",
+              "Name": "Instruction",
+              "ViewPort": {
+                "xorigin": 0,
+                "yorigin": 0,
+                "width": 1000,
+                "height": 220,
+                "alignment": "TopLeft"
+              },
+              "Image": {
+                "xorigin": 10,
+                "yorigin": 10,
+                "width": 140,
+                "height": 140,
+                "noclip": true,
+                "alignment": "TopLeft"
+              },
+              "StateMaterials": {
+                "StateNormal": {
+                  "Material": "FlatColor"
+                }
+              },
+              "ChildWidgets": [{
+                "Widget": {
+                  "Type": "TextBox",
+                  "Name": "TextBox",
+                  "ViewPort": {
+                    "xorigin": 0,
+                    "yorigin": 0,
+                    "width": 1000,
+                    "height": 320,
+                    "alignment": "TopLeft"
+                  },
+                  "Text": "TEST 1",
+                  "TextBox": {
+                    "xorigin": 160,
+                    "yorigin": 10,
+                    "width": 820,
+                    "height": 200,
+                    "edgespacer": 1,
+                    "linespacer": 1,
+                    "linesize": 42,
+                    "multiline": true
+                  },
+                  "StateMaterials": {
+                    "StateTextNormal": {
+                      "Font": {
+                        "FontIndex": 2,
+                        "PointSize": 42,
+                        "Style": "Normal",
+                        "TextColor": {
+                          "r": 57,
+                          "g": 28,
+                          "b": 27,
+                          "a": 255
+                        },
+                        "TextOutlineWidth": 0.1,
+                        "TextOutlineColor": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1,
+                          "a": 255
+                        }
+                      }
+                    },
+                    "TextAnchor": "TopLeft",
+                    "ChildWidgets": []
+                  }
+                }
+              }]
+            }
+          }]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "EventBackground2",
+          "ViewPort": {
+            "xorigin": 500,
+            "yorigin": 160,
+            "width": 1000,
+            "height": 220,
+            "alignment": "TopCentre"
+          },
+          "Box": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 1000,
+            "height": 220,
+            "alignment": "TopLeft",
+            "gridstep": 32,
+            "drawbox": true
+          },
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ChildWidgets": [{
+            "Widget": {
+              "Type": "Base",
+              "Name": "Instruction",
+              "ViewPort": {
+                "xorigin": 0,
+                "yorigin": 0,
+                "width": 1000,
+                "height": 220,
+                "alignment": "TopLeft"
+              },
+              "Image": {
+                "xorigin": 10,
+                "yorigin": 10,
+                "width": 140,
+                "height": 140,
+                "noclip": true,
+                "alignment": "TopLeft"
+              },
+              "StateMaterials": {
+                "StateNormal": {
+                  "Material": "FlatColor"
+                }
+              },
+              "ChildWidgets": [{
+                  "Widget": {
+                    "Type": "TextBox",
+                    "Name": "TextBox",
+                    "ViewPort": {
+                      "xorigin": 0,
+                      "yorigin": 0,
+                      "width": 1000,
+                      "height": 220,
+                      "alignment": "TopLeft"
+                    },
+                    "Text": "TEST 2",
+                    "TextBox": {
+                      "xorigin": 160,
+                      "yorigin": 10,
+                      "width": 820,
+                      "height": 200,
+                      "edgespacer": 1,
+                      "linespacer": 1,
+                      "linesize": 42,
+                      "multiline": true
+                    },
+                    "StateMaterials": {
+                      "StateTextNormal": {
+                        "Font": {
+                          "FontIndex": 0,
+                          "PointSize": 42,
+                          "Style": "Normal",
+                          "TextColor": {
+                            "r": 57,
+                            "g": 28,
+                            "b": 27,
+                            "a": 255
+                          },
+                          "TextOutlineWidth": 0.1,
+                          "TextOutlineColor": {
+                            "r": 1,
+                            "g": 1,
+                            "b": 1,
+                            "a": 255
+                          }
+                        }
+                      }
+                    },
+                    "TextAnchor": "TopLeft",
+                    "ChildWidgets": []
+                  }
+                }
+              ]
+            }
+          }]
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "EventBackground3",
+          "ViewPort": {
+            "xorigin": 500,
+            "yorigin": 320,
+            "width": 1000,
+            "height": 220,
+            "alignment": "TopCentre"
+          },
+          "Box": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 1000,
+            "height": 220,
+            "alignment": "TopLeft",
+            "gridstep": 32,
+            "drawbox": true
+          },
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ChildWidgets": [{
+            "Widget": {
+              "Type": "Base",
+              "Name": "Instruction",
+              "ViewPort": {
+                "xorigin": 0,
+                "yorigin": 0,
+                "width": 1000,
+                "height": 220,
+                "alignment": "TopLeft"
+              },
+              "Image": {
+                "xorigin": 10,
+                "yorigin": 10,
+                "width": 140,
+                "height": 140,
+                "noclip": true,
+                "alignment": "TopLeft"
+              },
+              "StateMaterials": {
+                "StateNormal": {
+                  "Material": "FlatColor"
+                }
+              },
+              "ChildWidgets": [{
+                "Widget": {
+                  "Type": "TextBox",
+                  "Name": "TextBox",
+                  "ViewPort": {
+                    "xorigin": 0,
+                    "yorigin": 0,
+                    "width": 1000,
+                    "height": 220,
+                    "alignment": "TopLeft"
+                  },
+                  "Text": "TEST 3",
+                  "TextBox": {
+                    "xorigin": 160,
+                    "yorigin": 10,
+                    "width": 820,
+                    "height": 200,
+                    "edgespacer": 1,
+                    "linespacer": 1,
+                    "linesize": 42,
+                    "multiline": true
+                  },
+                  "StateMaterials": {
+                    "StateTextNormal": {
+                      "Font": {
+                        "FontIndex": 0,
+                        "PointSize": 42,
+                        "Style": "Normal",
+                        "TextColor": {
+                          "r": 57,
+                          "g": 28,
+                          "b": 27,
+                          "a": 255
+                        },
+                        "TextOutlineWidth": 0.1,
+                        "TextOutlineColor": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1,
+                          "a": 255
+                        }
+                      }
+                    }
+                  },
+                  "TextAnchor": "TopLeft",
+                  "ChildWidgets": []
+                }
+              }]
+            }
+          }]
+        }
+      }
+    ]
+  }
+}
